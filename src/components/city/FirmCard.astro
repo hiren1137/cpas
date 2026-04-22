@@ -17,8 +17,14 @@ const stars = firm.rating > 0 ? '★'.repeat(Math.round(firm.rating)) + '☆'.re
   <!-- Photo / Initials -->
   <div class="flex-shrink-0">
     {firm.photo ? (
-      <img src={firm.photo} alt={firm.name} loading="lazy" decoding="async"
-           class="w-20 h-20 rounded-lg object-cover bg-gray-100" />
+      <div class="relative w-20 h-20">
+        <img src={firm.photo} alt={firm.name} loading="lazy" decoding="async"
+             class="w-20 h-20 rounded-lg object-cover bg-gray-100"
+             onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+        <div class="w-20 h-20 rounded-lg bg-navy-100 items-center justify-center absolute inset-0" style="display:none;">
+          <span class="text-xl font-bold text-navy-800">{initials}</span>
+        </div>
+      </div>
     ) : (
       <div class="w-20 h-20 rounded-lg bg-navy-100 flex items-center justify-center">
         <span class="text-xl font-bold text-navy-800">{initials}</span>

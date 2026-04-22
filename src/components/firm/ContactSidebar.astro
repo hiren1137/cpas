@@ -44,10 +44,21 @@ const { firm } = Astro.props;
     </div>
   )}
 
-  <!-- Directions -->
+  <!-- Map & Directions -->
   {firm.address && (
-    <div class="card p-6 text-center">
+    <div class="card p-6">
       <h3 class="font-bold text-navy-900 mb-3">Location</h3>
+      <div class="rounded-lg overflow-hidden mb-4">
+        <iframe
+          title={`Map of ${firm.name}`}
+          width="100%"
+          height="250"
+          style="border:0;"
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          src={`https://www.google.com/maps?q=${encodeURIComponent(firm.address)}&output=embed`}
+        ></iframe>
+      </div>
       <a href={directionsUrl(firm.address)} target="_blank" rel="noopener"
          class="btn-primary w-full justify-center text-sm">
         🗺️ Get Directions

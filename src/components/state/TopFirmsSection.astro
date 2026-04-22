@@ -1,0 +1,81 @@
+---
+// TopFirmsSection — shows top 1-2 CPAs from each city on the state page
+import type { City, Firm } from '../../lib/types';
+import { getFirmsForCity } from '../../lib/data';
+import { firmUrl, cityUrl } from '../../lib/urls';
+
+export interface Props {
+  cities: City[];
+  stateSlug: string;
+  stateName: string;
+}
+const { cities, stateSlug, stateName } = Astro.props;
+
+// Collect top firms: up to 2 highest-rated from each city
+interface TopFirm extends Firm {
+  cityName: string;
+  citySlug: string;
+}
+
+const topFirms: TopFirm[] = [];
+for (const city of cities) {
+  const data = getFirmsForCity(stateSlug, city.slug);
+  const sorted = [...data.firms]
+    .filter(f => f.rating > 0)
+    .sort((a, b) => b.rating - a.rating || b.reviews - a.reviews)
+    .slice(0, 2);
+  for (const firm of sorted) {
+    topFirms.push({ ...firm, cityName: city.name, citySlug: city.slug });
+  }
+}
+---
+
+{topFirms.length > 0 && (
+  <section class="py-16">
+    <div class="container-main">
+      <h2 class="section-heading mb-2">Top-Rated CPAs in {stateName}</h2>
+      <p class="text-gray-600 mb-8">Highest-rated accounting professionals across {stateName} cities</p>
+
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+        {topFirms.map(firm => {
+          const initials = firm.name.split(' ').map(w => w[0]).filter(Boolean).slice(0, 2).join('').toUpperCase();
+          const stars = '★'.repeat(Math.round(firm.rating)) + '☆'.repeat(5 - Math.round(firm.rating));
+          return (
+            <a href={firmUrl(stateSlug, firm.citySlug, firm.slug)}
+               class="card p-5 group hover:border-navy-300 flex gap-4">
+              {/* Photo / Initials */}
+              <div class="flex-shrink-0">
+                {firm.photo ? (
+                  <div class="relative w-14 h-14">
+                    <img src={firm.photo} alt={firm.name} loading="lazy" decoding="async"
+                         class="w-14 h-14 rounded-lg object-cover bg-gray-100"
+                         onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+                    <div class="w-14 h-14 rounded-lg bg-navy-100 items-center justify-center absolute inset-0" style="display:none;">
+                      <span class="text-base font-bold text-navy-800">{initials}</span>
+                    </div>
+                  </div>
+                ) : (
+                  <div class="w-14 h-14 rounded-lg bg-navy-100 flex items-center justify-center">
+                    <span class="text-base font-bold text-navy-800">{initials}</span>
+                  </div>
+                )}
+              </div>
+
+              {/* Info */}
+              <div class="flex-1 min-w-0">
+                <h3 class="font-semibold text-navy-900 group-hover:text-navy-600 transition-colors text-sm truncate">
+                  {firm.name}
+                </h3>
+                <div class="flex items-center gap-1 mt-0.5">
+                  <span class="star-filled text-xs">{stars}</span>
+                  <span class="text-xs text-gray-500">{firm.rating.toFixed(1)} ({firm.reviews})</span>
+                </div>
+                <p class="text-xs text-gray-500 mt-1">{firm.cityName}</p>
+              </div>
+            </a>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+)}

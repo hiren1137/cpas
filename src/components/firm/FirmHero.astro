@@ -9,8 +9,9 @@ export interface Props {
   stateName: string;
 }
 const { firm, cityName, stateName } = Astro.props;
-const initials = firm.name.split(' ').map(w => w[0]).filter(Boolean).slice(0, 2).join('').toUpperCase();
+const initials = firm.name.split(' ').map((w: string) => w[0]).filter(Boolean).slice(0, 2).join('').toUpperCase();
 const stars = firm.rating > 0 ? '★'.repeat(Math.round(firm.rating)) + '☆'.repeat(5 - Math.round(firm.rating)) : '';
+const heroImage = firm.photo || firm.logo;
 ---
 
 <section class="bg-gradient-to-br from-navy-900 via-navy-800 to-navy-950 text-white py-12 md:py-16 relative overflow-hidden">
@@ -19,11 +20,17 @@ const stars = firm.rating > 0 ? '★'.repeat(Math.round(firm.rating)) + '☆'.re
   </div>
   <div class="container-main relative">
     <div class="flex flex-col md:flex-row items-start gap-6">
-      <!-- Logo -->
-      <div class="flex-shrink-0">
-        {firm.logo ? (
-          <img src={firm.logo} alt={`${firm.name} logo`} loading="lazy" decoding="async"
-               class="w-24 h-24 rounded-xl object-cover bg-white/10 border border-white/20" />
+      <!-- Photo / Initials -->
+      <div class="flex-shrink-0 relative">
+        {heroImage ? (
+          <div class="relative w-24 h-24">
+            <img src={heroImage} alt={`${firm.name}`} loading="eager" decoding="async"
+                 class="w-24 h-24 rounded-xl object-cover bg-white/10 border border-white/20"
+                 onerror="this.style.display='none';this.nextElementSibling.style.display='flex';" />
+            <div class="w-24 h-24 rounded-xl bg-white/10 border border-white/20 items-center justify-center absolute inset-0" style="display:none;">
+              <span class="text-2xl font-bold">{initials}</span>
+            </div>
+          </div>
         ) : (
           <div class="w-24 h-24 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
             <span class="text-2xl font-bold">{initials}</span>

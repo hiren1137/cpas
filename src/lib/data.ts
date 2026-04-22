@@ -67,7 +67,7 @@ export function getTotalFirmCount(): number {
 /** Top 10 cities for homepage — hardcoded as specified */
 export function getTopCities(): Array<{ city: string; state: string; stateSlug: string; citySlug: string }> {
   return [
-    { city: 'New York City', state: 'New York', stateSlug: 'new-york', citySlug: 'new-york-city' },
+    { city: 'New York', state: 'New York', stateSlug: 'new-york', citySlug: 'new-york' },
     { city: 'Los Angeles', state: 'California', stateSlug: 'california', citySlug: 'los-angeles' },
     { city: 'Chicago', state: 'Illinois', stateSlug: 'illinois', citySlug: 'chicago' },
     { city: 'Houston', state: 'Texas', stateSlug: 'texas', citySlug: 'houston' },
