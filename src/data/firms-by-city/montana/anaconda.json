@@ -1,0 +1,109 @@
+{
+  "city": "Anaconda",
+  "state": "Montana",
+  "state_code": "MT",
+  "city_slug": "anaconda",
+  "state_slug": "montana",
+  "firm_count": 3,
+  "firms": [
+    {
+      "slug": "rivers-and-rivers",
+      "name": "Rivers & Rivers",
+      "category": "Accountant",
+      "phone": "+1 406-563-3811",
+      "site": "https://riversandriverscpas.com/",
+      "address": "110 W 3rd St, Anaconda, MT 59711",
+      "latitude": 46.1286507,
+      "longitude": -112.9540358,
+      "rating": 5,
+      "reviews": 1,
+      "logo": "",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH783P6hv8D9O_xbVvlZTDZAebuRhD2AyWA95NyscRPHaPMXlaCGxdpxzHa0ufN6Kd48hNalRTHpx_dF7_mNy8wljm_YAfKLFPB1AgdfHFsFuKOnN4Sch8NTtmSsxs6Ap3gEL5c=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "9AM-5PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "anaconda-professional-taxes",
+      "name": "Anaconda Professional Taxes",
+      "category": "Tax preparation service",
+      "phone": "+1 406-563-3900",
+      "site": "",
+      "address": "212 Park Ave, Anaconda, MT 59711",
+      "latitude": 46.1291332,
+      "longitude": -112.95071159999999,
+      "rating": 4.7,
+      "reviews": 3,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=I7gado_VGwgbiuy0iFF4pw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=3.642352&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "406-tax-and-accounting-services-shelly-finnegan",
+      "name": "406 Tax & Accounting Services - Shelly Finnegan",
+      "category": "Accountant",
+      "phone": "+1 406-563-2950",
+      "site": "",
+      "address": "123 Main St 2nd Floor, Anaconda, MT 59711",
+      "latitude": 46.1294087,
+      "longitude": -112.9524747,
+      "rating": 5,
+      "reviews": 1,
+      "logo": "https://lh5.googleusercontent.com/-xjpB7LcWdlE/AAAAAAAAAAI/AAAAAAAAAAA/_Bi4c0Z_yIM/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=mGRVtF0FYvCutc8FDvO4Kg&cb_client=search.gws-prod.gps&w=800&h=500&yaw=105.86648&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "9AM-5PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    }
+  ]
+}

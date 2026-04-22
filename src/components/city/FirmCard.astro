@@ -1,0 +1,66 @@
+---
+// FirmCard — individual firm listing card
+import type { Firm } from '../../lib/types';
+import { firmUrl } from '../../lib/urls';
+
+export interface Props {
+  firm: Firm;
+  stateSlug: string;
+  citySlug: string;
+}
+const { firm, stateSlug, citySlug } = Astro.props;
+const initials = firm.name.split(' ').map(w => w[0]).filter(Boolean).slice(0, 2).join('').toUpperCase();
+const stars = firm.rating > 0 ? '★'.repeat(Math.round(firm.rating)) + '☆'.repeat(5 - Math.round(firm.rating)) : '';
+---
+
+<a href={firmUrl(stateSlug, citySlug, firm.slug)} class="card p-5 flex gap-4 group hover:border-navy-300">
+  <!-- Photo / Initials -->
+  <div class="flex-shrink-0">
+    {firm.photo ? (
+      <img src={firm.photo} alt={firm.name} loading="lazy" decoding="async"
+           class="w-20 h-20 rounded-lg object-cover bg-gray-100" />
+    ) : (
+      <div class="w-20 h-20 rounded-lg bg-navy-100 flex items-center justify-center">
+        <span class="text-xl font-bold text-navy-800">{initials}</span>
+      </div>
+    )}
+  </div>
+
+  <!-- Info -->
+  <div class="flex-1 min-w-0">
+    <h3 class="font-semibold text-navy-900 group-hover:text-navy-600 transition-colors truncate">
+      {firm.name}
+    </h3>
+
+    {firm.rating > 0 ? (
+      <div class="flex items-center gap-2 mt-1">
+        <span class="star-filled text-sm">{stars}</span>
+        <span class="text-sm text-gray-600">{firm.rating.toFixed(1)} ({firm.reviews} reviews)</span>
+      </div>
+    ) : (
+      <p class="text-sm text-gray-500 mt-1">New listing</p>
+    )}
+
+    {firm.address && (
+      <p class="text-sm text-gray-500 mt-1 truncate">📍 {firm.address}</p>
+    )}
+
+    <div class="flex items-center gap-3 mt-2">
+      {firm.is_verified && (
+        <span class="badge bg-green-50 text-green-700">✓ Verified</span>
+      )}
+      {firm.rating >= 4.5 && (
+        <span class="badge bg-amber-50 text-amber-700">⭐ Top Rated</span>
+      )}
+    </div>
+  </div>
+
+  {/* Phone */}
+  {firm.phone && (
+    <div class="hidden sm:flex flex-shrink-0 items-center">
+      <span class="text-sm font-medium text-navy-800 bg-navy-50 px-3 py-1.5 rounded-lg">
+        📞 Call
+      </span>
+    </div>
+  )}
+</a>

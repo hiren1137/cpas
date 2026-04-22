@@ -1,0 +1,9 @@
+---
+// SchemaOrg component — injects JSON-LD structured data
+export interface Props {
+  schema: string;
+}
+const { schema } = Astro.props;
+---
+
+<script type="application/ld+json" set:html={schema} />

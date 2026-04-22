@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const title = 'Terms of Service — Best CPA Near Me';
+const description = 'Review the terms of service for using Best CPA Near Me, the leading directory for finding Certified Public Accountants across the United States.';
+const canonical = 'https://bestcpanearme.com/terms-of-service/';
+---
+
+<BaseLayout title={title} description={description} canonical={canonical}>
+  <div class="container-main py-12">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Terms of Service' }]} />
+    <div class="max-w-3xl prose prose-gray">
+      <h1 class="text-3xl font-extrabold text-navy-900 mb-6">Terms of Service</h1>
+      <p class="text-sm text-gray-500 mb-6">Last updated: January 1, 2025</p>
+      <h2 class="text-xl font-bold text-navy-900 mt-8">Acceptance of Terms</h2>
+      <p class="text-gray-600">By accessing and using Best CPA Near Me, you agree to these terms of service. If you do not agree, please do not use our website.</p>
+      <h2 class="text-xl font-bold text-navy-900 mt-8">Use of Directory</h2>
+      <p class="text-gray-600">Our directory is provided for informational purposes only. We do not guarantee the accuracy of listings and are not responsible for interactions between users and listed CPAs.</p>
+      <h2 class="text-xl font-bold text-navy-900 mt-8">Intellectual Property</h2>
+      <p class="text-gray-600">All content on this website is owned by Best CPA Near Me and is protected by copyright law. You may not reproduce or distribute content without written permission.</p>
+      <h2 class="text-xl font-bold text-navy-900 mt-8">Limitation of Liability</h2>
+      <p class="text-gray-600">Best CPA Near Me is not liable for any damages arising from the use of our website or reliance on information provided in our directory.</p>
+    </div>
+  </div>
+</BaseLayout>

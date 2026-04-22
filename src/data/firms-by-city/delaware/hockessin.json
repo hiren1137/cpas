@@ -1,0 +1,175 @@
+{
+  "city": "Hockessin",
+  "state": "Delaware",
+  "state_code": "DE",
+  "city_slug": "hockessin",
+  "state_slug": "delaware",
+  "firm_count": 5,
+  "firms": [
+    {
+      "slug": "first-state-tax-group",
+      "name": "First State Tax Group",
+      "category": "Tax preparation service",
+      "phone": "+1 302-234-2877",
+      "site": "http://www.firststatetaxgroup.com/",
+      "address": "720 Yorklyn Rd Suite 100, Hockessin, DE 19707",
+      "latitude": 39.7894338,
+      "longitude": -75.6907363,
+      "rating": 4.9,
+      "reviews": 10,
+      "logo": "https://lh5.googleusercontent.com/-I4dkb7nW7MQ/AAAAAAAAAAI/AAAAAAAAAAA/CLq39P--jjw/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAE2QhNfwp9FcRdmKcHUNMuhqStFE5XSPlax9GSEJrCjehGoUT17xwz0D0Dgx9k0UQ1ynMq0koQOjY7Apfo7bnoQvLYS-dqIHcqh9sSt3Xu-rj5xIHEmrS0M5iiovF-_pZvrcwbb5A=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "Closed",
+        "Monday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-2PM",
+        "Tuesday": "9AM-2PM",
+        "Wednesday": "9AM-2PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 9
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "independence-cpa-services-llcsusan-h-mooney-cpa-cva",
+      "name": "Independence CPA Services LLC/Susan H Mooney CPA, CVA",
+      "category": "Certified public accountant",
+      "phone": "+1 302-635-7109",
+      "site": "http://www.independence-cpa.com/",
+      "address": "724 Yorklyn Rd # 230, Hockessin, DE 19707",
+      "latitude": 39.7893295,
+      "longitude": -75.6907512,
+      "rating": 5,
+      "reviews": 1,
+      "logo": "",
+      "photo": "",
+      "working_hours": {
+        "Friday": "7AM-7PM",
+        "Monday": "7AM-7PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "7AM-7PM",
+        "Tuesday": "7AM-7PM",
+        "Wednesday": "7AM-7PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "fields-and-co",
+      "name": "Fields & Co",
+      "category": "Tax preparation service",
+      "phone": "+1 302-234-2775",
+      "site": "http://www.billfieldscpa.com/",
+      "address": "7460 Lancaster Pike, Hockessin, DE 19707",
+      "latitude": 39.7892113,
+      "longitude": -75.69890509999999,
+      "rating": 5,
+      "reviews": 2,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=q3_Mdx0c7ngvZWsfMYavhA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=123.857895&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "9AM-4:30PM",
+        "Monday": "9AM-4:30PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-4:30PM",
+        "Tuesday": "9AM-4:30PM",
+        "Wednesday": "9AM-4:30PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "rubin-partners",
+      "name": "Rubin Partners",
+      "category": "Accountant",
+      "phone": "+1 302-593-6498",
+      "site": "http://www.rubinpartnersllc.com/",
+      "address": "7209 Lancaster Pike #4-246, Hockessin, DE 19707",
+      "latitude": 39.786034099999995,
+      "longitude": -75.6854182,
+      "rating": 4.2,
+      "reviews": 18,
+      "logo": "https://lh5.googleusercontent.com/-E0qp7KYdPP4/AAAAAAAAAAI/AAAAAAAAAAA/vQ3yUNdhP9Q/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=n_lSqZW20VDL9o_GtcvdBw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=36.321003&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "9AM-6PM",
+        "Monday": "9AM-6PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-6PM",
+        "Tuesday": "9AM-6PM",
+        "Wednesday": "9AM-6PM"
+      },
+      "reviews_per_score": {
+        "1": 3,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 14
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "independence-cpa-services",
+      "name": "Independence CPA Services",
+      "category": "Accountant",
+      "phone": "+1 302-635-7109",
+      "site": "https://www.independence-cpa.com/contact",
+      "address": "724 Yorklyn Rd #100th, Hockessin, DE 19707",
+      "latitude": 39.7897606,
+      "longitude": -75.69083789999999,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=GpSFds9JbX85CnXsVpBGiA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=167.30685&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    }
+  ]
+}

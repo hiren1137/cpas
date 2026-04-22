@@ -1,0 +1,208 @@
+{
+  "city": "Smyrna",
+  "state": "Delaware",
+  "state_code": "DE",
+  "city_slug": "smyrna",
+  "state_slug": "delaware",
+  "firm_count": 6,
+  "firms": [
+    {
+      "slug": "wattay-accounting",
+      "name": "Wattay Accounting",
+      "category": "Certified public accountant",
+      "phone": "+1 302-724-9237",
+      "site": "http://wattayaccounting.com/",
+      "address": "3488 S Dupont Blvd, Smyrna, DE 19977",
+      "latitude": 39.254745799999995,
+      "longitude": -75.5866934,
+      "rating": 4.9,
+      "reviews": 41,
+      "logo": "https://lh5.googleusercontent.com/-NwZQC-rRH8o/AAAAAAAAAAI/AAAAAAAAAAA/segCyFcnUzY/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=jQ5rr6-ANT0d4aaHWarZLQ&cb_client=search.gws-prod.gps&w=800&h=500&yaw=308.07843&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "9AM-4PM",
+        "Monday": "9AM-4PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-4PM",
+        "Tuesday": "9AM-4PM",
+        "Wednesday": "9AM-4PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 2,
+        "4": 0,
+        "5": 39
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "phillip-b-chute-ea",
+      "name": "Phillip B. Chute, EA",
+      "category": "Tax preparation service",
+      "phone": "+1 302-653-6076",
+      "site": "http://www.phillipchutetaxconsulting.com/",
+      "address": "20 Red Maple Rd, Smyrna, DE 19977",
+      "latitude": 39.260914299999996,
+      "longitude": -75.6052821,
+      "rating": 5,
+      "reviews": 22,
+      "logo": "https://lh4.googleusercontent.com/-TvmchNIwBmU/AAAAAAAAAAI/AAAAAAAAAAA/13BgNQTZSKM/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEuPkgQX1BsCiZNaDHic44DIPtVzvGzXio64ndUNXMhZIwITB1xbTmc1SYB4sksmFAARzBT0orIuzgasyb3RMGOYe5XsQ1vAKiuLCgjCR_GXXG3F0HYTRWCDXUDr0dFeGFYJld1TQ=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "9AM-6PM",
+        "Monday": "9AM-6PM",
+        "Saturday": "10AM-1PM",
+        "Sunday": "Closed",
+        "Thursday": "9AM-6PM",
+        "Tuesday": "9AM-6PM",
+        "Wednesday": "9AM-6PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 22
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "papaleo-rosen-and-chelf-pa-certified-public-accountants",
+      "name": "Papaleo, Rosen & Chelf, PA, Certified Public Accountants",
+      "category": "Certified public accountant",
+      "phone": "+1 302-653-2585",
+      "site": "",
+      "address": "200 S Dupont Blvd # 107, Smyrna, DE 19977",
+      "latitude": 39.299714099999996,
+      "longitude": -75.6002634,
+      "rating": 3,
+      "reviews": 2,
+      "logo": "",
+      "photo": "",
+      "working_hours": {
+        "Friday": "8:30AM-5PM",
+        "Monday": "8:30AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8:30AM-5PM",
+        "Tuesday": "8:30AM-5PM",
+        "Wednesday": "8:30AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "mitten-and-winters-cpas",
+      "name": "Mitten & Winters CPAs",
+      "category": "Certified public accountant",
+      "phone": "+1 302-736-6100",
+      "site": "http://www.mittenwinters.com/",
+      "address": "117 W Loockerman St #119, Dover, DE 19904",
+      "latitude": 39.1579469,
+      "longitude": -75.526502,
+      "rating": 4.8,
+      "reviews": 18,
+      "logo": "https://lh3.googleusercontent.com/-iSAKBzh45Ds/AAAAAAAAAAI/AAAAAAAAAAA/j2K58m8Fuv4/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGJaNpUf1Jx3ptnr4qo4zCggojQYd2dw7h7CMT56mguSsiTaGbDjvxlOKZZrzkg1lwBjj_2GpEp8oKPYckfD1wZaWjH6YLI3-OYp_4ahxnh4SllNZZNlPF9BIETUCfDyMPVMAN7aA=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 17
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "faw-casson-cpa",
+      "name": "Faw Casson CPA",
+      "category": "Accountant",
+      "phone": "+1 302-674-4305",
+      "site": "https://www.fawcasson.com/",
+      "address": "160 Greentree Dr # 203, Dover, DE 19904",
+      "latitude": 39.1603912,
+      "longitude": -75.55669739999999,
+      "rating": 4.8,
+      "reviews": 86,
+      "logo": "https://lh5.googleusercontent.com/-hX6IEwTTE5A/AAAAAAAAAAI/AAAAAAAAAAA/xzkK5aF0vlg/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAG1JlNPWICKq205Q3YCKOcosCgYZU30KkU4WjQv-ixOhCsrgo3J6v6YaCKIiFQP-wythEh3rm1BI7wLDZ05sokBy2n0JYimxorZ8w5dznPnKtxKCkJYoYs62D32vN5K_CiR5mIf=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8:30AM-4PM",
+        "Monday": "8:30AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8:30AM-5PM",
+        "Tuesday": "8:30AM-5PM",
+        "Wednesday": "8:30AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 4,
+        "2": 0,
+        "3": 1,
+        "4": 1,
+        "5": 80
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "mts-tax-preparation-planning-and-financial-literacy",
+      "name": "MTS Tax Preparation, Planning, and Financial Literacy",
+      "category": "Tax preparation service",
+      "phone": "+1 302-389-6185",
+      "site": "http://www.mtstaxprep.com/",
+      "address": "448 Sequoia Dr, Smyrna, DE 19977",
+      "latitude": 39.303548,
+      "longitude": -75.5944559,
+      "rating": 5,
+      "reviews": 8,
+      "logo": "https://lh5.googleusercontent.com/-3m8OtTVYId0/AAAAAAAAAAI/AAAAAAAAAAA/zIDfV7RJluc/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=yR4hf7yqlNBFH8HnxxVGPA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=95.32803&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "9AM-5PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "9AM-5PM",
+        "Sunday": "9AM-5PM",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 8
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    }
+  ]
+}

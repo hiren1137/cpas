@@ -1,0 +1,57 @@
+---
+// State page — /[state]/
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import StateHero from '../../components/state/StateHero.astro';
+import CitiesGrid from '../../components/state/CitiesGrid.astro';
+import { getAllStates } from '../../lib/data';
+import { absoluteUrl, stateUrl } from '../../lib/urls';
+import { breadcrumbSchemaOrg } from '../../lib/seo';
+
+export const getStaticPaths: GetStaticPaths = () => {
+  return getAllStates().map(state => ({
+    params: { state: state.slug },
+    props: { state },
+  }));
+};
+
+const { state } = Astro.props;
+const title = `Best CPAs in ${state.name} — Find Certified Public Accountants`;
+const description = `Find top-rated Certified Public Accountants in ${state.name}. Browse verified CPAs in ${state.cities.length} cities with reviews and ratings.`;
+const canonical = absoluteUrl(stateUrl(state.slug));
+
+const breadcrumbs = [
+  { name: 'Home', url: 'https://bestcpanearme.com/' },
+  { name: state.name, url: canonical },
+];
+const schema = breadcrumbSchemaOrg(breadcrumbs);
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} schema={schema}>
+  <StateHero stateName={state.name} stateCode={state.code} cityCount={state.cities.length} />
+
+  <div class="container-main py-6">
+    <Breadcrumbs items={[
+      { label: 'Home', href: '/' },
+      { label: state.name },
+    ]} />
+  </div>
+
+  <CitiesGrid cities={state.cities} stateSlug={state.slug} stateName={state.name} />
+
+  <!-- About CPAs in State -->
+  <section class="py-12 bg-gray-50">
+    <div class="container-main">
+      <div class="max-w-3xl">
+        <h2 class="section-heading mb-4">About CPAs in {state.name}</h2>
+        <p class="text-gray-600 leading-relaxed mb-4">
+          Certified Public Accountants in {state.name} are licensed by the {state.name} State Board of Accountancy. To become a CPA in {state.name}, candidates must meet education requirements, pass the Uniform CPA Examination, and fulfill experience requirements specific to {state.name}.
+        </p>
+        <p class="text-gray-600 leading-relaxed">
+          Our directory features verified CPAs across {state.cities.length} cities in {state.name}, helping you find the right accounting professional for your individual or business needs. Whether you need tax preparation, bookkeeping, financial planning, or business consulting services, our comprehensive listings make it easy to compare CPAs and connect with the best professionals in your area.
+        </p>
+      </div>
+    </div>
+  </section>
+</BaseLayout>

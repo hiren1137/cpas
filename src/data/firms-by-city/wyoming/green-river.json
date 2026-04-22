@@ -1,0 +1,76 @@
+{
+  "city": "Green River",
+  "state": "Wyoming",
+  "state_code": "WY",
+  "city_slug": "green-river",
+  "state_slug": "wyoming",
+  "firm_count": 2,
+  "firms": [
+    {
+      "slug": "gaddis-accounting",
+      "name": "Gaddis Accounting",
+      "category": "Certified public accountant",
+      "phone": "+1 307-875-2378",
+      "site": "",
+      "address": "218 Uinta Dr, Green River, WY 82935",
+      "latitude": 41.5166914,
+      "longitude": -109.4705082,
+      "rating": 5,
+      "reviews": 2,
+      "logo": "https://lh4.googleusercontent.com/-gsEpIRW2jBI/AAAAAAAAAAI/AAAAAAAAAAA/21hN8J0D7X8/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "",
+      "working_hours": {
+        "Friday": "9AM-6PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-6PM",
+        "Tuesday": "9AM-6PM",
+        "Wednesday": "9AM-6PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "handr-block",
+      "name": "H&R Block",
+      "category": "Tax preparation service",
+      "phone": "+1 307-875-2499",
+      "site": "https://www.hrblock.com/tax-office-near-me/wyoming/green-river/34921/%3Fotppartnerid%3D9308%26campaignid%3Dpw_mcm_9308_9762%26utm_medium%3Dlocal",
+      "address": "300 Uinta Dr, Green River, WY 82935",
+      "latitude": 41.5173183,
+      "longitude": -109.46989599999999,
+      "rating": 4.7,
+      "reviews": 100,
+      "logo": "https://lh3.googleusercontent.com/-JeCMIqcy-sw/AAAAAAAAAAI/AAAAAAAAAAA/J3awQNTMN3Q/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFTEo-knxspZcmr31DbVjyUmMfYfLmozEojdXJ4XF4icl8xRG90VxjyLZb1K23Jz0Sn-8Rucq6KNKDSTlBi2dphRDauqpMInuoqAD2MXqEefJNlUurXdI6MHXpBB-r9YqoKrQfwtg=w800-h500-k-no",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 5,
+        "2": 1,
+        "3": 2,
+        "4": 4,
+        "5": 88
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    }
+  ]
+}

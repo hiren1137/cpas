@@ -1,0 +1,32 @@
+---
+// Why Choose Us — 4 feature cards
+const features = [
+  { emoji: '✓', title: 'Verified CPAs', desc: 'All accountants in our directory are verified with valid CPA licenses and professional credentials.' },
+  { emoji: '⭐', title: 'Client Reviews', desc: 'Read authentic reviews from real clients to make informed decisions about your CPA.' },
+  { emoji: '📍', title: 'Location Search', desc: 'Find CPAs near you with our powerful location-based search across all 50 states.' },
+  { emoji: '💬', title: 'Free Consultation', desc: 'Most CPAs offer free initial consultations to discuss your accounting and tax needs.' },
+];
+---
+
+<section class="py-16 bg-white">
+  <div class="container-main">
+    <div class="text-center mb-10">
+      <h2 class="section-heading">Why Choose Best CPA Near Me?</h2>
+      <p class="text-gray-600 mt-3 max-w-2xl mx-auto">
+        We make finding the right CPA simple, safe, and reliable
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+      {features.map(f => (
+        <div class="card p-6 text-center group hover:border-navy-300">
+          <div class="w-14 h-14 mx-auto mb-4 bg-navy-50 rounded-xl flex items-center justify-center text-2xl group-hover:bg-navy-100 transition-colors">
+            {f.emoji}
+          </div>
+          <h3 class="font-semibold text-navy-900 mb-2">{f.title}</h3>
+          <p class="text-sm text-gray-600 leading-relaxed">{f.desc}</p>
+        </div>
+      ))}
+    </div>
+  </div>
+</section>

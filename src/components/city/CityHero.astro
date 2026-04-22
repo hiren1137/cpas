@@ -1,0 +1,36 @@
+---
+// City Hero — hero section for city pages
+export interface Props {
+  cityName: string;
+  stateName: string;
+  firmCount: number;
+  avgRating: number;
+}
+const { cityName, stateName, firmCount, avgRating } = Astro.props;
+---
+
+<section class="bg-gradient-to-br from-navy-900 via-navy-800 to-navy-950 text-white py-16 md:py-20 relative overflow-hidden">
+  <div class="absolute inset-0 opacity-5">
+    <div class="absolute inset-0" style="background-image: radial-gradient(circle at 50% 50%, rgba(255,255,255,0.15) 1px, transparent 1px); background-size: 40px 40px;"></div>
+  </div>
+  <div class="container-main relative">
+    <div class="max-w-3xl">
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4">
+        CPAs in <span class="text-amber-400">{cityName}</span>, {stateName}
+      </h1>
+      <p class="text-gray-300 text-lg mb-8 leading-relaxed">
+        Find the best Certified Public Accountants in {cityName}, {stateName}. Compare ratings, read reviews, and connect with verified CPAs near you.
+      </p>
+      <div class="flex flex-wrap gap-6">
+        <div class="bg-white/10 rounded-lg px-5 py-3">
+          <div class="text-2xl font-bold text-amber-400">{firmCount || '—'}</div>
+          <div class="text-sm text-gray-300">CPAs Listed</div>
+        </div>
+        <div class="bg-white/10 rounded-lg px-5 py-3">
+          <div class="text-2xl font-bold text-amber-400">{avgRating > 0 ? avgRating.toFixed(1) : '—'}</div>
+          <div class="text-sm text-gray-300">Avg Rating</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

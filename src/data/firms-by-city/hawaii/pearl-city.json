@@ -1,0 +1,43 @@
+{
+  "city": "Pearl City",
+  "state": "Hawaii",
+  "state_code": "HI",
+  "city_slug": "pearl-city",
+  "state_slug": "hawaii",
+  "firm_count": 1,
+  "firms": [
+    {
+      "slug": "james-michishima-cpa",
+      "name": "James Michishima CPA",
+      "category": "Certified public accountant",
+      "phone": "+1 808-487-9002",
+      "site": "http://www.imacpa.com/",
+      "address": "1245 Kuala St, Pearl City, HI 96782",
+      "latitude": 21.401392899999998,
+      "longitude": -157.9710532,
+      "rating": 1,
+      "reviews": 1,
+      "logo": "https://lh6.googleusercontent.com/-3vKENb5pHl0/AAAAAAAAAAI/AAAAAAAAAAA/tYd0BxiaCqc/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=WU2NH5npmTLnAVDMLHTy-Q&cb_client=search.gws-prod.gps&w=800&h=500&yaw=119.04968&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8:30AM-5:30PM",
+        "Monday": "8:30AM-5:30PM",
+        "Saturday": "8:30AM-5:30PM",
+        "Sunday": "Closed",
+        "Thursday": "8:30AM-5:30PM",
+        "Tuesday": "8:30AM-5:30PM",
+        "Wednesday": "8:30AM-5:30PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    }
+  ]
+}

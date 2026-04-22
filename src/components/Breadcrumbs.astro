@@ -1,0 +1,27 @@
+---
+// Breadcrumbs — renders breadcrumb trail with › separators
+import type { BreadcrumbItem } from '../lib/types';
+
+export interface Props {
+  items: BreadcrumbItem[];
+}
+
+const { items } = Astro.props;
+---
+
+<nav aria-label="Breadcrumb" class="mb-4">
+  <ol class="flex flex-wrap items-center gap-1 text-sm text-gray-500">
+    {items.map((item, index) => (
+      <li class="flex items-center gap-1">
+        {index > 0 && <span class="text-gray-400">›</span>}
+        {item.href ? (
+          <a href={item.href} class="hover:text-navy-800 hover:underline transition-colors">
+            {item.label}
+          </a>
+        ) : (
+          <span class="text-gray-700 font-medium">{item.label}</span>
+        )}
+      </li>
+    ))}
+  </ol>
+</nav>

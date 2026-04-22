@@ -1,0 +1,175 @@
+{
+  "city": "Lewiston",
+  "state": "Maine",
+  "state_code": "ME",
+  "city_slug": "lewiston",
+  "state_slug": "maine",
+  "firm_count": 5,
+  "firms": [
+    {
+      "slug": "ouellette-and-associates-pa",
+      "name": "Ouellette & Associates, P.A.",
+      "category": "Certified public accountant",
+      "phone": "+1 207-786-0328",
+      "site": "http://www.oacpas.net/",
+      "address": "1111 Lisbon St, Lewiston, ME 04240",
+      "latitude": 44.0789833,
+      "longitude": -70.1923687,
+      "rating": 4.2,
+      "reviews": 5,
+      "logo": "https://lh4.googleusercontent.com/-OasdSskgmzk/AAAAAAAAAAI/AAAAAAAAAAA/i4V36Fw8L8o/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEANeXGd1wURxHazvU2HitV4T7oWaTR9XRIb12KGyiOiM5Ir2RkIQrMrhm2MGu-NMApPD_mCc1Ux2Ie93MK7zu_Gct4-uWG3XGBJCBMU-mRRhe6COnfUcs0RtnWr8QF3CMOxrGQKA=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-4:30PM",
+        "Monday": "8AM-4:30PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-4:30PM",
+        "Tuesday": "8AM-4:30PM",
+        "Wednesday": "8AM-4:30PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 4
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "larry-l-campbell-cpa",
+      "name": "Larry L. Campbell, CPA",
+      "category": "Accountant",
+      "phone": "+1 207-783-2589",
+      "site": "",
+      "address": "134 Main St #7, Lewiston, ME 04240",
+      "latitude": 44.0981842,
+      "longitude": -70.21949359999999,
+      "rating": 3.8,
+      "reviews": 10,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=mHnOYVrhnT4wG3HdAM2HNw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=274.5931&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-6PM",
+        "Monday": "8AM-6PM",
+        "Saturday": "8AM-6PM",
+        "Sunday": "8AM-6PM",
+        "Thursday": "8AM-6PM",
+        "Tuesday": "8AM-6PM",
+        "Wednesday": "8AM-6PM"
+      },
+      "reviews_per_score": {
+        "1": 3,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 7
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "judith-a-gervais",
+      "name": "Judith A Gervais",
+      "category": "Accountant",
+      "phone": "+1 207-653-5108",
+      "site": "",
+      "address": "97 Farwell St, Lewiston, ME 04240",
+      "latitude": 44.096956299999995,
+      "longitude": -70.19085009999999,
+      "rating": 4.7,
+      "reviews": 3,
+      "logo": "https://lh5.googleusercontent.com/-IvQwl-7NRnk/AAAAAAAAAAI/AAAAAAAAAAA/rPeyUFfPiCQ/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=R6MaV6cU4vQ9LMRGWwY1dw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=161.7274&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "9AM-3PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "prosperity-financial-accounting",
+      "name": "Prosperity Financial Accounting",
+      "category": "Accounting firm",
+      "phone": "+1 207-641-7546",
+      "site": "https://prosperityfinancialaccounting.com/",
+      "address": "75 Park St, Lewiston, ME 04240",
+      "latitude": 44.0970458,
+      "longitude": -70.2167144,
+      "rating": 5,
+      "reviews": 10,
+      "logo": "https://lh4.googleusercontent.com/-G3_QNnaim6A/AAAAAAAAAAI/AAAAAAAAAAA/Pszlpu3rElY/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=VYyZo27riMKq2YADihFWHg&cb_client=search.gws-prod.gps&w=800&h=500&yaw=69.81992&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "9AM-5PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 10
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "accurate-accounting-and-tax-services",
+      "name": "Accurate Accounting & Tax Services",
+      "category": "Tax preparation service",
+      "phone": "+1 207-777-7005",
+      "site": "",
+      "address": "922 Sabattus St, Lewiston, ME 04240",
+      "latitude": 44.1029635,
+      "longitude": -70.1704623,
+      "rating": 5,
+      "reviews": 4,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=AG5b74KbyAaI8TEaXtE13A&cb_client=search.gws-prod.gps&w=800&h=500&yaw=16.151564&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 4
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    }
+  ]
+}

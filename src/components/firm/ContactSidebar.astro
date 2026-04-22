@@ -1,0 +1,57 @@
+---
+// ContactSidebar — firm contact info, hours, and directions
+import type { Firm } from '../../lib/types';
+import { directionsUrl } from '../../lib/urls';
+import HoursTable from './HoursTable.astro';
+
+export interface Props { firm: Firm; }
+const { firm } = Astro.props;
+---
+
+<aside class="space-y-6">
+  <!-- Contact Info -->
+  <div class="card p-6">
+    <h3 class="font-bold text-navy-900 mb-4">Contact Information</h3>
+    <div class="space-y-3">
+      {firm.address && (
+        <div class="flex items-start gap-3">
+          <span class="text-gray-400 mt-0.5">📍</span>
+          <span class="text-sm text-gray-700">{firm.address}</span>
+        </div>
+      )}
+      {firm.phone && (
+        <div class="flex items-start gap-3">
+          <span class="text-gray-400">📞</span>
+          <a href={`tel:${firm.phone}`} class="text-sm text-navy-800 hover:underline font-medium">{firm.phone}</a>
+        </div>
+      )}
+      {firm.site && (
+        <div class="flex items-start gap-3">
+          <span class="text-gray-400">🌐</span>
+          <a href={firm.site} target="_blank" rel="nofollow noopener" class="text-sm text-navy-800 hover:underline font-medium truncate">
+            {firm.site.replace(/^https?:\/\//, '').replace(/\/$/, '')}
+          </a>
+        </div>
+      )}
+    </div>
+  </div>
+
+  <!-- Working Hours -->
+  {firm.working_hours && (
+    <div class="card p-6">
+      <h3 class="font-bold text-navy-900 mb-4">Working Hours</h3>
+      <HoursTable hours={firm.working_hours} />
+    </div>
+  )}
+
+  <!-- Directions -->
+  {firm.address && (
+    <div class="card p-6 text-center">
+      <h3 class="font-bold text-navy-900 mb-3">Location</h3>
+      <a href={directionsUrl(firm.address)} target="_blank" rel="noopener"
+         class="btn-primary w-full justify-center text-sm">
+        🗺️ Get Directions
+      </a>
+    </div>
+  )}
+</aside>

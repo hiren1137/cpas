@@ -1,0 +1,142 @@
+{
+  "city": "Wahpeton",
+  "state": "North Dakota",
+  "state_code": "ND",
+  "city_slug": "wahpeton",
+  "state_slug": "north-dakota",
+  "firm_count": 4,
+  "firms": [
+    {
+      "slug": "nadine-julson-llc",
+      "name": "Nadine Julson, LLC",
+      "category": "Certified public accountant",
+      "phone": "+1 701-642-8146",
+      "site": "http://julsoncpa.com/",
+      "address": "506 Dakota Ave, Wahpeton, ND 58075",
+      "latitude": 46.26421,
+      "longitude": -96.6073569,
+      "rating": 3.7,
+      "reviews": 3,
+      "logo": "https://lh6.googleusercontent.com/-XQAcu5XfQgc/AAAAAAAAAAI/AAAAAAAAAAA/QFJwtJXC6gQ/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH_H2ZHFp-q-1gF2KnxdQGBBRJgPHlkrSKlyvtn5Pht0npDDAEVDKkXN0jVRvHvuSuJY7BYuV6WdYCvbeo0ev2ewCc4g6v3LB4SCVNivBV0r9c4CGNmN5fZ4aIDWNGgpCHg5ofvfQ=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "Closed",
+        "Monday": "7:30AM-4:30PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "7:30AM-4:30PM",
+        "Tuesday": "7:30AM-4:30PM",
+        "Wednesday": "7:30AM-4:30PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "james-anderson-ltd",
+      "name": "James Anderson Ltd",
+      "category": "Tax preparation service",
+      "phone": "+1 701-591-1011",
+      "site": "",
+      "address": "911 Dakota Ave, Wahpeton, ND 58075",
+      "latitude": 46.2637158,
+      "longitude": -96.6132986,
+      "rating": 3,
+      "reviews": 2,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=3NDA6jF1Z7zCxA4LNQLgfw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=200.02632&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "norby-krueger-tax-and-bookkeeping-services",
+      "name": "Norby Krueger Tax & Bookkeeping Services",
+      "category": "Tax preparation service",
+      "phone": "+1 701-591-2200",
+      "site": "https://norbykruegertax.com/",
+      "address": "325 Dakota Ave, Wahpeton, ND 58075",
+      "latitude": 46.2636377,
+      "longitude": -96.60525919999999,
+      "rating": 4.6,
+      "reviews": 9,
+      "logo": "https://lh4.googleusercontent.com/-2TF60aT_J7I/AAAAAAAAAAI/AAAAAAAAAAA/U37Pf6eo6bM/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_xTfhj17pTH1e9Wvi9Vrkg&cb_client=search.gws-prod.gps&w=800&h=500&yaw=140.99495&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-6PM",
+        "Monday": "8AM-6PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-6PM",
+        "Tuesday": "8AM-6PM",
+        "Wednesday": "8AM-6PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 8
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "richels-accounting",
+      "name": "Richels Accounting",
+      "category": "Tax preparation service",
+      "phone": "+1 701-642-2882",
+      "site": "https://splinternetmarketing.com/local-pros/nd/wahpeton/richels-accounting/",
+      "address": "615 2nd Ave N Suite #1, Wahpeton, ND 58075",
+      "latitude": 46.2648381,
+      "longitude": -96.6093825,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "https://lh4.googleusercontent.com/-FTxUr8pU4h8/AAAAAAAAAAI/AAAAAAAAAAA/dK45xjSNl5A/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=l97fyRdrL7GiaY1rD_Epqw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=41.410316&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    }
+  ]
+}

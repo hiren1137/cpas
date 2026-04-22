@@ -1,0 +1,133 @@
+---
+// FirmHero — main hero section for firm detail page
+import type { Firm } from '../../lib/types';
+import { directionsUrl } from '../../lib/urls';
+
+export interface Props {
+  firm: Firm;
+  cityName: string;
+  stateName: string;
+}
+const { firm, cityName, stateName } = Astro.props;
+const initials = firm.name.split(' ').map(w => w[0]).filter(Boolean).slice(0, 2).join('').toUpperCase();
+const stars = firm.rating > 0 ? '★'.repeat(Math.round(firm.rating)) + '☆'.repeat(5 - Math.round(firm.rating)) : '';
+---
+
+<section class="bg-gradient-to-br from-navy-900 via-navy-800 to-navy-950 text-white py-12 md:py-16 relative overflow-hidden">
+  <div class="absolute inset-0 opacity-5">
+    <div class="absolute inset-0" style="background-image: radial-gradient(circle at 30% 70%, rgba(255,255,255,0.15) 1px, transparent 1px); background-size: 40px 40px;"></div>
+  </div>
+  <div class="container-main relative">
+    <div class="flex flex-col md:flex-row items-start gap-6">
+      <!-- Logo -->
+      <div class="flex-shrink-0">
+        {firm.logo ? (
+          <img src={firm.logo} alt={`${firm.name} logo`} loading="lazy" decoding="async"
+               class="w-24 h-24 rounded-xl object-cover bg-white/10 border border-white/20" />
+        ) : (
+          <div class="w-24 h-24 rounded-xl bg-white/10 border border-white/20 flex items-center justify-center">
+            <span class="text-2xl font-bold">{initials}</span>
+          </div>
+        )}
+      </div>
+
+      <div class="flex-1">
+        <p class="text-sm text-gray-400 mb-1">{firm.category || 'Accounting firm'}</p>
+        <h1 class="text-3xl md:text-4xl font-extrabold mb-3">{firm.name}</h1>
+
+        {firm.rating > 0 && (
+          <div class="flex items-center gap-2 mb-4">
+            <span class="star-filled text-lg">{stars}</span>
+            <span class="text-gray-300">{firm.rating.toFixed(1)} ({firm.reviews} reviews)</span>
+          </div>
+        )}
+
+        <!-- Badges -->
+        <div class="flex flex-wrap gap-2 mb-6">
+          {firm.is_verified && (
+            <span class="inline-flex items-center gap-1 px-3 py-1 bg-green-500/20 text-green-300 rounded-full text-sm font-medium">
+              ✓ Google Verified
+            </span>
+          )}
+          {firm.rating >= 4.5 && (
+            <span class="inline-flex items-center gap-1 px-3 py-1 bg-amber-500/20 text-amber-300 rounded-full text-sm font-medium">
+              ⭐ Top Rated
+            </span>
+          )}
+          <span id="open-status-badge" class="inline-flex items-center gap-1 px-3 py-1 bg-white/10 text-gray-300 rounded-full text-sm font-medium">
+            ⏳ Checking hours...
+          </span>
+        </div>
+
+        <!-- Action buttons -->
+        <div class="flex flex-wrap gap-3">
+          {firm.phone && (
+            <a href={`tel:${firm.phone}`} class="inline-flex items-center gap-2 px-5 py-2.5 bg-amber-500 text-navy-950 font-semibold rounded-lg hover:bg-amber-400 transition-all shadow-md">
+              📞 Call Now
+            </a>
+          )}
+          {firm.site && (
+            <a href={firm.site} target="_blank" rel="nofollow noopener" class="inline-flex items-center gap-2 px-5 py-2.5 bg-white/10 text-white font-semibold rounded-lg hover:bg-white/20 transition-all border border-white/20">
+              🌐 Visit Website
+            </a>
+          )}
+          {firm.address && (
+            <a href={directionsUrl(firm.address)} target="_blank" rel="noopener" class="inline-flex items-center gap-2 px-5 py-2.5 bg-white/10 text-white font-semibold rounded-lg hover:bg-white/20 transition-all border border-white/20">
+              🗺️ Get Directions
+            </a>
+          )}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script define:vars={{ workingHours: firm.working_hours }}>
+  // Simple open/closed check using US/Central as default timezone
+  function checkOpenStatus() {
+    const badge = document.getElementById('open-status-badge');
+    if (!badge || !workingHours) return;
+
+    const days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+    const now = new Date();
+    // Use US Central as reasonable default
+    const centralTime = new Date(now.toLocaleString('en-US', { timeZone: 'America/Chicago' }));
+    const dayName = days[centralTime.getDay()];
+    const hours = workingHours[dayName];
+
+    if (!hours || hours === 'Closed') {
+      badge.innerHTML = '🔴 Closed';
+      badge.className = badge.className.replace('bg-white/10 text-gray-300', 'bg-red-500/20 text-red-300');
+      return;
+    }
+
+    // Parse hours like "9AM-5PM"
+    const match = hours.match(/(\d{1,2})(AM|PM)\s*-\s*(\d{1,2})(AM|PM)/i);
+    if (!match) {
+      badge.innerHTML = '🟢 Open Today';
+      badge.className = badge.className.replace('bg-white/10 text-gray-300', 'bg-green-500/20 text-green-300');
+      return;
+    }
+
+    let openH = parseInt(match[1]);
+    if (match[2].toUpperCase() === 'PM' && openH !== 12) openH += 12;
+    if (match[2].toUpperCase() === 'AM' && openH === 12) openH = 0;
+
+    let closeH = parseInt(match[3]);
+    if (match[4].toUpperCase() === 'PM' && closeH !== 12) closeH += 12;
+    if (match[4].toUpperCase() === 'AM' && closeH === 12) closeH = 0;
+
+    const currentH = centralTime.getHours();
+    if (currentH >= openH && currentH < closeH) {
+      badge.innerHTML = '🟢 Open Now';
+      badge.className = badge.className.replace('bg-white/10 text-gray-300', 'bg-green-500/20 text-green-300');
+    } else if (currentH < openH) {
+      badge.innerHTML = `⏰ Opens at ${match[1]}${match[2]}`;
+      badge.className = badge.className.replace('bg-white/10 text-gray-300', 'bg-yellow-500/20 text-yellow-300');
+    } else {
+      badge.innerHTML = '🔴 Closed';
+      badge.className = badge.className.replace('bg-white/10 text-gray-300', 'bg-red-500/20 text-red-300');
+    }
+  }
+  checkOpenStatus();
+</script>

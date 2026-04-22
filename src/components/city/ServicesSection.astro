@@ -1,0 +1,33 @@
+---
+// ServicesSection — types of CPA services for city pages
+export interface Props { cityName: string; }
+const { cityName } = Astro.props;
+
+const services = [
+  'Tax Preparation & Filing (Individual & Business)',
+  'Bookkeeping & Accounting Services',
+  'Financial Statement Preparation & Auditing',
+  'Business Consulting & Advisory Services',
+  'Payroll Processing & Tax Compliance',
+  'Estate & Trust Planning',
+  'IRS Representation & Audit Defense',
+  'QuickBooks Setup & Training',
+];
+---
+
+<section class="py-12">
+  <div class="container-main">
+    <div class="max-w-3xl">
+      <h2 class="section-heading mb-6">Types of CPA Services in {cityName}</h2>
+      <p class="text-gray-600 mb-6">CPAs in {cityName} offer a wide range of accounting and financial services:</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+        {services.map(svc => (
+          <div class="flex items-start gap-3 p-3 rounded-lg bg-gray-50">
+            <span class="text-navy-800 mt-0.5">📋</span>
+            <span class="text-sm text-gray-700">{svc}</span>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</section>

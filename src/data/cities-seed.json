@@ -1,0 +1,2858 @@
+{
+  "generated_at": "2026-04-19",
+  "source": "US Census Bureau Vintage 2024 + state-level population estimates",
+  "note": "Top 10 cities per state by population. State slug is full state name, city slug is city name only. URL pattern: /texas/austin/, /new-york/new-york/, /california/los-angeles/. This matches Expertise.com style and keeps every firm reachable in 3 clicks from homepage.",
+  "states": [
+    {
+      "name": "Alabama",
+      "code": "AL",
+      "slug": "alabama",
+      "cities": [
+        {
+          "name": "Huntsville",
+          "slug": "huntsville",
+          "population": 241114
+        },
+        {
+          "name": "Montgomery",
+          "slug": "montgomery",
+          "population": 196644
+        },
+        {
+          "name": "Birmingham",
+          "slug": "birmingham",
+          "population": 196353
+        },
+        {
+          "name": "Mobile",
+          "slug": "mobile",
+          "population": 182595
+        },
+        {
+          "name": "Tuscaloosa",
+          "slug": "tuscaloosa",
+          "population": 111338
+        },
+        {
+          "name": "Hoover",
+          "slug": "hoover",
+          "population": 92606
+        },
+        {
+          "name": "Auburn",
+          "slug": "auburn",
+          "population": 87751
+        },
+        {
+          "name": "Dothan",
+          "slug": "dothan",
+          "population": 71720
+        },
+        {
+          "name": "Madison",
+          "slug": "madison",
+          "population": 65067
+        },
+        {
+          "name": "Decatur",
+          "slug": "decatur",
+          "population": 57938
+        }
+      ]
+    },
+    {
+      "name": "Alaska",
+      "code": "AK",
+      "slug": "alaska",
+      "cities": [
+        {
+          "name": "Anchorage",
+          "slug": "anchorage",
+          "population": 286075
+        },
+        {
+          "name": "Fairbanks",
+          "slug": "fairbanks",
+          "population": 31516
+        },
+        {
+          "name": "Juneau",
+          "slug": "juneau",
+          "population": 31685
+        },
+        {
+          "name": "Wasilla",
+          "slug": "wasilla",
+          "population": 9643
+        },
+        {
+          "name": "Sitka",
+          "slug": "sitka",
+          "population": 8373
+        },
+        {
+          "name": "Ketchikan",
+          "slug": "ketchikan",
+          "population": 7999
+        },
+        {
+          "name": "Kenai",
+          "slug": "kenai",
+          "population": 7721
+        },
+        {
+          "name": "Kodiak",
+          "slug": "kodiak",
+          "population": 5581
+        },
+        {
+          "name": "Bethel",
+          "slug": "bethel",
+          "population": 6504
+        },
+        {
+          "name": "Palmer",
+          "slug": "palmer",
+          "population": 6193
+        }
+      ]
+    },
+    {
+      "name": "Arizona",
+      "code": "AZ",
+      "slug": "arizona",
+      "cities": [
+        {
+          "name": "Phoenix",
+          "slug": "phoenix",
+          "population": 1673164
+        },
+        {
+          "name": "Tucson",
+          "slug": "tucson",
+          "population": 547239
+        },
+        {
+          "name": "Mesa",
+          "slug": "mesa",
+          "population": 511648
+        },
+        {
+          "name": "Chandler",
+          "slug": "chandler",
+          "population": 285546
+        },
+        {
+          "name": "Gilbert",
+          "slug": "gilbert",
+          "population": 284296
+        },
+        {
+          "name": "Glendale",
+          "slug": "glendale",
+          "population": 251367
+        },
+        {
+          "name": "Scottsdale",
+          "slug": "scottsdale",
+          "population": 245644
+        },
+        {
+          "name": "Peoria",
+          "slug": "peoria",
+          "population": 200113
+        },
+        {
+          "name": "Tempe",
+          "slug": "tempe",
+          "population": 186454
+        },
+        {
+          "name": "Surprise",
+          "slug": "surprise",
+          "population": 161471
+        }
+      ]
+    },
+    {
+      "name": "Arkansas",
+      "code": "AR",
+      "slug": "arkansas",
+      "cities": [
+        {
+          "name": "Little Rock",
+          "slug": "little-rock",
+          "population": 204405
+        },
+        {
+          "name": "Fayetteville",
+          "slug": "fayetteville",
+          "population": 101680
+        },
+        {
+          "name": "Fort Smith",
+          "slug": "fort-smith",
+          "population": 89142
+        },
+        {
+          "name": "Springdale",
+          "slug": "springdale",
+          "population": 87590
+        },
+        {
+          "name": "Rogers",
+          "slug": "rogers",
+          "population": 76795
+        },
+        {
+          "name": "Jonesboro",
+          "slug": "jonesboro",
+          "population": 81495
+        },
+        {
+          "name": "Conway",
+          "slug": "conway",
+          "population": 66998
+        },
+        {
+          "name": "Bentonville",
+          "slug": "bentonville",
+          "population": 59072
+        },
+        {
+          "name": "North Little Rock",
+          "slug": "north-little-rock",
+          "population": 64591
+        },
+        {
+          "name": "Pine Bluff",
+          "slug": "pine-bluff",
+          "population": 37741
+        }
+      ]
+    },
+    {
+      "name": "California",
+      "code": "CA",
+      "slug": "california",
+      "cities": [
+        {
+          "name": "Los Angeles",
+          "slug": "los-angeles",
+          "population": 3878704
+        },
+        {
+          "name": "San Diego",
+          "slug": "san-diego",
+          "population": 1404452
+        },
+        {
+          "name": "San Jose",
+          "slug": "san-jose",
+          "population": 997368
+        },
+        {
+          "name": "San Francisco",
+          "slug": "san-francisco",
+          "population": 827526
+        },
+        {
+          "name": "Fresno",
+          "slug": "fresno",
+          "population": 545716
+        },
+        {
+          "name": "Sacramento",
+          "slug": "sacramento",
+          "population": 528001
+        },
+        {
+          "name": "Long Beach",
+          "slug": "long-beach",
+          "population": 454489
+        },
+        {
+          "name": "Oakland",
+          "slug": "oakland",
+          "population": 419267
+        },
+        {
+          "name": "Bakersfield",
+          "slug": "bakersfield",
+          "population": 417087
+        },
+        {
+          "name": "Anaheim",
+          "slug": "anaheim",
+          "population": 343248
+        }
+      ]
+    },
+    {
+      "name": "Colorado",
+      "code": "CO",
+      "slug": "colorado",
+      "cities": [
+        {
+          "name": "Denver",
+          "slug": "denver",
+          "population": 716577
+        },
+        {
+          "name": "Colorado Springs",
+          "slug": "colorado-springs",
+          "population": 488664
+        },
+        {
+          "name": "Aurora",
+          "slug": "aurora",
+          "population": 406362
+        },
+        {
+          "name": "Fort Collins",
+          "slug": "fort-collins",
+          "population": 170376
+        },
+        {
+          "name": "Lakewood",
+          "slug": "lakewood",
+          "population": 156798
+        },
+        {
+          "name": "Thornton",
+          "slug": "thornton",
+          "population": 142361
+        },
+        {
+          "name": "Arvada",
+          "slug": "arvada",
+          "population": 125370
+        },
+        {
+          "name": "Westminster",
+          "slug": "westminster",
+          "population": 115453
+        },
+        {
+          "name": "Greeley",
+          "slug": "greeley",
+          "population": 111125
+        },
+        {
+          "name": "Pueblo",
+          "slug": "pueblo",
+          "population": 112361
+        }
+      ]
+    },
+    {
+      "name": "Connecticut",
+      "code": "CT",
+      "slug": "connecticut",
+      "cities": [
+        {
+          "name": "Bridgeport",
+          "slug": "bridgeport",
+          "population": 148330
+        },
+        {
+          "name": "New Haven",
+          "slug": "new-haven",
+          "population": 138915
+        },
+        {
+          "name": "Stamford",
+          "slug": "stamford",
+          "population": 136229
+        },
+        {
+          "name": "Hartford",
+          "slug": "hartford",
+          "population": 121054
+        },
+        {
+          "name": "Waterbury",
+          "slug": "waterbury",
+          "population": 114715
+        },
+        {
+          "name": "Norwalk",
+          "slug": "norwalk",
+          "population": 91748
+        },
+        {
+          "name": "Danbury",
+          "slug": "danbury",
+          "population": 87113
+        },
+        {
+          "name": "New Britain",
+          "slug": "new-britain",
+          "population": 75142
+        },
+        {
+          "name": "Bristol",
+          "slug": "bristol",
+          "population": 60830
+        },
+        {
+          "name": "Meriden",
+          "slug": "meriden",
+          "population": 60850
+        }
+      ]
+    },
+    {
+      "name": "Delaware",
+      "code": "DE",
+      "slug": "delaware",
+      "cities": [
+        {
+          "name": "Wilmington",
+          "slug": "wilmington",
+          "population": 70898
+        },
+        {
+          "name": "Dover",
+          "slug": "dover",
+          "population": 40355
+        },
+        {
+          "name": "Newark",
+          "slug": "newark",
+          "population": 33756
+        },
+        {
+          "name": "Middletown",
+          "slug": "middletown",
+          "population": 25321
+        },
+        {
+          "name": "Smyrna",
+          "slug": "smyrna",
+          "population": 13048
+        },
+        {
+          "name": "Bear",
+          "slug": "bear",
+          "population": 19371
+        },
+        {
+          "name": "Glasgow",
+          "slug": "glasgow",
+          "population": 15066
+        },
+        {
+          "name": "Hockessin",
+          "slug": "hockessin",
+          "population": 13778
+        },
+        {
+          "name": "Brookside",
+          "slug": "brookside",
+          "population": 14791
+        },
+        {
+          "name": "Pike Creek Valley",
+          "slug": "pike-creek-valley",
+          "population": 11217
+        }
+      ]
+    },
+    {
+      "name": "Florida",
+      "code": "FL",
+      "slug": "florida",
+      "cities": [
+        {
+          "name": "Jacksonville",
+          "slug": "jacksonville",
+          "population": 1009833
+        },
+        {
+          "name": "Miami",
+          "slug": "miami",
+          "population": 455924
+        },
+        {
+          "name": "Tampa",
+          "slug": "tampa",
+          "population": 403364
+        },
+        {
+          "name": "Orlando",
+          "slug": "orlando",
+          "population": 320742
+        },
+        {
+          "name": "St. Petersburg",
+          "slug": "st-petersburg",
+          "population": 261256
+        },
+        {
+          "name": "Hialeah",
+          "slug": "hialeah",
+          "population": 221092
+        },
+        {
+          "name": "Port St. Lucie",
+          "slug": "port-st-lucie",
+          "population": 249956
+        },
+        {
+          "name": "Cape Coral",
+          "slug": "cape-coral",
+          "population": 234620
+        },
+        {
+          "name": "Tallahassee",
+          "slug": "tallahassee",
+          "population": 201731
+        },
+        {
+          "name": "Fort Lauderdale",
+          "slug": "fort-lauderdale",
+          "population": 184255
+        }
+      ]
+    },
+    {
+      "name": "Georgia",
+      "code": "GA",
+      "slug": "georgia",
+      "cities": [
+        {
+          "name": "Atlanta",
+          "slug": "atlanta",
+          "population": 520070
+        },
+        {
+          "name": "Augusta",
+          "slug": "augusta",
+          "population": 200549
+        },
+        {
+          "name": "Columbus",
+          "slug": "columbus",
+          "population": 201877
+        },
+        {
+          "name": "Macon",
+          "slug": "macon",
+          "population": 157346
+        },
+        {
+          "name": "Savannah",
+          "slug": "savannah",
+          "population": 147780
+        },
+        {
+          "name": "Athens",
+          "slug": "athens",
+          "population": 127315
+        },
+        {
+          "name": "South Fulton",
+          "slug": "south-fulton",
+          "population": 111325
+        },
+        {
+          "name": "Sandy Springs",
+          "slug": "sandy-springs",
+          "population": 109452
+        },
+        {
+          "name": "Roswell",
+          "slug": "roswell",
+          "population": 93692
+        },
+        {
+          "name": "Johns Creek",
+          "slug": "johns-creek",
+          "population": 82615
+        }
+      ]
+    },
+    {
+      "name": "Hawaii",
+      "code": "HI",
+      "slug": "hawaii",
+      "cities": [
+        {
+          "name": "Honolulu",
+          "slug": "honolulu",
+          "population": 342451
+        },
+        {
+          "name": "East Honolulu",
+          "slug": "east-honolulu",
+          "population": 47250
+        },
+        {
+          "name": "Pearl City",
+          "slug": "pearl-city",
+          "population": 43929
+        },
+        {
+          "name": "Hilo",
+          "slug": "hilo",
+          "population": 44186
+        },
+        {
+          "name": "Waipahu",
+          "slug": "waipahu",
+          "population": 43485
+        },
+        {
+          "name": "Kailua",
+          "slug": "kailua",
+          "population": 40514
+        },
+        {
+          "name": "Kaneohe",
+          "slug": "kaneohe",
+          "population": 34970
+        },
+        {
+          "name": "Mililani Town",
+          "slug": "mililani-town",
+          "population": 28608
+        },
+        {
+          "name": "Kahului",
+          "slug": "kahului",
+          "population": 28219
+        },
+        {
+          "name": "Ewa Gentry",
+          "slug": "ewa-gentry",
+          "population": 26995
+        }
+      ]
+    },
+    {
+      "name": "Idaho",
+      "code": "ID",
+      "slug": "idaho",
+      "cities": [
+        {
+          "name": "Boise",
+          "slug": "boise",
+          "population": 240713
+        },
+        {
+          "name": "Meridian",
+          "slug": "meridian",
+          "population": 147613
+        },
+        {
+          "name": "Nampa",
+          "slug": "nampa",
+          "population": 118480
+        },
+        {
+          "name": "Idaho Falls",
+          "slug": "idaho-falls",
+          "population": 68047
+        },
+        {
+          "name": "Caldwell",
+          "slug": "caldwell",
+          "population": 68667
+        },
+        {
+          "name": "Pocatello",
+          "slug": "pocatello",
+          "population": 56637
+        },
+        {
+          "name": "Coeur d'Alene",
+          "slug": "coeur-dalene",
+          "population": 56915
+        },
+        {
+          "name": "Twin Falls",
+          "slug": "twin-falls",
+          "population": 55998
+        },
+        {
+          "name": "Post Falls",
+          "slug": "post-falls",
+          "population": 44956
+        },
+        {
+          "name": "Lewiston",
+          "slug": "lewiston",
+          "population": 34442
+        }
+      ]
+    },
+    {
+      "name": "Illinois",
+      "code": "IL",
+      "slug": "illinois",
+      "cities": [
+        {
+          "name": "Chicago",
+          "slug": "chicago",
+          "population": 2664452
+        },
+        {
+          "name": "Aurora",
+          "slug": "aurora",
+          "population": 180710
+        },
+        {
+          "name": "Naperville",
+          "slug": "naperville",
+          "population": 149540
+        },
+        {
+          "name": "Joliet",
+          "slug": "joliet",
+          "population": 151837
+        },
+        {
+          "name": "Rockford",
+          "slug": "rockford",
+          "population": 147486
+        },
+        {
+          "name": "Elgin",
+          "slug": "elgin",
+          "population": 115148
+        },
+        {
+          "name": "Springfield",
+          "slug": "springfield",
+          "population": 111711
+        },
+        {
+          "name": "Peoria",
+          "slug": "peoria",
+          "population": 110417
+        },
+        {
+          "name": "Champaign",
+          "slug": "champaign",
+          "population": 90241
+        },
+        {
+          "name": "Waukegan",
+          "slug": "waukegan",
+          "population": 89321
+        }
+      ]
+    },
+    {
+      "name": "Indiana",
+      "code": "IN",
+      "slug": "indiana",
+      "cities": [
+        {
+          "name": "Indianapolis",
+          "slug": "indianapolis",
+          "population": 879293
+        },
+        {
+          "name": "Fort Wayne",
+          "slug": "fort-wayne",
+          "population": 271635
+        },
+        {
+          "name": "Evansville",
+          "slug": "evansville",
+          "population": 115749
+        },
+        {
+          "name": "South Bend",
+          "slug": "south-bend",
+          "population": 103395
+        },
+        {
+          "name": "Carmel",
+          "slug": "carmel",
+          "population": 103623
+        },
+        {
+          "name": "Fishers",
+          "slug": "fishers",
+          "population": 104094
+        },
+        {
+          "name": "Bloomington",
+          "slug": "bloomington",
+          "population": 80161
+        },
+        {
+          "name": "Hammond",
+          "slug": "hammond",
+          "population": 74936
+        },
+        {
+          "name": "Gary",
+          "slug": "gary",
+          "population": 66803
+        },
+        {
+          "name": "Noblesville",
+          "slug": "noblesville",
+          "population": 75781
+        }
+      ]
+    },
+    {
+      "name": "Iowa",
+      "code": "IA",
+      "slug": "iowa",
+      "cities": [
+        {
+          "name": "Des Moines",
+          "slug": "des-moines",
+          "population": 210381
+        },
+        {
+          "name": "Cedar Rapids",
+          "slug": "cedar-rapids",
+          "population": 136467
+        },
+        {
+          "name": "Davenport",
+          "slug": "davenport",
+          "population": 100354
+        },
+        {
+          "name": "Sioux City",
+          "slug": "sioux-city",
+          "population": 85797
+        },
+        {
+          "name": "Iowa City",
+          "slug": "iowa-city",
+          "population": 74828
+        },
+        {
+          "name": "Waterloo",
+          "slug": "waterloo",
+          "population": 67328
+        },
+        {
+          "name": "Ames",
+          "slug": "ames",
+          "population": 66427
+        },
+        {
+          "name": "West Des Moines",
+          "slug": "west-des-moines",
+          "population": 72378
+        },
+        {
+          "name": "Council Bluffs",
+          "slug": "council-bluffs",
+          "population": 62799
+        },
+        {
+          "name": "Ankeny",
+          "slug": "ankeny",
+          "population": 78176
+        }
+      ]
+    },
+    {
+      "name": "Kansas",
+      "code": "KS",
+      "slug": "kansas",
+      "cities": [
+        {
+          "name": "Wichita",
+          "slug": "wichita",
+          "population": 397532
+        },
+        {
+          "name": "Overland Park",
+          "slug": "overland-park",
+          "population": 198466
+        },
+        {
+          "name": "Kansas City",
+          "slug": "kansas-city",
+          "population": 152938
+        },
+        {
+          "name": "Olathe",
+          "slug": "olathe",
+          "population": 147402
+        },
+        {
+          "name": "Topeka",
+          "slug": "topeka",
+          "population": 125353
+        },
+        {
+          "name": "Lawrence",
+          "slug": "lawrence",
+          "population": 94934
+        },
+        {
+          "name": "Shawnee",
+          "slug": "shawnee",
+          "population": 68895
+        },
+        {
+          "name": "Manhattan",
+          "slug": "manhattan",
+          "population": 54291
+        },
+        {
+          "name": "Lenexa",
+          "slug": "lenexa",
+          "population": 58701
+        },
+        {
+          "name": "Salina",
+          "slug": "salina",
+          "population": 46126
+        }
+      ]
+    },
+    {
+      "name": "Kentucky",
+      "code": "KY",
+      "slug": "kentucky",
+      "cities": [
+        {
+          "name": "Louisville",
+          "slug": "louisville",
+          "population": 622981
+        },
+        {
+          "name": "Lexington",
+          "slug": "lexington",
+          "population": 322570
+        },
+        {
+          "name": "Bowling Green",
+          "slug": "bowling-green",
+          "population": 75637
+        },
+        {
+          "name": "Owensboro",
+          "slug": "owensboro",
+          "population": 60183
+        },
+        {
+          "name": "Covington",
+          "slug": "covington",
+          "population": 41176
+        },
+        {
+          "name": "Georgetown",
+          "slug": "georgetown",
+          "population": 39913
+        },
+        {
+          "name": "Richmond",
+          "slug": "richmond",
+          "population": 37074
+        },
+        {
+          "name": "Florence",
+          "slug": "florence",
+          "population": 33752
+        },
+        {
+          "name": "Hopkinsville",
+          "slug": "hopkinsville",
+          "population": 30840
+        },
+        {
+          "name": "Elizabethtown",
+          "slug": "elizabethtown",
+          "population": 33033
+        }
+      ]
+    },
+    {
+      "name": "Louisiana",
+      "code": "LA",
+      "slug": "louisiana",
+      "cities": [
+        {
+          "name": "New Orleans",
+          "slug": "new-orleans",
+          "population": 364136
+        },
+        {
+          "name": "Baton Rouge",
+          "slug": "baton-rouge",
+          "population": 217665
+        },
+        {
+          "name": "Shreveport",
+          "slug": "shreveport",
+          "population": 180396
+        },
+        {
+          "name": "Lafayette",
+          "slug": "lafayette",
+          "population": 121374
+        },
+        {
+          "name": "Lake Charles",
+          "slug": "lake-charles",
+          "population": 81323
+        },
+        {
+          "name": "Kenner",
+          "slug": "kenner",
+          "population": 65814
+        },
+        {
+          "name": "Bossier City",
+          "slug": "bossier-city",
+          "population": 68508
+        },
+        {
+          "name": "Monroe",
+          "slug": "monroe",
+          "population": 46968
+        },
+        {
+          "name": "Alexandria",
+          "slug": "alexandria",
+          "population": 45131
+        },
+        {
+          "name": "Houma",
+          "slug": "houma",
+          "population": 33406
+        }
+      ]
+    },
+    {
+      "name": "Maine",
+      "code": "ME",
+      "slug": "maine",
+      "cities": [
+        {
+          "name": "Portland",
+          "slug": "portland",
+          "population": 68408
+        },
+        {
+          "name": "Lewiston",
+          "slug": "lewiston",
+          "population": 36592
+        },
+        {
+          "name": "Bangor",
+          "slug": "bangor",
+          "population": 31903
+        },
+        {
+          "name": "South Portland",
+          "slug": "south-portland",
+          "population": 26498
+        },
+        {
+          "name": "Auburn",
+          "slug": "auburn",
+          "population": 24212
+        },
+        {
+          "name": "Biddeford",
+          "slug": "biddeford",
+          "population": 22552
+        },
+        {
+          "name": "Sanford",
+          "slug": "sanford",
+          "population": 21982
+        },
+        {
+          "name": "Brunswick",
+          "slug": "brunswick",
+          "population": 21756
+        },
+        {
+          "name": "Augusta",
+          "slug": "augusta",
+          "population": 18899
+        },
+        {
+          "name": "Scarborough",
+          "slug": "scarborough",
+          "population": 22135
+        }
+      ]
+    },
+    {
+      "name": "Maryland",
+      "code": "MD",
+      "slug": "maryland",
+      "cities": [
+        {
+          "name": "Baltimore",
+          "slug": "baltimore",
+          "population": 568271
+        },
+        {
+          "name": "Columbia",
+          "slug": "columbia",
+          "population": 104681
+        },
+        {
+          "name": "Germantown",
+          "slug": "germantown",
+          "population": 91249
+        },
+        {
+          "name": "Silver Spring",
+          "slug": "silver-spring",
+          "population": 81816
+        },
+        {
+          "name": "Waldorf",
+          "slug": "waldorf",
+          "population": 81410
+        },
+        {
+          "name": "Frederick",
+          "slug": "frederick",
+          "population": 85785
+        },
+        {
+          "name": "Ellicott City",
+          "slug": "ellicott-city",
+          "population": 75947
+        },
+        {
+          "name": "Glen Burnie",
+          "slug": "glen-burnie",
+          "population": 72891
+        },
+        {
+          "name": "Rockville",
+          "slug": "rockville",
+          "population": 67117
+        },
+        {
+          "name": "Gaithersburg",
+          "slug": "gaithersburg",
+          "population": 69657
+        }
+      ]
+    },
+    {
+      "name": "Massachusetts",
+      "code": "MA",
+      "slug": "massachusetts",
+      "cities": [
+        {
+          "name": "Boston",
+          "slug": "boston",
+          "population": 653833
+        },
+        {
+          "name": "Worcester",
+          "slug": "worcester",
+          "population": 207621
+        },
+        {
+          "name": "Springfield",
+          "slug": "springfield",
+          "population": 153672
+        },
+        {
+          "name": "Cambridge",
+          "slug": "cambridge",
+          "population": 118488
+        },
+        {
+          "name": "Lowell",
+          "slug": "lowell",
+          "population": 114804
+        },
+        {
+          "name": "Brockton",
+          "slug": "brockton",
+          "population": 105820
+        },
+        {
+          "name": "New Bedford",
+          "slug": "new-bedford",
+          "population": 100695
+        },
+        {
+          "name": "Quincy",
+          "slug": "quincy",
+          "population": 101636
+        },
+        {
+          "name": "Lynn",
+          "slug": "lynn",
+          "population": 100944
+        },
+        {
+          "name": "Newton",
+          "slug": "newton",
+          "population": 87980
+        }
+      ]
+    },
+    {
+      "name": "Michigan",
+      "code": "MI",
+      "slug": "michigan",
+      "cities": [
+        {
+          "name": "Detroit",
+          "slug": "detroit",
+          "population": 633218
+        },
+        {
+          "name": "Grand Rapids",
+          "slug": "grand-rapids",
+          "population": 197416
+        },
+        {
+          "name": "Warren",
+          "slug": "warren",
+          "population": 137135
+        },
+        {
+          "name": "Sterling Heights",
+          "slug": "sterling-heights",
+          "population": 133306
+        },
+        {
+          "name": "Ann Arbor",
+          "slug": "ann-arbor",
+          "population": 122536
+        },
+        {
+          "name": "Lansing",
+          "slug": "lansing",
+          "population": 112644
+        },
+        {
+          "name": "Dearborn",
+          "slug": "dearborn",
+          "population": 110349
+        },
+        {
+          "name": "Clinton",
+          "slug": "clinton",
+          "population": 100513
+        },
+        {
+          "name": "Livonia",
+          "slug": "livonia",
+          "population": 93971
+        },
+        {
+          "name": "Troy",
+          "slug": "troy",
+          "population": 87406
+        }
+      ]
+    },
+    {
+      "name": "Minnesota",
+      "code": "MN",
+      "slug": "minnesota",
+      "cities": [
+        {
+          "name": "Minneapolis",
+          "slug": "minneapolis",
+          "population": 425096
+        },
+        {
+          "name": "Saint Paul",
+          "slug": "saint-paul",
+          "population": 303176
+        },
+        {
+          "name": "Rochester",
+          "slug": "rochester",
+          "population": 125692
+        },
+        {
+          "name": "Bloomington",
+          "slug": "bloomington",
+          "population": 89987
+        },
+        {
+          "name": "Duluth",
+          "slug": "duluth",
+          "population": 86372
+        },
+        {
+          "name": "Brooklyn Park",
+          "slug": "brooklyn-park",
+          "population": 83603
+        },
+        {
+          "name": "Plymouth",
+          "slug": "plymouth",
+          "population": 81026
+        },
+        {
+          "name": "Woodbury",
+          "slug": "woodbury",
+          "population": 80884
+        },
+        {
+          "name": "Maple Grove",
+          "slug": "maple-grove",
+          "population": 74064
+        },
+        {
+          "name": "Eagan",
+          "slug": "eagan",
+          "population": 69855
+        }
+      ]
+    },
+    {
+      "name": "Mississippi",
+      "code": "MS",
+      "slug": "mississippi",
+      "cities": [
+        {
+          "name": "Jackson",
+          "slug": "jackson",
+          "population": 143776
+        },
+        {
+          "name": "Gulfport",
+          "slug": "gulfport",
+          "population": 72877
+        },
+        {
+          "name": "Southaven",
+          "slug": "southaven",
+          "population": 59856
+        },
+        {
+          "name": "Biloxi",
+          "slug": "biloxi",
+          "population": 48550
+        },
+        {
+          "name": "Hattiesburg",
+          "slug": "hattiesburg",
+          "population": 48730
+        },
+        {
+          "name": "Olive Branch",
+          "slug": "olive-branch",
+          "population": 40811
+        },
+        {
+          "name": "Tupelo",
+          "slug": "tupelo",
+          "population": 37923
+        },
+        {
+          "name": "Meridian",
+          "slug": "meridian",
+          "population": 34068
+        },
+        {
+          "name": "Greenville",
+          "slug": "greenville",
+          "population": 27923
+        },
+        {
+          "name": "Madison",
+          "slug": "madison",
+          "population": 29228
+        }
+      ]
+    },
+    {
+      "name": "Missouri",
+      "code": "MO",
+      "slug": "missouri",
+      "cities": [
+        {
+          "name": "Kansas City",
+          "slug": "kansas-city",
+          "population": 510704
+        },
+        {
+          "name": "St. Louis",
+          "slug": "st-louis",
+          "population": 281754
+        },
+        {
+          "name": "Springfield",
+          "slug": "springfield",
+          "population": 170188
+        },
+        {
+          "name": "Columbia",
+          "slug": "columbia",
+          "population": 130728
+        },
+        {
+          "name": "Independence",
+          "slug": "independence",
+          "population": 122611
+        },
+        {
+          "name": "Lee's Summit",
+          "slug": "lees-summit",
+          "population": 104604
+        },
+        {
+          "name": "O'Fallon",
+          "slug": "ofallon",
+          "population": 94648
+        },
+        {
+          "name": "St. Joseph",
+          "slug": "st-joseph",
+          "population": 71284
+        },
+        {
+          "name": "St. Charles",
+          "slug": "st-charles",
+          "population": 72559
+        },
+        {
+          "name": "Blue Springs",
+          "slug": "blue-springs",
+          "population": 59901
+        }
+      ]
+    },
+    {
+      "name": "Montana",
+      "code": "MT",
+      "slug": "montana",
+      "cities": [
+        {
+          "name": "Billings",
+          "slug": "billings",
+          "population": 122336
+        },
+        {
+          "name": "Missoula",
+          "slug": "missoula",
+          "population": 76090
+        },
+        {
+          "name": "Great Falls",
+          "slug": "great-falls",
+          "population": 60049
+        },
+        {
+          "name": "Bozeman",
+          "slug": "bozeman",
+          "population": 59136
+        },
+        {
+          "name": "Butte",
+          "slug": "butte",
+          "population": 35135
+        },
+        {
+          "name": "Helena",
+          "slug": "helena",
+          "population": 34690
+        },
+        {
+          "name": "Kalispell",
+          "slug": "kalispell",
+          "population": 30798
+        },
+        {
+          "name": "Havre",
+          "slug": "havre",
+          "population": 9632
+        },
+        {
+          "name": "Anaconda",
+          "slug": "anaconda",
+          "population": 9421
+        },
+        {
+          "name": "Miles City",
+          "slug": "miles-city",
+          "population": 8640
+        }
+      ]
+    },
+    {
+      "name": "Nebraska",
+      "code": "NE",
+      "slug": "nebraska",
+      "cities": [
+        {
+          "name": "Omaha",
+          "slug": "omaha",
+          "population": 489230
+        },
+        {
+          "name": "Lincoln",
+          "slug": "lincoln",
+          "population": 295178
+        },
+        {
+          "name": "Bellevue",
+          "slug": "bellevue",
+          "population": 64176
+        },
+        {
+          "name": "Grand Island",
+          "slug": "grand-island",
+          "population": 53131
+        },
+        {
+          "name": "Kearney",
+          "slug": "kearney",
+          "population": 34361
+        },
+        {
+          "name": "Fremont",
+          "slug": "fremont",
+          "population": 27288
+        },
+        {
+          "name": "Hastings",
+          "slug": "hastings",
+          "population": 24903
+        },
+        {
+          "name": "North Platte",
+          "slug": "north-platte",
+          "population": 23252
+        },
+        {
+          "name": "Norfolk",
+          "slug": "norfolk",
+          "population": 25095
+        },
+        {
+          "name": "Columbus",
+          "slug": "columbus",
+          "population": 24464
+        }
+      ]
+    },
+    {
+      "name": "Nevada",
+      "code": "NV",
+      "slug": "nevada",
+      "cities": [
+        {
+          "name": "Las Vegas",
+          "slug": "las-vegas",
+          "population": 660929
+        },
+        {
+          "name": "Henderson",
+          "slug": "henderson",
+          "population": 341776
+        },
+        {
+          "name": "North Las Vegas",
+          "slug": "north-las-vegas",
+          "population": 280543
+        },
+        {
+          "name": "Reno",
+          "slug": "reno",
+          "population": 275224
+        },
+        {
+          "name": "Enterprise",
+          "slug": "enterprise",
+          "population": 237995
+        },
+        {
+          "name": "Sparks",
+          "slug": "sparks",
+          "population": 111626
+        },
+        {
+          "name": "Spring Valley",
+          "slug": "spring-valley",
+          "population": 219122
+        },
+        {
+          "name": "Sunrise Manor",
+          "slug": "sunrise-manor",
+          "population": 205618
+        },
+        {
+          "name": "Paradise",
+          "slug": "paradise",
+          "population": 189362
+        },
+        {
+          "name": "Carson City",
+          "slug": "carson-city",
+          "population": 58639
+        }
+      ]
+    },
+    {
+      "name": "New Hampshire",
+      "code": "NH",
+      "slug": "new-hampshire",
+      "cities": [
+        {
+          "name": "Manchester",
+          "slug": "manchester",
+          "population": 116015
+        },
+        {
+          "name": "Nashua",
+          "slug": "nashua",
+          "population": 91585
+        },
+        {
+          "name": "Concord",
+          "slug": "concord",
+          "population": 44606
+        },
+        {
+          "name": "Derry",
+          "slug": "derry",
+          "population": 34473
+        },
+        {
+          "name": "Dover",
+          "slug": "dover",
+          "population": 33215
+        },
+        {
+          "name": "Rochester",
+          "slug": "rochester",
+          "population": 33320
+        },
+        {
+          "name": "Salem",
+          "slug": "salem",
+          "population": 30388
+        },
+        {
+          "name": "Merrimack",
+          "slug": "merrimack",
+          "population": 27254
+        },
+        {
+          "name": "Hudson",
+          "slug": "hudson",
+          "population": 25919
+        },
+        {
+          "name": "Londonderry",
+          "slug": "londonderry",
+          "population": 26442
+        }
+      ]
+    },
+    {
+      "name": "New Jersey",
+      "code": "NJ",
+      "slug": "new-jersey",
+      "cities": [
+        {
+          "name": "Newark",
+          "slug": "newark",
+          "population": 305153
+        },
+        {
+          "name": "Jersey City",
+          "slug": "jersey-city",
+          "population": 291657
+        },
+        {
+          "name": "Paterson",
+          "slug": "paterson",
+          "population": 159732
+        },
+        {
+          "name": "Elizabeth",
+          "slug": "elizabeth",
+          "population": 139412
+        },
+        {
+          "name": "Lakewood",
+          "slug": "lakewood",
+          "population": 139506
+        },
+        {
+          "name": "Edison",
+          "slug": "edison",
+          "population": 108545
+        },
+        {
+          "name": "Woodbridge",
+          "slug": "woodbridge",
+          "population": 103639
+        },
+        {
+          "name": "Toms River",
+          "slug": "toms-river",
+          "population": 98088
+        },
+        {
+          "name": "Hamilton",
+          "slug": "hamilton",
+          "population": 90415
+        },
+        {
+          "name": "Trenton",
+          "slug": "trenton",
+          "population": 90871
+        }
+      ]
+    },
+    {
+      "name": "New Mexico",
+      "code": "NM",
+      "slug": "new-mexico",
+      "cities": [
+        {
+          "name": "Albuquerque",
+          "slug": "albuquerque",
+          "population": 562599
+        },
+        {
+          "name": "Las Cruces",
+          "slug": "las-cruces",
+          "population": 115902
+        },
+        {
+          "name": "Rio Rancho",
+          "slug": "rio-rancho",
+          "population": 109975
+        },
+        {
+          "name": "Santa Fe",
+          "slug": "santa-fe",
+          "population": 89008
+        },
+        {
+          "name": "Roswell",
+          "slug": "roswell",
+          "population": 47774
+        },
+        {
+          "name": "Farmington",
+          "slug": "farmington",
+          "population": 45328
+        },
+        {
+          "name": "Hobbs",
+          "slug": "hobbs",
+          "population": 40508
+        },
+        {
+          "name": "Clovis",
+          "slug": "clovis",
+          "population": 37082
+        },
+        {
+          "name": "Alamogordo",
+          "slug": "alamogordo",
+          "population": 31384
+        },
+        {
+          "name": "Carlsbad",
+          "slug": "carlsbad",
+          "population": 32238
+        }
+      ]
+    },
+    {
+      "name": "New York",
+      "code": "NY",
+      "slug": "new-york",
+      "cities": [
+        {
+          "name": "New York",
+          "slug": "new-york",
+          "population": 8478072
+        },
+        {
+          "name": "Buffalo",
+          "slug": "buffalo",
+          "population": 274678
+        },
+        {
+          "name": "Rochester",
+          "slug": "rochester",
+          "population": 209352
+        },
+        {
+          "name": "Yonkers",
+          "slug": "yonkers",
+          "population": 213061
+        },
+        {
+          "name": "Syracuse",
+          "slug": "syracuse",
+          "population": 146445
+        },
+        {
+          "name": "Albany",
+          "slug": "albany",
+          "population": 100826
+        },
+        {
+          "name": "New Rochelle",
+          "slug": "new-rochelle",
+          "population": 83477
+        },
+        {
+          "name": "Mount Vernon",
+          "slug": "mount-vernon",
+          "population": 72715
+        },
+        {
+          "name": "Schenectady",
+          "slug": "schenectady",
+          "population": 67387
+        },
+        {
+          "name": "Utica",
+          "slug": "utica",
+          "population": 64994
+        }
+      ]
+    },
+    {
+      "name": "North Carolina",
+      "code": "NC",
+      "slug": "north-carolina",
+      "cities": [
+        {
+          "name": "Charlotte",
+          "slug": "charlotte",
+          "population": 943476
+        },
+        {
+          "name": "Raleigh",
+          "slug": "raleigh",
+          "population": 482295
+        },
+        {
+          "name": "Greensboro",
+          "slug": "greensboro",
+          "population": 305052
+        },
+        {
+          "name": "Durham",
+          "slug": "durham",
+          "population": 296186
+        },
+        {
+          "name": "Winston-Salem",
+          "slug": "winston-salem",
+          "population": 254149
+        },
+        {
+          "name": "Fayetteville",
+          "slug": "fayetteville",
+          "population": 213575
+        },
+        {
+          "name": "Cary",
+          "slug": "cary",
+          "population": 184812
+        },
+        {
+          "name": "Wilmington",
+          "slug": "wilmington",
+          "population": 125259
+        },
+        {
+          "name": "High Point",
+          "slug": "high-point",
+          "population": 116063
+        },
+        {
+          "name": "Concord",
+          "slug": "concord",
+          "population": 117396
+        }
+      ]
+    },
+    {
+      "name": "North Dakota",
+      "code": "ND",
+      "slug": "north-dakota",
+      "cities": [
+        {
+          "name": "Fargo",
+          "slug": "fargo",
+          "population": 133188
+        },
+        {
+          "name": "Bismarck",
+          "slug": "bismarck",
+          "population": 75073
+        },
+        {
+          "name": "Grand Forks",
+          "slug": "grand-forks",
+          "population": 59166
+        },
+        {
+          "name": "Minot",
+          "slug": "minot",
+          "population": 48377
+        },
+        {
+          "name": "West Fargo",
+          "slug": "west-fargo",
+          "population": 40660
+        },
+        {
+          "name": "Williston",
+          "slug": "williston",
+          "population": 29299
+        },
+        {
+          "name": "Dickinson",
+          "slug": "dickinson",
+          "population": 25679
+        },
+        {
+          "name": "Mandan",
+          "slug": "mandan",
+          "population": 24949
+        },
+        {
+          "name": "Jamestown",
+          "slug": "jamestown",
+          "population": 15511
+        },
+        {
+          "name": "Wahpeton",
+          "slug": "wahpeton",
+          "population": 7744
+        }
+      ]
+    },
+    {
+      "name": "Ohio",
+      "code": "OH",
+      "slug": "ohio",
+      "cities": [
+        {
+          "name": "Columbus",
+          "slug": "columbus",
+          "population": 913175
+        },
+        {
+          "name": "Cleveland",
+          "slug": "cleveland",
+          "population": 362656
+        },
+        {
+          "name": "Cincinnati",
+          "slug": "cincinnati",
+          "population": 311097
+        },
+        {
+          "name": "Toledo",
+          "slug": "toledo",
+          "population": 263049
+        },
+        {
+          "name": "Akron",
+          "slug": "akron",
+          "population": 188509
+        },
+        {
+          "name": "Dayton",
+          "slug": "dayton",
+          "population": 135944
+        },
+        {
+          "name": "Parma",
+          "slug": "parma",
+          "population": 80429
+        },
+        {
+          "name": "Canton",
+          "slug": "canton",
+          "population": 69894
+        },
+        {
+          "name": "Youngstown",
+          "slug": "youngstown",
+          "population": 59219
+        },
+        {
+          "name": "Lorain",
+          "slug": "lorain",
+          "population": 64028
+        }
+      ]
+    },
+    {
+      "name": "Oklahoma",
+      "code": "OK",
+      "slug": "oklahoma",
+      "cities": [
+        {
+          "name": "Oklahoma City",
+          "slug": "oklahoma-city",
+          "population": 712919
+        },
+        {
+          "name": "Tulsa",
+          "slug": "tulsa",
+          "population": 411894
+        },
+        {
+          "name": "Norman",
+          "slug": "norman",
+          "population": 130817
+        },
+        {
+          "name": "Broken Arrow",
+          "slug": "broken-arrow",
+          "population": 119233
+        },
+        {
+          "name": "Edmond",
+          "slug": "edmond",
+          "population": 96323
+        },
+        {
+          "name": "Lawton",
+          "slug": "lawton",
+          "population": 89621
+        },
+        {
+          "name": "Moore",
+          "slug": "moore",
+          "population": 63374
+        },
+        {
+          "name": "Midwest City",
+          "slug": "midwest-city",
+          "population": 58148
+        },
+        {
+          "name": "Enid",
+          "slug": "enid",
+          "population": 51308
+        },
+        {
+          "name": "Stillwater",
+          "slug": "stillwater",
+          "population": 50299
+        }
+      ]
+    },
+    {
+      "name": "Oregon",
+      "code": "OR",
+      "slug": "oregon",
+      "cities": [
+        {
+          "name": "Portland",
+          "slug": "portland",
+          "population": 630498
+        },
+        {
+          "name": "Salem",
+          "slug": "salem",
+          "population": 180406
+        },
+        {
+          "name": "Eugene",
+          "slug": "eugene",
+          "population": 177899
+        },
+        {
+          "name": "Gresham",
+          "slug": "gresham",
+          "population": 112307
+        },
+        {
+          "name": "Hillsboro",
+          "slug": "hillsboro",
+          "population": 110617
+        },
+        {
+          "name": "Bend",
+          "slug": "bend",
+          "population": 107421
+        },
+        {
+          "name": "Beaverton",
+          "slug": "beaverton",
+          "population": 96577
+        },
+        {
+          "name": "Medford",
+          "slug": "medford",
+          "population": 89615
+        },
+        {
+          "name": "Springfield",
+          "slug": "springfield",
+          "population": 61804
+        },
+        {
+          "name": "Corvallis",
+          "slug": "corvallis",
+          "population": 61354
+        }
+      ]
+    },
+    {
+      "name": "Pennsylvania",
+      "code": "PA",
+      "slug": "pennsylvania",
+      "cities": [
+        {
+          "name": "Philadelphia",
+          "slug": "philadelphia",
+          "population": 1573916
+        },
+        {
+          "name": "Pittsburgh",
+          "slug": "pittsburgh",
+          "population": 303255
+        },
+        {
+          "name": "Allentown",
+          "slug": "allentown",
+          "population": 126777
+        },
+        {
+          "name": "Reading",
+          "slug": "reading",
+          "population": 95112
+        },
+        {
+          "name": "Erie",
+          "slug": "erie",
+          "population": 93747
+        },
+        {
+          "name": "Upper Darby",
+          "slug": "upper-darby",
+          "population": 85681
+        },
+        {
+          "name": "Scranton",
+          "slug": "scranton",
+          "population": 76328
+        },
+        {
+          "name": "Bethlehem",
+          "slug": "bethlehem",
+          "population": 75781
+        },
+        {
+          "name": "Lancaster",
+          "slug": "lancaster",
+          "population": 58039
+        },
+        {
+          "name": "Harrisburg",
+          "slug": "harrisburg",
+          "population": 50267
+        }
+      ]
+    },
+    {
+      "name": "Rhode Island",
+      "code": "RI",
+      "slug": "rhode-island",
+      "cities": [
+        {
+          "name": "Providence",
+          "slug": "providence",
+          "population": 189692
+        },
+        {
+          "name": "Cranston",
+          "slug": "cranston",
+          "population": 83572
+        },
+        {
+          "name": "Warwick",
+          "slug": "warwick",
+          "population": 82823
+        },
+        {
+          "name": "Pawtucket",
+          "slug": "pawtucket",
+          "population": 75604
+        },
+        {
+          "name": "East Providence",
+          "slug": "east-providence",
+          "population": 47090
+        },
+        {
+          "name": "Woonsocket",
+          "slug": "woonsocket",
+          "population": 43376
+        },
+        {
+          "name": "Coventry",
+          "slug": "coventry",
+          "population": 36114
+        },
+        {
+          "name": "Cumberland",
+          "slug": "cumberland",
+          "population": 37178
+        },
+        {
+          "name": "North Providence",
+          "slug": "north-providence",
+          "population": 34114
+        },
+        {
+          "name": "West Warwick",
+          "slug": "west-warwick",
+          "population": 31012
+        }
+      ]
+    },
+    {
+      "name": "South Carolina",
+      "code": "SC",
+      "slug": "south-carolina",
+      "cities": [
+        {
+          "name": "Charleston",
+          "slug": "charleston",
+          "population": 161065
+        },
+        {
+          "name": "Columbia",
+          "slug": "columbia",
+          "population": 141887
+        },
+        {
+          "name": "North Charleston",
+          "slug": "north-charleston",
+          "population": 120572
+        },
+        {
+          "name": "Mount Pleasant",
+          "slug": "mount-pleasant",
+          "population": 99999
+        },
+        {
+          "name": "Rock Hill",
+          "slug": "rock-hill",
+          "population": 76572
+        },
+        {
+          "name": "Greenville",
+          "slug": "greenville",
+          "population": 76018
+        },
+        {
+          "name": "Summerville",
+          "slug": "summerville",
+          "population": 53876
+        },
+        {
+          "name": "Goose Creek",
+          "slug": "goose-creek",
+          "population": 49160
+        },
+        {
+          "name": "Sumter",
+          "slug": "sumter",
+          "population": 42962
+        },
+        {
+          "name": "Hilton Head Island",
+          "slug": "hilton-head-island",
+          "population": 37995
+        }
+      ]
+    },
+    {
+      "name": "South Dakota",
+      "code": "SD",
+      "slug": "south-dakota",
+      "cities": [
+        {
+          "name": "Sioux Falls",
+          "slug": "sioux-falls",
+          "population": 213891
+        },
+        {
+          "name": "Rapid City",
+          "slug": "rapid-city",
+          "population": 79849
+        },
+        {
+          "name": "Aberdeen",
+          "slug": "aberdeen",
+          "population": 28495
+        },
+        {
+          "name": "Brookings",
+          "slug": "brookings",
+          "population": 24088
+        },
+        {
+          "name": "Watertown",
+          "slug": "watertown",
+          "population": 22655
+        },
+        {
+          "name": "Mitchell",
+          "slug": "mitchell",
+          "population": 15894
+        },
+        {
+          "name": "Yankton",
+          "slug": "yankton",
+          "population": 15597
+        },
+        {
+          "name": "Pierre",
+          "slug": "pierre",
+          "population": 14091
+        },
+        {
+          "name": "Huron",
+          "slug": "huron",
+          "population": 14263
+        },
+        {
+          "name": "Vermillion",
+          "slug": "vermillion",
+          "population": 11921
+        }
+      ]
+    },
+    {
+      "name": "Tennessee",
+      "code": "TN",
+      "slug": "tennessee",
+      "cities": [
+        {
+          "name": "Nashville",
+          "slug": "nashville",
+          "population": 683622
+        },
+        {
+          "name": "Memphis",
+          "slug": "memphis",
+          "population": 618639
+        },
+        {
+          "name": "Knoxville",
+          "slug": "knoxville",
+          "population": 200750
+        },
+        {
+          "name": "Chattanooga",
+          "slug": "chattanooga",
+          "population": 187030
+        },
+        {
+          "name": "Clarksville",
+          "slug": "clarksville",
+          "population": 177269
+        },
+        {
+          "name": "Murfreesboro",
+          "slug": "murfreesboro",
+          "population": 170958
+        },
+        {
+          "name": "Franklin",
+          "slug": "franklin",
+          "population": 90018
+        },
+        {
+          "name": "Jackson",
+          "slug": "jackson",
+          "population": 68205
+        },
+        {
+          "name": "Johnson City",
+          "slug": "johnson-city",
+          "population": 72253
+        },
+        {
+          "name": "Kingsport",
+          "slug": "kingsport",
+          "population": 56209
+        }
+      ]
+    },
+    {
+      "name": "Texas",
+      "code": "TX",
+      "slug": "texas",
+      "cities": [
+        {
+          "name": "Houston",
+          "slug": "houston",
+          "population": 2390125
+        },
+        {
+          "name": "San Antonio",
+          "slug": "san-antonio",
+          "population": 1526656
+        },
+        {
+          "name": "Dallas",
+          "slug": "dallas",
+          "population": 1326087
+        },
+        {
+          "name": "Austin",
+          "slug": "austin",
+          "population": 979882
+        },
+        {
+          "name": "Fort Worth",
+          "slug": "fort-worth",
+          "population": 1008106
+        },
+        {
+          "name": "El Paso",
+          "slug": "el-paso",
+          "population": 681728
+        },
+        {
+          "name": "Arlington",
+          "slug": "arlington",
+          "population": 398854
+        },
+        {
+          "name": "Corpus Christi",
+          "slug": "corpus-christi",
+          "population": 320069
+        },
+        {
+          "name": "Plano",
+          "slug": "plano",
+          "population": 292469
+        },
+        {
+          "name": "Lubbock",
+          "slug": "lubbock",
+          "population": 267115
+        }
+      ]
+    },
+    {
+      "name": "Utah",
+      "code": "UT",
+      "slug": "utah",
+      "cities": [
+        {
+          "name": "Salt Lake City",
+          "slug": "salt-lake-city",
+          "population": 208275
+        },
+        {
+          "name": "West Valley City",
+          "slug": "west-valley-city",
+          "population": 141391
+        },
+        {
+          "name": "West Jordan",
+          "slug": "west-jordan",
+          "population": 118096
+        },
+        {
+          "name": "Provo",
+          "slug": "provo",
+          "population": 115162
+        },
+        {
+          "name": "Orem",
+          "slug": "orem",
+          "population": 98129
+        },
+        {
+          "name": "Sandy",
+          "slug": "sandy",
+          "population": 96380
+        },
+        {
+          "name": "St. George",
+          "slug": "st-george",
+          "population": 110292
+        },
+        {
+          "name": "Ogden",
+          "slug": "ogden",
+          "population": 87321
+        },
+        {
+          "name": "Lehi",
+          "slug": "lehi",
+          "population": 86373
+        },
+        {
+          "name": "Layton",
+          "slug": "layton",
+          "population": 84665
+        }
+      ]
+    },
+    {
+      "name": "Vermont",
+      "code": "VT",
+      "slug": "vermont",
+      "cities": [
+        {
+          "name": "Burlington",
+          "slug": "burlington",
+          "population": 44743
+        },
+        {
+          "name": "South Burlington",
+          "slug": "south-burlington",
+          "population": 20292
+        },
+        {
+          "name": "Rutland",
+          "slug": "rutland",
+          "population": 15807
+        },
+        {
+          "name": "Essex",
+          "slug": "essex",
+          "population": 22094
+        },
+        {
+          "name": "Colchester",
+          "slug": "colchester",
+          "population": 17524
+        },
+        {
+          "name": "Bennington",
+          "slug": "bennington",
+          "population": 15333
+        },
+        {
+          "name": "Barre",
+          "slug": "barre",
+          "population": 8491
+        },
+        {
+          "name": "Brattleboro",
+          "slug": "brattleboro",
+          "population": 12211
+        },
+        {
+          "name": "Montpelier",
+          "slug": "montpelier",
+          "population": 8074
+        },
+        {
+          "name": "Middlebury",
+          "slug": "middlebury",
+          "population": 9152
+        }
+      ]
+    },
+    {
+      "name": "Virginia",
+      "code": "VA",
+      "slug": "virginia",
+      "cities": [
+        {
+          "name": "Virginia Beach",
+          "slug": "virginia-beach",
+          "population": 453649
+        },
+        {
+          "name": "Chesapeake",
+          "slug": "chesapeake",
+          "population": 259903
+        },
+        {
+          "name": "Arlington",
+          "slug": "arlington",
+          "population": 237521
+        },
+        {
+          "name": "Norfolk",
+          "slug": "norfolk",
+          "population": 232995
+        },
+        {
+          "name": "Richmond",
+          "slug": "richmond",
+          "population": 229247
+        },
+        {
+          "name": "Newport News",
+          "slug": "newport-news",
+          "population": 184220
+        },
+        {
+          "name": "Alexandria",
+          "slug": "alexandria",
+          "population": 158350
+        },
+        {
+          "name": "Hampton",
+          "slug": "hampton",
+          "population": 137033
+        },
+        {
+          "name": "Roanoke",
+          "slug": "roanoke",
+          "population": 99143
+        },
+        {
+          "name": "Suffolk",
+          "slug": "suffolk",
+          "population": 100659
+        }
+      ]
+    },
+    {
+      "name": "Washington",
+      "code": "WA",
+      "slug": "washington",
+      "cities": [
+        {
+          "name": "Seattle",
+          "slug": "seattle",
+          "population": 755078
+        },
+        {
+          "name": "Spokane",
+          "slug": "spokane",
+          "population": 229071
+        },
+        {
+          "name": "Tacoma",
+          "slug": "tacoma",
+          "population": 222906
+        },
+        {
+          "name": "Vancouver",
+          "slug": "vancouver",
+          "population": 196442
+        },
+        {
+          "name": "Bellevue",
+          "slug": "bellevue",
+          "population": 152493
+        },
+        {
+          "name": "Kent",
+          "slug": "kent",
+          "population": 137884
+        },
+        {
+          "name": "Everett",
+          "slug": "everett",
+          "population": 112710
+        },
+        {
+          "name": "Renton",
+          "slug": "renton",
+          "population": 107900
+        },
+        {
+          "name": "Spokane Valley",
+          "slug": "spokane-valley",
+          "population": 108980
+        },
+        {
+          "name": "Federal Way",
+          "slug": "federal-way",
+          "population": 101030
+        }
+      ]
+    },
+    {
+      "name": "West Virginia",
+      "code": "WV",
+      "slug": "west-virginia",
+      "cities": [
+        {
+          "name": "Charleston",
+          "slug": "charleston",
+          "population": 46838
+        },
+        {
+          "name": "Huntington",
+          "slug": "huntington",
+          "population": 45325
+        },
+        {
+          "name": "Morgantown",
+          "slug": "morgantown",
+          "population": 30347
+        },
+        {
+          "name": "Parkersburg",
+          "slug": "parkersburg",
+          "population": 28486
+        },
+        {
+          "name": "Wheeling",
+          "slug": "wheeling",
+          "population": 26207
+        },
+        {
+          "name": "Weirton",
+          "slug": "weirton",
+          "population": 18359
+        },
+        {
+          "name": "Fairmont",
+          "slug": "fairmont",
+          "population": 18145
+        },
+        {
+          "name": "Martinsburg",
+          "slug": "martinsburg",
+          "population": 19245
+        },
+        {
+          "name": "Beckley",
+          "slug": "beckley",
+          "population": 15697
+        },
+        {
+          "name": "Clarksburg",
+          "slug": "clarksburg",
+          "population": 15743
+        }
+      ]
+    },
+    {
+      "name": "Wisconsin",
+      "code": "WI",
+      "slug": "wisconsin",
+      "cities": [
+        {
+          "name": "Milwaukee",
+          "slug": "milwaukee",
+          "population": 561385
+        },
+        {
+          "name": "Madison",
+          "slug": "madison",
+          "population": 284615
+        },
+        {
+          "name": "Green Bay",
+          "slug": "green-bay",
+          "population": 108187
+        },
+        {
+          "name": "Kenosha",
+          "slug": "kenosha",
+          "population": 99778
+        },
+        {
+          "name": "Racine",
+          "slug": "racine",
+          "population": 76779
+        },
+        {
+          "name": "Appleton",
+          "slug": "appleton",
+          "population": 75644
+        },
+        {
+          "name": "Waukesha",
+          "slug": "waukesha",
+          "population": 71158
+        },
+        {
+          "name": "Oshkosh",
+          "slug": "oshkosh",
+          "population": 66489
+        },
+        {
+          "name": "Eau Claire",
+          "slug": "eau-claire",
+          "population": 70063
+        },
+        {
+          "name": "Janesville",
+          "slug": "janesville",
+          "population": 65651
+        }
+      ]
+    },
+    {
+      "name": "Wyoming",
+      "code": "WY",
+      "slug": "wyoming",
+      "cities": [
+        {
+          "name": "Cheyenne",
+          "slug": "cheyenne",
+          "population": 65165
+        },
+        {
+          "name": "Casper",
+          "slug": "casper",
+          "population": 58710
+        },
+        {
+          "name": "Laramie",
+          "slug": "laramie",
+          "population": 31562
+        },
+        {
+          "name": "Gillette",
+          "slug": "gillette",
+          "population": 33403
+        },
+        {
+          "name": "Rock Springs",
+          "slug": "rock-springs",
+          "population": 22998
+        },
+        {
+          "name": "Sheridan",
+          "slug": "sheridan",
+          "population": 19034
+        },
+        {
+          "name": "Green River",
+          "slug": "green-river",
+          "population": 11436
+        },
+        {
+          "name": "Evanston",
+          "slug": "evanston",
+          "population": 11364
+        },
+        {
+          "name": "Riverton",
+          "slug": "riverton",
+          "population": 11121
+        },
+        {
+          "name": "Jackson",
+          "slug": "jackson",
+          "population": 10647
+        }
+      ]
+    }
+  ],
+  "url_structure": "/[state]/[city]/[firm-slug]/"
+}

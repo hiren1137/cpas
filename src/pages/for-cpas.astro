@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const title = 'For CPAs — List Your Practice on Best CPA Near Me';
+const description = 'Are you a CPA? List your accounting practice on Best CPA Near Me and reach thousands of potential clients searching for accounting services.';
+const canonical = 'https://bestcpanearme.com/for-cpas/';
+---
+
+<BaseLayout title={title} description={description} canonical={canonical}>
+  <div class="container-main py-12">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'For CPAs' }]} />
+    <div class="max-w-3xl">
+      <h1 class="text-3xl md:text-4xl font-extrabold text-navy-900 mb-6">List Your CPA Practice</h1>
+      <p class="text-lg text-gray-600 mb-8">Join thousands of CPAs who use Best CPA Near Me to connect with new clients. Our directory helps potential clients find and reach you.</p>
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-10">
+        <div class="card p-5"><h3 class="font-bold text-navy-900 mb-2">📈 Increase Visibility</h3><p class="text-sm text-gray-600">Get found by clients actively searching for CPAs in your area.</p></div>
+        <div class="card p-5"><h3 class="font-bold text-navy-900 mb-2">⭐ Showcase Reviews</h3><p class="text-sm text-gray-600">Display your client reviews and ratings prominently.</p></div>
+        <div class="card p-5"><h3 class="font-bold text-navy-900 mb-2">📞 Direct Contact</h3><p class="text-sm text-gray-600">Clients can call, visit, or get directions directly from your listing.</p></div>
+        <div class="card p-5"><h3 class="font-bold text-navy-900 mb-2">🆓 Free Listing</h3><p class="text-sm text-gray-600">Basic listings are completely free. Premium features coming soon.</p></div>
+      </div>
+      <a href="/contact/" class="btn-primary">Get Started — Contact Us</a>
+    </div>
+  </div>
+</BaseLayout>

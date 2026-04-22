@@ -1,0 +1,28 @@
+---
+// NearbyFirms — links to other firms/cities nearby
+import type { City } from '../../lib/types';
+import { cityUrl } from '../../lib/urls';
+
+export interface Props {
+  cities: City[];
+  stateSlug: string;
+  currentCitySlug: string;
+  stateName: string;
+}
+const { cities, stateSlug, currentCitySlug, stateName } = Astro.props;
+const otherCities = cities.filter(c => c.slug !== currentCitySlug).slice(0, 9);
+---
+
+{otherCities.length > 0 && (
+  <section class="py-8">
+    <h2 class="text-xl font-bold text-navy-900 mb-4">Other Cities in {stateName}</h2>
+    <div class="flex flex-wrap gap-2">
+      {otherCities.map(city => (
+        <a href={cityUrl(stateSlug, city.slug)}
+           class="px-4 py-2 bg-gray-100 hover:bg-navy-50 text-sm text-gray-700 hover:text-navy-800 rounded-lg transition-colors">
+          {city.name}
+        </a>
+      ))}
+    </div>
+  </section>
+)}

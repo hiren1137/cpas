@@ -1,0 +1,49 @@
+---
+// FAQAccordion — 5 generic FAQ questions for firm pages
+export interface Props { stateName: string; }
+const { stateName } = Astro.props;
+
+const faqs = [
+  { q: 'Do I have to pay anything upfront for a consultation?', a: 'Most CPAs offer a free initial consultation to discuss your needs. During this meeting, they will assess your situation and provide an estimate of their fees. Payment terms vary by firm, but many offer flexible payment plans.' },
+  { q: `How long do I have to file my taxes in ${stateName}?`, a: `Tax filing deadlines in ${stateName} generally follow federal guidelines, with individual returns due April 15th. Extensions can be filed for an additional six months. Business tax deadlines vary by entity type. Consult your CPA for specific deadlines that apply to your situation.` },
+  { q: 'What types of clients do you work with?', a: 'CPAs typically work with a wide range of clients including individuals, small businesses, corporations, non-profit organizations, and estates. Many CPAs specialize in specific industries or client types to provide more targeted expertise.' },
+  { q: 'How long does it take to prepare a tax return?', a: 'The time to prepare a tax return varies depending on complexity. Simple individual returns may take a few days, while complex business returns can take several weeks. Your CPA will provide a timeline based on your specific situation and the volume of documentation involved.' },
+  { q: 'What services do CPAs typically provide?', a: 'CPAs offer a comprehensive range of services including tax preparation and planning, bookkeeping, financial statement preparation, auditing, business consulting, payroll services, estate planning, and IRS representation. Many also provide specialized services for specific industries.' },
+];
+---
+
+<section class="py-8">
+  <h2 class="text-xl font-bold text-navy-900 mb-6">Frequently Asked Questions</h2>
+  <div class="space-y-3" id="faq-accordion">
+    {faqs.map((faq, i) => (
+      <div class="card overflow-hidden">
+        <button
+          class="faq-toggle w-full px-5 py-4 text-left flex items-center justify-between gap-4 hover:bg-gray-50 transition-colors"
+          aria-expanded="false"
+          data-faq-index={i}
+        >
+          <span class="font-medium text-navy-900">{faq.q}</span>
+          <svg class="faq-chevron w-5 h-5 text-gray-400 flex-shrink-0 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+          </svg>
+        </button>
+        <div class="faq-content hidden px-5 pb-4">
+          <p class="text-gray-600 leading-relaxed">{faq.a}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
+<script>
+  document.querySelectorAll('.faq-toggle').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const content = btn.nextElementSibling;
+      const chevron = btn.querySelector('.faq-chevron');
+      const isOpen = !content?.classList.contains('hidden');
+      content?.classList.toggle('hidden');
+      chevron?.classList.toggle('rotate-180');
+      btn.setAttribute('aria-expanded', String(!isOpen));
+    });
+  });
+</script>

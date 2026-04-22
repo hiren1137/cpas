@@ -1,0 +1,142 @@
+{
+  "city": "Ketchikan",
+  "state": "Alaska",
+  "state_code": "AK",
+  "city_slug": "ketchikan",
+  "state_slug": "alaska",
+  "firm_count": 4,
+  "firms": [
+    {
+      "slug": "jay-m-johnson-cpa",
+      "name": "Jay M. Johnson, CPA",
+      "category": "Certified public accountant",
+      "phone": "+1 907-220-9970",
+      "site": "http://ketchikancpa.com/",
+      "address": "25 Jefferson Way Suite 202, Ketchikan, AK 99901",
+      "latitude": 55.3483308,
+      "longitude": -131.6769884,
+      "rating": 5,
+      "reviews": 3,
+      "logo": "",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHqR8gYNyCfcp7KO_gsuoKs_UW32SocAGXpCFWqXUqw_4OTiRqi8vyjZuVLgN6n8hVwOvRLBZF4t0dDOcHbnq4Kc8376MjFhk5A_ACyW5aks_V7yFR9JLvHPulkwA0ykEc8xPyPJg=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "milner-howard-palmer-and-edwards-cpas-pc",
+      "name": "Milner, Howard, Palmer & Edwards, CPAs (PC)",
+      "category": "Tax preparation service",
+      "phone": "+1 907-225-1040",
+      "site": "http://www.1953.tax/",
+      "address": "426 Main St, Ketchikan, AK 99901",
+      "latitude": 55.3435894,
+      "longitude": -131.6480297,
+      "rating": 5,
+      "reviews": 3,
+      "logo": "https://lh3.googleusercontent.com/-otTX_9ISO4I/AAAAAAAAAAI/AAAAAAAAAAA/p63GCE7rW_k/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFTQxYCP0W7FVEiqRUsxxFHBrDXHwLb9D_7TsyImDZg08aB_eYSHsiWmRF6gHYGwchQ-0RdPbHrhRN28ak3u2fUTCJnGogd3pWR5PxGepchpIdTblGZDQCTqZRxUPFfpWNCpIAZ=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "Closed",
+        "Monday": "8AM-4PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-4PM",
+        "Tuesday": "8AM-4PM",
+        "Wednesday": "8AM-4PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "teuscher-walpole-llc",
+      "name": "Teuscher Walpole, LLC",
+      "category": "Accountant",
+      "phone": "+1 801-619-1400",
+      "site": "https://teuscherwalpole.com/",
+      "address": "1734 Tongass Ave, Ketchikan, AK 99901",
+      "latitude": 55.348109,
+      "longitude": -131.6654475,
+      "rating": 5,
+      "reviews": 1,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=U3AHi8GFa1-ezvOzlP4ZaA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=7.0356655&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-4PM",
+        "Monday": "8AM-4PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-4PM",
+        "Tuesday": "8AM-4PM",
+        "Wednesday": "8AM-4PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "milner-howard-palmer-and-johnson-palmer-diane-j-cpa",
+      "name": "Milner Howard Palmer & Johnson Palmer Diane J CPA",
+      "category": "Accountant",
+      "phone": "+1 907-225-1040",
+      "site": "",
+      "address": "426 Main St, Ketchikan, AK 99901",
+      "latitude": 55.3435894,
+      "longitude": -131.6480297,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=aHpXVMGhyKXWEINM4e7Guw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=68.118935&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    }
+  ]
+}

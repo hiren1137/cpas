@@ -1,0 +1,99 @@
+---
+// Firm page — /[state]/[city]/[firm]/
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import FirmHero from '../../../components/firm/FirmHero.astro';
+import ReviewBreakdown from '../../../components/firm/ReviewBreakdown.astro';
+import ServicesGrid from '../../../components/firm/ServicesGrid.astro';
+import FAQAccordion from '../../../components/firm/FAQAccordion.astro';
+import ContactSidebar from '../../../components/firm/ContactSidebar.astro';
+import { getAllStates, getFirmsForCity, getCitiesForState } from '../../../lib/data';
+import { absoluteUrl, cityUrl, stateUrl, firmUrl } from '../../../lib/urls';
+import { breadcrumbSchemaOrg, firmSchemaOrg } from '../../../lib/seo';
+import type { Firm, State, City } from '../../../lib/types';
+
+export const getStaticPaths: GetStaticPaths = () => {
+  const states = getAllStates();
+  const paths = [];
+  for (const state of states) {
+    for (const city of state.cities) {
+      const firmData = getFirmsForCity(state.slug, city.slug);
+      for (const firm of firmData.firms) {
+        paths.push({
+          params: { state: state.slug, city: city.slug, firm: firm.slug },
+          props: { state, city, firm },
+        });
+      }
+    }
+  }
+  return paths;
+};
+
+interface Props {
+  state: State;
+  city: City;
+  firm: Firm;
+}
+
+const { state, city, firm } = Astro.props;
+
+const title = `${firm.name} — CPA in ${city.name}, ${state.name}`;
+const description = `${firm.name} is a ${firm.category || 'CPA'} in ${city.name}, ${state.name}. Rated ${firm.rating}/5 with ${firm.reviews} reviews. Call ${firm.phone || 'for a consultation'}.`.slice(0, 150);
+const canonical = absoluteUrl(firmUrl(state.slug, city.slug, firm.slug));
+
+const bcItems = [
+  { name: 'Home', url: 'https://bestcpanearme.com/' },
+  { name: state.name, url: absoluteUrl(stateUrl(state.slug)) },
+  { name: city.name, url: absoluteUrl(cityUrl(state.slug, city.slug)) },
+  { name: firm.name, url: canonical },
+];
+const bcSchema = breadcrumbSchemaOrg(bcItems);
+const firmSchema = firmSchemaOrg(firm, city.name, state.name, state.slug, city.slug);
+const schema = `[${bcSchema},${firmSchema}]`;
+
+const aboutText = `${firm.name} is a trusted ${firm.category || 'accounting firm'} serving clients in ${city.name}, ${state.name}. With an outstanding ${firm.rating}-star rating based on ${firm.reviews} client reviews, this firm has built a strong reputation for excellence in accounting and tax services. Located at ${firm.address}, they provide dedicated professional representation for individuals and businesses throughout the ${city.name} area.`;
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} schema={schema} ogType="business.business">
+  <FirmHero firm={firm} cityName={city.name} stateName={state.name} />
+
+  <div class="container-main py-6">
+    <Breadcrumbs items={[
+      { label: 'Home', href: '/' },
+      { label: state.name, href: stateUrl(state.slug) },
+      { label: city.name, href: cityUrl(state.slug, city.slug) },
+      { label: firm.name },
+    ]} />
+  </div>
+
+  <div class="container-main pb-16">
+    <div class="grid grid-cols-1 lg:grid-cols-3 gap-8">
+      <!-- Main content -->
+      <div class="lg:col-span-2 space-y-8">
+        <!-- About -->
+        <section>
+          <h2 class="text-xl font-bold text-navy-900 mb-4">About {firm.name}</h2>
+          <p class="text-gray-600 leading-relaxed">{aboutText}</p>
+        </section>
+
+        <ServicesGrid />
+
+        <ReviewBreakdown
+          reviewsPerScore={firm.reviews_per_score}
+          totalReviews={firm.reviews}
+          rating={firm.rating}
+        />
+
+        <FAQAccordion stateName={state.name} />
+      </div>
+
+      <!-- Sidebar -->
+      <div class="lg:col-span-1">
+        <div class="lg:sticky lg:top-24">
+          <ContactSidebar firm={firm} />
+        </div>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

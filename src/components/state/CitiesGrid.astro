@@ -1,0 +1,39 @@
+---
+// Cities Grid — grid of city cards for state pages
+import type { City } from '../../lib/types';
+import { cityUrl } from '../../lib/urls';
+import { getFirmsForCity } from '../../lib/data';
+
+export interface Props {
+  cities: City[];
+  stateSlug: string;
+  stateName: string;
+}
+const { cities, stateSlug, stateName } = Astro.props;
+---
+
+<section class="py-16">
+  <div class="container-main">
+    <h2 class="section-heading mb-8">Cities in {stateName}</h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4">
+      {cities.map(city => {
+        const firmData = getFirmsForCity(stateSlug, city.slug);
+        return (
+          <a href={cityUrl(stateSlug, city.slug)} class="card p-5 group hover:border-navy-300">
+            <div class="flex items-start justify-between">
+              <div>
+                <h3 class="font-semibold text-navy-900 group-hover:text-navy-600 transition-colors">
+                  {city.name}
+                </h3>
+                <p class="text-sm text-gray-500 mt-1">
+                  {firmData.firm_count > 0 ? `${firmData.firm_count} CPAs` : 'Coming soon'}
+                </p>
+              </div>
+              <span class="text-navy-400 group-hover:translate-x-1 transition-transform">→</span>
+            </div>
+          </a>
+        );
+      })}
+    </div>
+  </div>
+</section>

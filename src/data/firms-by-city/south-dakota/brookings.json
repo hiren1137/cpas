@@ -1,0 +1,175 @@
+{
+  "city": "Brookings",
+  "state": "South Dakota",
+  "state_code": "SD",
+  "city_slug": "brookings",
+  "state_slug": "south-dakota",
+  "firm_count": 5,
+  "firms": [
+    {
+      "slug": "steen-bookkeeping-services",
+      "name": "Steen Bookkeeping Services",
+      "category": "Tax preparation service",
+      "phone": "+1 605-692-4745",
+      "site": "https://splinternetmarketing.com/local-pros/sd/brookings/steen-bookkeeping-services/",
+      "address": "317 5th St, Brookings, SD 57006",
+      "latitude": 44.310412199999995,
+      "longitude": -96.7993776,
+      "rating": 5,
+      "reviews": 20,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=bUrYTZean1x2wEDzZa6xrw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=38.65491&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 19
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "trucount-cpa-pc",
+      "name": "TruCount CPA PC",
+      "category": "Certified public accountant",
+      "phone": "+1 866-936-8024",
+      "site": "http://www.trucountcpa.com/",
+      "address": "2301 Research Park Way #208, Brookings, SD 57006",
+      "latitude": 44.3204765,
+      "longitude": -96.7647377,
+      "rating": 5,
+      "reviews": 12,
+      "logo": "https://lh3.googleusercontent.com/-utIQQRK-gxU/AAAAAAAAAAI/AAAAAAAAAAA/I0O5EHiEfZg/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEfzYQUIYd4AUFrW4SupH02skqCKhPeiVr6JjeawLPd5y44HTkRjN21QX8iilMruFqn1g5TPL5qfIK6h4YjyoPpAOWRplpcvJNBLjDquI_tSLBNsxQ9mobhQEObbLrxZU3K8t7z=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "Closed",
+        "Monday": "8AM-4PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-4PM",
+        "Tuesday": "8AM-4PM",
+        "Wednesday": "8AM-4PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 12
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "kinner-and-company-ltd",
+      "name": "Kinner & Company Ltd",
+      "category": "Accountant",
+      "phone": "+1 605-692-2515",
+      "site": "http://www.kinner.cpa/",
+      "address": "404 3rd Ave, Brookings, SD 57006",
+      "latitude": 44.3093855,
+      "longitude": -96.7998205,
+      "rating": 4,
+      "reviews": 4,
+      "logo": "https://lh3.googleusercontent.com/-O79TUl4xIf4/AAAAAAAAAAI/AAAAAAAAAAA/YPB9medvRuU/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=KoeDqj1i-caDkgGgSzRJtg&cb_client=search.gws-prod.gps&w=800&h=500&yaw=102.875244&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 1,
+        "3": 0,
+        "4": 1,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "vrs-certified-public-accountants-and-consultants",
+      "name": "VRS Certified Public Accountants & Consultants",
+      "category": "Accountant",
+      "phone": "+1 605-692-8425",
+      "site": "http://vrscpa.com/",
+      "address": "520 3rd Ave Ste 1, Brookings, SD 57006",
+      "latitude": 44.3110904,
+      "longitude": -96.7998896,
+      "rating": 5,
+      "reviews": 7,
+      "logo": "https://lh3.googleusercontent.com/-2SWCJCnUlBU/AAAAAAAAAAI/AAAAAAAAAAA/rUoqpQtGjKY/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEuTRl4CaUyTpNQClZy0BiaedLfa1DNnK9cGW7t9eD8udMAp6sNGDHqKtsjA0VXuGuSP8QWaxOCSbTBG7dF827BW2zQ-UYaxcPqi85OeEQ36R4jBwMtM3pFSvVmFGr8vYoGmeRA=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-3PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 7
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "hildebrant-brian-j-pc",
+      "name": "Hildebrant Brian J PC",
+      "category": "Tax preparation service",
+      "phone": "+1 605-697-6404",
+      "site": "https://www.hildebrantcpa.com/",
+      "address": "417 8th St S, Brookings, SD 57006",
+      "latitude": 44.297397,
+      "longitude": -96.7974327,
+      "rating": 5,
+      "reviews": 1,
+      "logo": "https://lh4.googleusercontent.com/-g3_MfPokBkA/AAAAAAAAAAI/AAAAAAAAAAA/h6aWo_Scd4M/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=mD7uaYMLHjmouEf22vZ3ew&cb_client=search.gws-prod.gps&w=800&h=500&yaw=13.474225&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    }
+  ]
+}

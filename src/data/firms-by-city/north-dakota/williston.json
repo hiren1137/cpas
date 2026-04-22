@@ -1,0 +1,142 @@
+{
+  "city": "Williston",
+  "state": "North Dakota",
+  "state_code": "ND",
+  "city_slug": "williston",
+  "state_slug": "north-dakota",
+  "firm_count": 4,
+  "firms": [
+    {
+      "slug": "nehring-cpa",
+      "name": "Nehring CPA",
+      "category": "Accountant",
+      "phone": "+1 701-577-4622",
+      "site": "http://www.nehringcpa.com/",
+      "address": "716 2nd St W, Williston, ND 58801",
+      "latitude": 48.145499,
+      "longitude": -103.63416,
+      "rating": 4.3,
+      "reviews": 7,
+      "logo": "https://lh6.googleusercontent.com/-dSE-8feOHi8/AAAAAAAAAAI/AAAAAAAAAAA/IxQK4sQ1u9k/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=LpNAe7CcCDwqn1J-1_60tw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=339.28833&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "9AM-5PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 5
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "nok-accounting-and-financial-services",
+      "name": "NOK Accounting & Financial Services",
+      "category": "Tax preparation service",
+      "phone": "+1 701-609-5028",
+      "site": "https://www.nokaccounting.com/",
+      "address": "3210 27th St W ste 202, Williston, ND 58801",
+      "latitude": 48.1703682,
+      "longitude": -103.6703172,
+      "rating": 4.8,
+      "reviews": 28,
+      "logo": "https://lh3.googleusercontent.com/-pmZ5A-HxWK4/AAAAAAAAAAI/AAAAAAAAAAA/37H7ct7NHaA/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFFYx1IsJVNmi2us9ouxBwIbPr1k2shpsnuQNPzosmGyU4mzTYD7wqbqf10QD-htSzVN_7zJn0oVgYHLEq37-8FdnBH_VGJwYAaNPNYj2EGemuC_lq8llaKSat4iht_94ZNjGCHXg=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-9PM",
+        "Monday": "8AM-9PM",
+        "Saturday": "7AM-10PM",
+        "Sunday": "1-5PM",
+        "Thursday": "8AM-9PM",
+        "Tuesday": "8AM-9PM",
+        "Wednesday": "8AM-9PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 1,
+        "5": 25
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "clarke-and-associates-pc",
+      "name": "Clarke & Associates, PC",
+      "category": "Accountant",
+      "phone": "+1 701-572-5554",
+      "site": "https://clarkeandassociatescpa.com/",
+      "address": "1502 13th Ave W, Williston, ND 58801",
+      "latitude": 48.158244499999995,
+      "longitude": -103.6421529,
+      "rating": 4,
+      "reviews": 12,
+      "logo": "https://lh6.googleusercontent.com/-CoWLFi922F4/AAAAAAAAAAI/AAAAAAAAAAA/UMnNpaOeQZc/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHkaWimx3lMoW1o0A0oFfFnffbfZkazMkgVlRmd0OYqEsoKrAGZfNIdK2WYnLqtz20CIE-fA3nlI85r2rMdo6oGBjRMcWG5wYOgnLiEBjWKrLnrPF7TWGglNCgTG2qrxtmnWTES=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 3,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 9
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "lee-suess-llc",
+      "name": "Lee Suess, LLC",
+      "category": "Accounting firm",
+      "phone": "+1 701-577-2157",
+      "site": "http://www.leesuess.com/",
+      "address": "210 University Ave, Williston, ND 58801",
+      "latitude": 48.1463646,
+      "longitude": -103.6149437,
+      "rating": 5,
+      "reviews": 3,
+      "logo": "https://lh5.googleusercontent.com/-LiA-e9iYvT8/AAAAAAAAAAI/AAAAAAAAAAA/JjN3gUsHwGI/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGd-K25JS7jzeRx4b6Zus_XtpaVmhssQdapylIhTCsPQT0dLFd-iv9fWRdFGR9PgKua7r5m9HuvcWWweYF7Mb2q4cXuAZByuMdpS70y9zacHVivd4Gojs4OsSeLuWKzb_k15P8z=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    }
+  ]
+}

@@ -1,0 +1,175 @@
+{
+  "city": "Evanston",
+  "state": "Wyoming",
+  "state_code": "WY",
+  "city_slug": "evanston",
+  "state_slug": "wyoming",
+  "firm_count": 5,
+  "firms": [
+    {
+      "slug": "sponenburgh-and-co",
+      "name": "Sponenburgh & Co",
+      "category": "Accountant",
+      "phone": "+1 307-444-4400",
+      "site": "http://www.sponco.com/",
+      "address": "318 9th St, Evanston, WY 82930",
+      "latitude": 41.266180999999996,
+      "longitude": -110.966377,
+      "rating": 5,
+      "reviews": 10,
+      "logo": "https://lh5.googleusercontent.com/-fXXaBI9LQko/AAAAAAAAAAI/AAAAAAAAAAA/FAFc_M_CXfI/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGTg-Gh0sM1RwPfHrQVWIxWmRZbfW4Uas5FWHvna-fquz9CO3KOE3BZAlnFt0c8A1n3mDkyO-DHDGdSSXHBLOPxC5PvqmlzcU9EwJ4CsGuZ126qCK6OmGsoP0VrC7i4M_V4oonwyg=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "9AM-5PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 10
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "dalton-leombruno-and-associates",
+      "name": "Dalton Leombruno & Associates",
+      "category": "Accounting firm",
+      "phone": "+1 307-789-3600",
+      "site": "http://www.dlacpas.com/",
+      "address": "724 Front St, Evanston, WY 82930",
+      "latitude": 41.2666957,
+      "longitude": -110.96235259999999,
+      "rating": 5,
+      "reviews": 1,
+      "logo": "https://lh3.googleusercontent.com/-zFm6mR2pN84/AAAAAAAAAAI/AAAAAAAAAAA/mswWyBD9TPw/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-FAvnVYFbaqIDY4A82oYqw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=50.223408&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "liechty-brent",
+      "name": "Liechty Brent",
+      "category": "Accountant",
+      "phone": "+1 307-789-0633",
+      "site": "",
+      "address": "724 Front St #409, Evanston, WY 82930",
+      "latitude": 41.2667053,
+      "longitude": -110.9623922,
+      "rating": 5,
+      "reviews": 3,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=-FAvnVYFbaqIDY4A82oYqw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=43.906723&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "9AM-5:30PM",
+        "Monday": "9AM-5:30PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5:30PM",
+        "Tuesday": "9AM-5:30PM",
+        "Wednesday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "taxes-and-more",
+      "name": "Taxes and More",
+      "category": "Tax preparation service",
+      "phone": "+1 307-444-1040",
+      "site": "",
+      "address": "636 Summit St, Evanston, WY 82930",
+      "latitude": 41.263347599999996,
+      "longitude": -110.9650344,
+      "rating": 5,
+      "reviews": 3,
+      "logo": "https://lh5.googleusercontent.com/-Bh4v_-RUZM8/AAAAAAAAAAI/AAAAAAAAAAA/-31qyQWBVWY/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=uwInSi5_JDjtvtUYXmrpWA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=46.336163&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-4PM",
+        "Monday": "8AM-6PM",
+        "Saturday": "10AM-2PM",
+        "Sunday": "Closed",
+        "Thursday": "8AM-6PM",
+        "Tuesday": "8AM-6PM",
+        "Wednesday": "8AM-6PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "cameron-and-associates",
+      "name": "Cameron & Associates",
+      "category": "Accountant",
+      "phone": "+1 801-676-0119",
+      "site": "https://www.cameron123.com/",
+      "address": "100 8th St STE 4, Evanston, WY 82930",
+      "latitude": 41.266819999999996,
+      "longitude": -110.96354799999999,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Vp9ezoh2yV1sAqYVMtYc7g&cb_client=search.gws-prod.gps&w=800&h=500&yaw=310.6753&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    }
+  ]
+}

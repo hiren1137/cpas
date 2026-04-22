@@ -1,0 +1,47 @@
+---
+// ReviewBreakdown — star rating bars (no individual reviews)
+import type { ReviewsPerScore } from '../../lib/types';
+
+export interface Props {
+  reviewsPerScore: ReviewsPerScore;
+  totalReviews: number;
+  rating: number;
+}
+const { reviewsPerScore, totalReviews, rating } = Astro.props;
+const scores = ['5','4','3','2','1'];
+---
+
+<section class="py-8">
+  <h2 class="text-xl font-bold text-navy-900 mb-6">Client Reviews</h2>
+
+  {totalReviews > 0 ? (
+    <div class="card p-6">
+      <div class="flex items-center gap-4 mb-6">
+        <div class="text-4xl font-bold text-navy-900">{rating.toFixed(1)}</div>
+        <div>
+          <div class="star-filled text-lg">{'★'.repeat(Math.round(rating))}{'☆'.repeat(5 - Math.round(rating))}</div>
+          <p class="text-sm text-gray-500">{totalReviews} total reviews</p>
+        </div>
+      </div>
+      <div class="space-y-2">
+        {scores.map(score => {
+          const count = reviewsPerScore[score] || 0;
+          const pct = totalReviews > 0 ? Math.round((count / totalReviews) * 100) : 0;
+          return (
+            <div class="flex items-center gap-3 text-sm">
+              <span class="w-8 text-right font-medium text-gray-700">{score}★</span>
+              <div class="flex-1 h-3 bg-gray-100 rounded-full overflow-hidden">
+                <div class="h-full bg-amber-400 rounded-full transition-all" style={`width: ${pct}%`}></div>
+              </div>
+              <span class="w-20 text-gray-500 text-xs">{pct}% ({count})</span>
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  ) : (
+    <div class="card p-6 text-center text-gray-500">
+      <p>No reviews yet. Be the first to review this CPA.</p>
+    </div>
+  )}
+</section>

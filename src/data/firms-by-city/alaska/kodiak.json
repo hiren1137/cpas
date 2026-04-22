@@ -1,0 +1,241 @@
+{
+  "city": "Kodiak",
+  "state": "Alaska",
+  "state_code": "AK",
+  "city_slug": "kodiak",
+  "state_slug": "alaska",
+  "firm_count": 7,
+  "firms": [
+    {
+      "slug": "simply-accounting-services",
+      "name": "Simply Accounting Services",
+      "category": "Bookkeeping service",
+      "phone": "+1 907-942-1633",
+      "site": "",
+      "address": "1219 B, 1219 Larch St, Kodiak, AK 99615",
+      "latitude": 57.798876199999995,
+      "longitude": -152.3915222,
+      "rating": 5,
+      "reviews": 2,
+      "logo": "https://lh3.googleusercontent.com/-eRmocvnbw5s/AAAAAAAAAAI/AAAAAAAAAAA/WUGWOA1YVK0/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "",
+      "working_hours": {
+        "Friday": "9AM-5PM",
+        "Monday": "Closed",
+        "Saturday": "10AM-3PM",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "aurora-tax-and-accounting",
+      "name": "Aurora Tax & Accounting",
+      "category": "Tax preparation service",
+      "phone": "+1 907-654-6225",
+      "site": "",
+      "address": "3437 Antone Way, Kodiak, AK 99615",
+      "latitude": 57.821408899999994,
+      "longitude": -152.3620697,
+      "rating": 5,
+      "reviews": 1,
+      "logo": "",
+      "photo": "",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "kodiak-tax-services",
+      "name": "Kodiak Tax Services",
+      "category": "Tax preparation service",
+      "phone": "+1 907-486-4833",
+      "site": "http://www.kodiakak.us/",
+      "address": "1120 Baranof St, Kodiak, AK 99615",
+      "latitude": 57.794540999999995,
+      "longitude": -152.3895679,
+      "rating": 3.8,
+      "reviews": 4,
+      "logo": "",
+      "photo": "",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "george-r-rieth-tax-and-accounting-services",
+      "name": "George R Rieth Tax & Accounting Services",
+      "category": "Tax preparation service",
+      "phone": "+1 907-486-3100",
+      "site": "",
+      "address": "218 Center St # B, Kodiak, AK 99615",
+      "latitude": 57.7885754,
+      "longitude": -152.40609609999998,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "",
+      "photo": "",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "olsons-bookkeeping-services",
+      "name": "Olson's Bookkeeping Services",
+      "category": "Accountant",
+      "phone": "+1 907-486-8400",
+      "site": "",
+      "address": "316 Center St, Kodiak, AK 99615",
+      "latitude": 57.788169399999994,
+      "longitude": -152.4051417,
+      "rating": 5,
+      "reviews": 1,
+      "logo": "https://lh6.googleusercontent.com/-KERaMbAr6I8/AAAAAAAAAAI/AAAAAAAAAAA/kZMiaehuh8M/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "",
+      "working_hours": {
+        "Friday": "9AM-5PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "vics-office-services",
+      "name": "Vic's Office Services",
+      "category": "Accountant",
+      "phone": "+1 907-654-1099",
+      "site": "",
+      "address": "1316 Mylark Ln # 34, Kodiak, AK 99615",
+      "latitude": 57.8005271,
+      "longitude": -152.39110119999998,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "",
+      "photo": "",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "paper-trail-bookkeeping",
+      "name": "Paper Trail Bookkeeping",
+      "category": "Accountant",
+      "phone": "+1 907-539-2885",
+      "site": "",
+      "address": "1419 Mill Bay Rd, Kodiak, AK 99615",
+      "latitude": 57.8076276,
+      "longitude": -152.37705499999998,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "",
+      "photo": "",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    }
+  ]
+}

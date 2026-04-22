@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const title = 'Privacy Policy — Best CPA Near Me';
+const description = 'Read our privacy policy to understand how Best CPA Near Me collects, uses, and protects your personal information when using our directory.';
+const canonical = 'https://bestcpanearme.com/privacy-policy/';
+---
+
+<BaseLayout title={title} description={description} canonical={canonical}>
+  <div class="container-main py-12">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Privacy Policy' }]} />
+    <div class="max-w-3xl prose prose-gray">
+      <h1 class="text-3xl font-extrabold text-navy-900 mb-6">Privacy Policy</h1>
+      <p class="text-sm text-gray-500 mb-6">Last updated: January 1, 2025</p>
+      <h2 class="text-xl font-bold text-navy-900 mt-8">Information We Collect</h2>
+      <p class="text-gray-600">We collect information you provide when contacting us through our website, including your name, email address, and message content. We also collect usage data through standard web analytics.</p>
+      <h2 class="text-xl font-bold text-navy-900 mt-8">How We Use Your Information</h2>
+      <p class="text-gray-600">Your information is used to respond to inquiries, improve our services, and maintain our directory. We do not sell personal information to third parties.</p>
+      <h2 class="text-xl font-bold text-navy-900 mt-8">Data Security</h2>
+      <p class="text-gray-600">We implement appropriate security measures to protect your personal information. However, no method of transmission over the Internet is 100% secure.</p>
+      <h2 class="text-xl font-bold text-navy-900 mt-8">Contact Us</h2>
+      <p class="text-gray-600">For questions about this privacy policy, contact us at <a href="mailto:privacy@bestcpanearme.com" class="text-navy-800 hover:underline">privacy@bestcpanearme.com</a>.</p>
+    </div>
+  </div>
+</BaseLayout>

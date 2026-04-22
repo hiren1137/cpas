@@ -1,0 +1,31 @@
+---
+// WhatToLookFor — informational section for city pages
+export interface Props { cityName: string; }
+const { cityName } = Astro.props;
+---
+
+<section class="py-12 bg-gray-50">
+  <div class="container-main">
+    <div class="max-w-3xl">
+      <h2 class="section-heading mb-6">What to Look For in a CPA</h2>
+      <p class="text-gray-600 mb-6 leading-relaxed">When choosing a Certified Public Accountant in {cityName}, consider these important factors:</p>
+      <ul class="space-y-3">
+        {[
+          'Valid CPA license and state board certification',
+          'Experience with your specific tax situation or industry',
+          'Positive client reviews and professional reputation',
+          'Clear fee structure and transparent pricing',
+          'Availability for year-round consultation, not just tax season',
+          'Up-to-date knowledge of current tax laws and regulations',
+          'Professional memberships (AICPA, state CPA society)',
+          'Secure handling of sensitive financial information',
+        ].map(item => (
+          <li class="flex items-start gap-3">
+            <span class="text-green-500 mt-0.5 flex-shrink-0">✓</span>
+            <span class="text-gray-700">{item}</span>
+          </li>
+        ))}
+      </ul>
+    </div>
+  </div>
+</section>

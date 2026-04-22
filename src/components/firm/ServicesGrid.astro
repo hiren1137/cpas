@@ -1,0 +1,24 @@
+---
+// ServicesGrid — CPA services for firm pages
+const services = [
+  { emoji: '📋', title: 'Tax Preparation & Planning', desc: 'Individual and business tax return preparation with strategic tax planning to minimize liability.' },
+  { emoji: '📊', title: 'Bookkeeping & Accounting', desc: 'Accurate financial record-keeping, reconciliation, and comprehensive accounting services.' },
+  { emoji: '💼', title: 'Business Consulting', desc: 'Strategic business advisory services including entity selection, financial planning, and growth strategies.' },
+  { emoji: '🏢', title: 'Corporate Tax & Compliance', desc: 'Corporate tax filing, compliance, and regulatory reporting for businesses of all sizes.' },
+  { emoji: '💰', title: 'Payroll Services', desc: 'Complete payroll processing, tax withholding, and employment tax compliance management.' },
+  { emoji: '📈', title: 'Financial Statement Preparation', desc: 'Preparation of financial statements including balance sheets, income statements, and cash flow reports.' },
+];
+---
+
+<section class="py-8">
+  <h2 class="text-xl font-bold text-navy-900 mb-6">CPA Services We Handle</h2>
+  <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+    {services.map(s => (
+      <div class="card p-5 group hover:border-navy-300">
+        <div class="text-2xl mb-3">{s.emoji}</div>
+        <h3 class="font-semibold text-navy-900 mb-2">{s.title}</h3>
+        <p class="text-sm text-gray-600 leading-relaxed">{s.desc}</p>
+      </div>
+    ))}
+  </div>
+</section>

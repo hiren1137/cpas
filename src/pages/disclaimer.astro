@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const title = 'Disclaimer — Best CPA Near Me';
+const description = 'Read the legal disclaimer for Best CPA Near Me. Our directory provides informational content and does not constitute financial or legal advice.';
+const canonical = 'https://bestcpanearme.com/disclaimer/';
+---
+
+<BaseLayout title={title} description={description} canonical={canonical}>
+  <div class="container-main py-12">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Disclaimer' }]} />
+    <div class="max-w-3xl prose prose-gray">
+      <h1 class="text-3xl font-extrabold text-navy-900 mb-6">Disclaimer</h1>
+      <p class="text-sm text-gray-500 mb-6">Last updated: January 1, 2025</p>
+      <h2 class="text-xl font-bold text-navy-900 mt-8">General Information</h2>
+      <p class="text-gray-600">The information provided on Best CPA Near Me is for general informational purposes only. It is not intended to be a substitute for professional financial, tax, or legal advice.</p>
+      <h2 class="text-xl font-bold text-navy-900 mt-8">No Professional Advice</h2>
+      <p class="text-gray-600">Nothing on this website constitutes professional accounting, tax, or financial advice. Always consult with a qualified CPA or financial professional before making financial decisions.</p>
+      <h2 class="text-xl font-bold text-navy-900 mt-8">Accuracy of Information</h2>
+      <p class="text-gray-600">While we strive to keep listings accurate and up-to-date, we make no warranties about the completeness, accuracy, or reliability of information on this site. Business details, hours, and availability are subject to change.</p>
+      <h2 class="text-xl font-bold text-navy-900 mt-8">Third-Party Links</h2>
+      <p class="text-gray-600">Our website may contain links to third-party websites. We are not responsible for the content or privacy practices of these external sites.</p>
+    </div>
+  </div>
+</BaseLayout>

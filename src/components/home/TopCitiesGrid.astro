@@ -1,0 +1,33 @@
+---
+// Top Cities Grid — 10 largest US cities with links
+import { getTopCities } from '../../lib/data';
+import { cityUrl } from '../../lib/urls';
+
+const topCities = getTopCities();
+---
+
+<section class="py-16 bg-white">
+  <div class="container-main">
+    <div class="text-center mb-10">
+      <h2 class="section-heading">Top Cities for CPAs</h2>
+      <p class="text-gray-600 mt-3 max-w-2xl mx-auto">
+        Find certified public accountants in major cities across the United States
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-4">
+      {topCities.map(city => (
+        <a href={cityUrl(city.stateSlug, city.citySlug)} class="card p-4 flex items-center gap-3 group hover:border-navy-300">
+          <span class="text-lg">📍</span>
+          <div class="flex-1 min-w-0">
+            <div class="font-semibold text-navy-900 group-hover:text-navy-600 transition-colors truncate">
+              {city.city}
+            </div>
+            <div class="text-xs text-gray-500">{city.state}</div>
+          </div>
+          <span class="text-navy-400 group-hover:translate-x-1 transition-transform">→</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

@@ -1,0 +1,109 @@
+{
+  "city": "Palmer",
+  "state": "Alaska",
+  "state_code": "AK",
+  "city_slug": "palmer",
+  "state_slug": "alaska",
+  "firm_count": 3,
+  "firms": [
+    {
+      "slug": "fosselman-and-associates-cpas-inc",
+      "name": "Fosselman & Associates CPAS, Inc.",
+      "category": "Certified public accountant",
+      "phone": "+1 907-745-0135",
+      "site": "http://www.alaska-cpas.com/",
+      "address": "610 S Bailey St, Palmer, AK 99645",
+      "latitude": 61.601167,
+      "longitude": -149.1167958,
+      "rating": 4,
+      "reviews": 4,
+      "logo": "",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFsYCYhiLsBbFaL954Z129JyYFQTGoAnS8bUxX82J1Ocm45oUyKdxrlItxdyiODr-5K4ifkuvgQQdP6r3TzN4cOxI9JO5Qss18ka8-QfuA450z3xys6ZYouk-zsm2zNP48UusmFdA=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "diehl-cpa-llc",
+      "name": "Diehl CPA LLC",
+      "category": "Certified public accountant",
+      "phone": "+1 907-313-6933",
+      "site": "http://www.diehl.cpa/",
+      "address": "1150 S Colony Way # 11, Palmer, AK 99645",
+      "latitude": 61.595232499999995,
+      "longitude": -149.118013,
+      "rating": 3.7,
+      "reviews": 15,
+      "logo": "https://lh3.googleusercontent.com/-34xbmxSjA5c/AAAAAAAAAAI/AAAAAAAAAAA/zRAQRCOGKLI/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEJM8nE9WNVkE6ge7nM4OUXcH89KbCdK3NilsLwOdnw14vsFvGrEf5O7-XL1NwFOzw0kxuj_o0p4T81andXnwtHS9vwtJaE6L8YnSjgCG3FiJEk5zAP1xDFMVIYrKYYM3FVImlsqA=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "9AM-5PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 4,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 10
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "diversified-accounting",
+      "name": "Diversified Accounting",
+      "category": "Accountant",
+      "phone": "+1 907-745-3471",
+      "site": "http://dastaxprep.com/",
+      "address": "4901 N Werner Rd, Palmer, AK 99645",
+      "latitude": 61.63746,
+      "longitude": -149.144635,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "",
+      "photo": "",
+      "working_hours": {
+        "Friday": "10AM-4PM",
+        "Monday": "10AM-4PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "10AM-4PM",
+        "Tuesday": "10AM-4PM",
+        "Wednesday": "10AM-4PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    }
+  ]
+}

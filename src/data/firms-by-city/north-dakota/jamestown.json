@@ -1,0 +1,208 @@
+{
+  "city": "Jamestown",
+  "state": "North Dakota",
+  "state_code": "ND",
+  "city_slug": "jamestown",
+  "state_slug": "north-dakota",
+  "firm_count": 6,
+  "firms": [
+    {
+      "slug": "craig-s-hanson-cpa",
+      "name": "Craig S. Hanson, CPA",
+      "category": "Certified public accountant",
+      "phone": "+1 701-252-6190",
+      "site": "https://www.craighansoncpa.com/",
+      "address": "905 James Ave NE, Jamestown, ND 58401",
+      "latitude": 46.9175447,
+      "longitude": -98.69588689999999,
+      "rating": 5,
+      "reviews": 4,
+      "logo": "https://lh5.googleusercontent.com/-feLwy5h88ts/AAAAAAAAAAI/AAAAAAAAAAA/d2uNB6CgRks/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFNoeBcXHj19oMQJboWlxLFOqSjqixFoCedE9czXip-b2GR6f5jbH673wx1ehKR2QoFRyIkw-111jkQZLn8sHWEtnnqN0-KXuBxi6C4MTKkslJveAETqD0MsUqdZAYfXoXZB98BKA=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 4
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "schauer-and-associates-pc-cpas",
+      "name": "Schauer & Associates, P.C. CPAs",
+      "category": "Accountant",
+      "phone": "+1 701-252-5422",
+      "site": "http://schauercpa.com/",
+      "address": "111 9th St SW #203, Jamestown, ND 58401",
+      "latitude": 46.899698,
+      "longitude": -98.709159,
+      "rating": 4,
+      "reviews": 4,
+      "logo": "https://lh4.googleusercontent.com/-FCb_hWvTg-c/AAAAAAAAAAI/AAAAAAAAAAA/uU9hd1GNUVk/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEJ3VuPu_pWi9HdSfmycDx-VoGk2FT_gi8OJSl0XJ7zs0arhJHpcSk20xfDjQG0-8TnL10nyfHTjqTizQNXUxrURXc1Taneobb3GKLuV46nk-L52Viyn6sFfXp0XQ9mr-oKs_GK=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-12PM",
+        "Monday": "8AM-4:30PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-4:30PM",
+        "Tuesday": "8AM-4:30PM",
+        "Wednesday": "8AM-4:30PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "jamestown-nd-accountant",
+      "name": "Jamestown, ND Accountant",
+      "category": "Accountant",
+      "phone": "+1 888-906-4637",
+      "site": "https://www.jamestownaccountingfirms.com/about_us.html",
+      "address": "905 James Ave NE, Jamestown, ND 58401",
+      "latitude": 46.9175757,
+      "longitude": -98.69588089999999,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=C1icqYplrTtyF1JJNZlmQw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=260.3491&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "tax-forward",
+      "name": "Tax Forward",
+      "category": "Tax preparation service",
+      "phone": "+1 701-252-2080",
+      "site": "https://bankforward.com/tax/",
+      "address": "400 2nd Ave SW STE 205, Jamestown, ND 58401",
+      "latitude": 46.9049224,
+      "longitude": -98.7103444,
+      "rating": 5,
+      "reviews": 2,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=QDRewU9jyLsuCv2C_bnwpA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=267.27304&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "chandler-and-company-pllc",
+      "name": "Chandler & Company, PLLC",
+      "category": "Accounting firm",
+      "phone": "+1 701-952-9700",
+      "site": "http://www.chandlerpllc.com/",
+      "address": "720 13th St NE, Jamestown, ND 58401",
+      "latitude": 46.9205232,
+      "longitude": -98.6982895,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "https://lh4.googleusercontent.com/-Y7Q0q46po5w/AAAAAAAAAAI/AAAAAAAAAAA/2Mwy1wdodrE/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH2KU1jnC1HFsnip1xlSjVcutFCH_Q1415gmDbCp1X0aMB5VGu46G0SenzFt6Cp1zoBm_-bCrp4aoqzkgHIkib1wZeQ9MCertyVzk1v6t66Gwzb49N2X94U5lDwoYjwfdDenzRY_A=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-4:30PM",
+        "Monday": "8AM-4:30PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-4:30PM",
+        "Tuesday": "8AM-4:30PM",
+        "Wednesday": "8AM-4:30PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "brian-chandler-cpa",
+      "name": "Brian Chandler CPA",
+      "category": "Accountant",
+      "phone": "+1 701-952-9700",
+      "site": "http://www.chandlerpllc.com/",
+      "address": "720 13th St NE, Jamestown, ND 58401",
+      "latitude": 46.9205232,
+      "longitude": -98.6982895,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "https://lh6.googleusercontent.com/-7A2eTEGhXG8/AAAAAAAAAAI/AAAAAAAAAAA/FMsOSuQhJBw/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF9ACwWc3_3UpOjqCgUf43x698GEoCOpr1xWxB_-5KEiFI8tDtbIbFSmnl4CkKXbhXJnFwvynkmLvIGPXBf43St0ZGfbMTdisE_SCBrmZLpANMKFLCaWOVZ83FL_L8qv6r_L-xVfQ=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-4:30PM",
+        "Monday": "8AM-4:30PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-4:30PM",
+        "Tuesday": "8AM-4:30PM",
+        "Wednesday": "8AM-4:30PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    }
+  ]
+}

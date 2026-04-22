@@ -1,0 +1,109 @@
+{
+  "city": "Vermillion",
+  "state": "South Dakota",
+  "state_code": "SD",
+  "city_slug": "vermillion",
+  "state_slug": "south-dakota",
+  "firm_count": 3,
+  "firms": [
+    {
+      "slug": "elo-cpas-and-advisors-vermillion",
+      "name": "ELO CPAs & Advisors Vermillion",
+      "category": "Bookkeeping service",
+      "phone": "+1 605-624-0222",
+      "site": "",
+      "address": "7 Court St, Vermillion, SD 57069",
+      "latitude": 42.7791133,
+      "longitude": -96.9325497,
+      "rating": 5,
+      "reviews": 1,
+      "logo": "https://lh3.googleusercontent.com/-pU5Hplc78cA/AAAAAAAAAAI/AAAAAAAAAAA/HK9ZIacsBs8/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=A1oA0yxk0OppTy09v2yqYA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=252.81628&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "bottorff-tax-llc",
+      "name": "Bottorff Tax, LLC",
+      "category": "Tax preparation service",
+      "phone": "+1 605-658-2010",
+      "site": "http://www.btax.solutions/",
+      "address": "1014 W Cherry St, Vermillion, SD 57069",
+      "latitude": 42.786254199999995,
+      "longitude": -96.9463255,
+      "rating": 3.7,
+      "reviews": 6,
+      "logo": "https://lh5.googleusercontent.com/-DSluLstQR9s/AAAAAAAAAAI/AAAAAAAAAAA/xWCkBzU72Cs/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGyY04gbBqABHHfOrWvLOittmlQZFDR5fEwxOY9FLAJR1gRiJosweRy5XRn2du5YpwHHG9Pyu4mXmppj6PxO2j8S5jM2GumNQ1wIMol6gIZfsMWGTYaBYd_IP5YG2zvfTdCkip1=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-1PM",
+        "Monday": "8AM-12PM, 1-4PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-12PM, 1-4PM",
+        "Tuesday": "8AM-12PM, 1-4PM",
+        "Wednesday": "8AM-12PM, 1-4PM"
+      },
+      "reviews_per_score": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 4
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "handr-block",
+      "name": "H&R Block",
+      "category": "Tax preparation service",
+      "phone": "+1 605-624-3551",
+      "site": "https://www.hrblock.com/tax-office-near-me/south-dakota/vermillion/31571/%3Fotppartnerid%3D9308%26campaignid%3Dpw_mcm_9308_9762%26utm_medium%3Dlocal",
+      "address": "12 Center St, Vermillion, SD 57069",
+      "latitude": 42.7798345,
+      "longitude": -96.9322753,
+      "rating": 4.7,
+      "reviews": 47,
+      "logo": "https://lh5.googleusercontent.com/-I4ZHH4gQ39A/AAAAAAAAAAI/AAAAAAAAAAA/RczelHYbaeo/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAH_MJRQGiwOiWp27u9r7GmogKUjGzUtWhQGhr8frucqPn6Yz9mELcLT-fnfM9_BfEAoJP3TLZbI113I1O8gPovHhl-yNmuUKXx8O5s8RMU3yJkmDepPYjDygbcdbOrJ3VwyGM0=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "Closed",
+        "Monday": "10AM-4PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "10AM-4PM",
+        "Tuesday": "10AM-4PM",
+        "Wednesday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 2,
+        "2": 1,
+        "3": 0,
+        "4": 2,
+        "5": 42
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    }
+  ]
+}

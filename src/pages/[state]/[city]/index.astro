@@ -1,0 +1,68 @@
+---
+// City page — /[state]/[city]/
+import type { GetStaticPaths } from 'astro';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Breadcrumbs from '../../../components/Breadcrumbs.astro';
+import CityHero from '../../../components/city/CityHero.astro';
+import FirmList from '../../../components/city/FirmList.astro';
+import WhatToLookFor from '../../../components/city/WhatToLookFor.astro';
+import ServicesSection from '../../../components/city/ServicesSection.astro';
+import NearbyFirms from '../../../components/firm/NearbyFirms.astro';
+import { getAllStates, getFirmsForCity } from '../../../lib/data';
+import { absoluteUrl, cityUrl, stateUrl } from '../../../lib/urls';
+import { breadcrumbSchemaOrg, cityItemListSchemaOrg } from '../../../lib/seo';
+
+export const getStaticPaths: GetStaticPaths = () => {
+  const states = getAllStates();
+  const paths = [];
+  for (const state of states) {
+    for (const city of state.cities) {
+      paths.push({
+        params: { state: state.slug, city: city.slug },
+        props: { state, city },
+      });
+    }
+  }
+  return paths;
+};
+
+const { state, city } = Astro.props;
+const firmData = getFirmsForCity(state.slug, city.slug);
+const avgRating = firmData.firms.length > 0
+  ? firmData.firms.reduce((sum, f) => sum + f.rating, 0) / firmData.firms.length
+  : 0;
+
+const title = `CPAs in ${city.name}, ${state.name} — Find Certified Public Accountants`;
+const description = `Find the best CPAs in ${city.name}, ${state.name}. Compare ${firmData.firm_count || ''} verified accountants with ratings, reviews, and contact details.`.slice(0, 150);
+const canonical = absoluteUrl(cityUrl(state.slug, city.slug));
+
+const bcItems = [
+  { name: 'Home', url: 'https://bestcpanearme.com/' },
+  { name: state.name, url: absoluteUrl(stateUrl(state.slug)) },
+  { name: city.name, url: canonical },
+];
+let schema = breadcrumbSchemaOrg(bcItems);
+if (firmData.firms.length > 0) {
+  schema = `[${schema},${cityItemListSchemaOrg(firmData.firms, state.slug, city.slug)}]`;
+}
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} schema={schema}>
+  <CityHero cityName={city.name} stateName={state.name} firmCount={firmData.firm_count} avgRating={avgRating} />
+
+  <div class="container-main py-6">
+    <Breadcrumbs items={[
+      { label: 'Home', href: '/' },
+      { label: state.name, href: stateUrl(state.slug) },
+      { label: city.name },
+    ]} />
+  </div>
+
+  <FirmList firms={firmData.firms} stateSlug={state.slug} citySlug={city.slug} cityName={city.name} />
+  <WhatToLookFor cityName={city.name} />
+  <ServicesSection cityName={city.name} />
+
+  <div class="container-main">
+    <NearbyFirms cities={state.cities} stateSlug={state.slug} currentCitySlug={city.slug} stateName={state.name} />
+  </div>
+</BaseLayout>

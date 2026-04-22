@@ -1,0 +1,22 @@
+---
+// HoursTable — working hours table
+import type { WorkingHours } from '../../lib/types';
+
+export interface Props { hours: WorkingHours; }
+const { hours } = Astro.props;
+
+const days = ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday'];
+---
+
+<table class="w-full text-sm">
+  <tbody>
+    {days.map(day => (
+      <tr class="border-b border-gray-100 last:border-0">
+        <td class="py-2 font-medium text-gray-700">{day}</td>
+        <td class={`py-2 text-right ${hours[day] === 'Closed' ? 'text-red-500' : 'text-gray-600'}`}>
+          {hours[day] || 'Not available'}
+        </td>
+      </tr>
+    ))}
+  </tbody>
+</table>

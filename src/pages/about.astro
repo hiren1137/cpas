@@ -1,0 +1,37 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const title = 'About Us — Best CPA Near Me';
+const description = 'Learn about Best CPA Near Me, the leading directory for finding verified Certified Public Accountants across all 50 US states.';
+const canonical = 'https://bestcpanearme.com/about/';
+---
+
+<BaseLayout title={title} description={description} canonical={canonical}>
+  <div class="container-main py-12">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'About Us' }]} />
+
+    <div class="max-w-3xl">
+      <h1 class="text-3xl md:text-4xl font-extrabold text-navy-900 mb-6">About Best CPA Near Me</h1>
+
+      <div class="prose prose-gray max-w-none space-y-6">
+        <p class="text-lg text-gray-600 leading-relaxed">Best CPA Near Me is the premier online directory for finding trusted Certified Public Accountants across all 50 US states. Our mission is to connect individuals and businesses with qualified accounting professionals who can help them navigate their financial needs.</p>
+
+        <h2 class="text-xl font-bold text-navy-900 mt-8">Our Mission</h2>
+        <p class="text-gray-600 leading-relaxed">We believe that everyone deserves access to quality accounting services. Our platform makes it easy to find, compare, and connect with verified CPAs in your area. Whether you need tax preparation, bookkeeping, business consulting, or financial planning, we help you find the right professional for your specific needs.</p>
+
+        <h2 class="text-xl font-bold text-navy-900 mt-8">What We Offer</h2>
+        <ul class="space-y-3 text-gray-600">
+          <li class="flex items-start gap-3"><span class="text-green-500 mt-1">✓</span>Comprehensive directory of verified CPAs in every state</li>
+          <li class="flex items-start gap-3"><span class="text-green-500 mt-1">✓</span>Authentic client reviews and ratings</li>
+          <li class="flex items-start gap-3"><span class="text-green-500 mt-1">✓</span>Detailed firm profiles with contact information</li>
+          <li class="flex items-start gap-3"><span class="text-green-500 mt-1">✓</span>Easy location-based search functionality</li>
+          <li class="flex items-start gap-3"><span class="text-green-500 mt-1">✓</span>Free to use for individuals and businesses</li>
+        </ul>
+
+        <h2 class="text-xl font-bold text-navy-900 mt-8">Our Commitment</h2>
+        <p class="text-gray-600 leading-relaxed">We are committed to maintaining the highest standards of accuracy and reliability in our directory. Every CPA listing is verified, and we continuously update our information to ensure you have access to the most current data available.</p>
+      </div>
+    </div>
+  </div>
+</BaseLayout>

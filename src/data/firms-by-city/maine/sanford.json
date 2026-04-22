@@ -1,0 +1,142 @@
+{
+  "city": "Sanford",
+  "state": "Maine",
+  "state_code": "ME",
+  "city_slug": "sanford",
+  "state_slug": "maine",
+  "firm_count": 4,
+  "firms": [
+    {
+      "slug": "troiano-and-hanselmann",
+      "name": "Troiano & Hanselmann",
+      "category": "Accounting firm",
+      "phone": "+1 207-324-0226",
+      "site": "https://www.troiano.net/",
+      "address": "1068 Main St B, Sanford, ME 04073",
+      "latitude": 43.4286476,
+      "longitude": -70.76730359999999,
+      "rating": 4.5,
+      "reviews": 8,
+      "logo": "https://lh3.googleusercontent.com/-xm0dha7YCOw/AAAAAAAAAAI/AAAAAAAAAAA/cGvK2TIJqkQ/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=w6UbGTXkOfKiW_TzPIVGtw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=56.498215&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "9AM-5:30PM",
+        "Monday": "9AM-5:30PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5:30PM",
+        "Tuesday": "9AM-5:30PM",
+        "Wednesday": "9AM-5:30PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 7
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "milliken-perkins-and-brunelle-certified-public-accountants",
+      "name": "Milliken, Perkins, & Brunelle Certified Public Accountants",
+      "category": "Accountant",
+      "phone": "",
+      "site": "",
+      "address": "15 Washington St, Sanford, ME 04073",
+      "latitude": 43.4392125,
+      "longitude": -70.7744898,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_AKxGhtkuawnG6M7y_9NbA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=132.36334&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "stephen-b-smith-llc",
+      "name": "Stephen B Smith LLC",
+      "category": "Accountant",
+      "phone": "+1 207-651-5135",
+      "site": "",
+      "address": "1293 Main St # D, Sanford, ME 04073",
+      "latitude": 43.416390299999996,
+      "longitude": -70.7535086,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "",
+      "photo": "",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "above-the-line-accounting",
+      "name": "Above The Line Accounting",
+      "category": "Accountant",
+      "phone": "+1 603-988-2298",
+      "site": "",
+      "address": "72 Pioneer Ave, Sanford, ME 04073",
+      "latitude": 43.437754999999996,
+      "longitude": -70.7682147,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "https://lh4.googleusercontent.com/-oCNydJH7qpE/AAAAAAAAAAI/AAAAAAAAAAA/I6GObTAJ2Rs/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEUYDMIkmphkkLFPnfvzTJbR58qDAkHrsm9dAG3w43vG5EjApLuycf2rGqR5IIPqjQMBYae5PxyaX1X5ds4g-9kWtqBlwhaMowg8DkIiMNtcbqu39r4L6_Ub6Njdzl3VXtzjZU=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "9AM-7PM",
+        "Monday": "9AM-7PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-7PM",
+        "Tuesday": "9AM-7PM",
+        "Wednesday": "9AM-7PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    }
+  ]
+}

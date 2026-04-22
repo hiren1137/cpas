@@ -1,0 +1,241 @@
+{
+  "city": "Clinton",
+  "state": "Michigan",
+  "state_code": "MI",
+  "city_slug": "clinton",
+  "state_slug": "michigan",
+  "firm_count": 7,
+  "firms": [
+    {
+      "slug": "crimson-company",
+      "name": "Crimson Company",
+      "category": "Tax preparation service",
+      "phone": "+1 734-316-2491",
+      "site": "http://www.crimsoncompanytax.com/",
+      "address": "3700 E Michigan Ave, Clinton, MI 49236",
+      "latitude": 42.0777091,
+      "longitude": -83.96133789999999,
+      "rating": 4.8,
+      "reviews": 16,
+      "logo": "https://lh3.googleusercontent.com/-3EgBDVU691s/AAAAAAAAAAI/AAAAAAAAAAA/VbkSx9cgaxA/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=O1EPLOxhQMr3LpWp4Zw36w&cb_client=search.gws-prod.gps&w=800&h=500&yaw=339.88782&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "9AM-5PM",
+        "Monday": "10AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 15
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "bryan-russell-and-associates-pc-cpas",
+      "name": "Bryan, Russell & Associates PC CPAs",
+      "category": "Accountant",
+      "phone": "+1 586-493-0900",
+      "site": "https://brasscpa.com/",
+      "address": "44990 Heydenreich Rd ste a, Clinton Township, MI 48038",
+      "latitude": 42.627643,
+      "longitude": -82.9161069,
+      "rating": 4.7,
+      "reviews": 17,
+      "logo": "https://lh6.googleusercontent.com/-ElrStKxeBeU/AAAAAAAAAAI/AAAAAAAAAAA/SaoUb1nVczc/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAF84qLqIOEjWFDihEJKgbTraCNq-L17t1PlLtQhwMWWg6TemekUGtvs_k7NbDTxhY82E9z6j2ZAKzHEhBreXIe5TINyG2EQYLhLjD7pOo7BvegOomSpv7x56VIq3XyTgln_E4Z4Qg=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "9AM-5PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 15
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "hall-cpa-and-associates-pc",
+      "name": "Hall CPA & Associates, PC",
+      "category": "Certified public accountant",
+      "phone": "+1 586-954-2990",
+      "site": "http://www.hall-cpa.com/",
+      "address": "19176 Hall Rd #150, Clinton Township, MI 48038",
+      "latitude": 42.62674,
+      "longitude": -82.93178019999999,
+      "rating": 5,
+      "reviews": 3,
+      "logo": "https://lh6.googleusercontent.com/-DVBlb-4K9w8/AAAAAAAAAAI/AAAAAAAAAAA/VV3JeMn1rFA/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XDXJNjTpeCsU_th9SHgGow&cb_client=search.gws-prod.gps&w=800&h=500&yaw=87.31746&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "9AM-12PM",
+        "Monday": "9AM-4PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-4PM",
+        "Tuesday": "9AM-4PM",
+        "Wednesday": "9AM-4PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "central-accounting-service",
+      "name": "Central Accounting Service",
+      "category": "Accounting firm",
+      "phone": "+1 586-791-4220",
+      "site": "http://centralaccountingservice.com/",
+      "address": "18645 Canal Rd Suite 4, Clinton Township, MI 48038",
+      "latitude": 42.6006868,
+      "longitude": -82.9327704,
+      "rating": 5,
+      "reviews": 10,
+      "logo": "https://lh5.googleusercontent.com/-D5htGGXJMds/AAAAAAAAAAI/AAAAAAAAAAA/iOatzJtvai8/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGMhwv-SP-iOcXoczxfRJx_0AxrO4J91l2xtuUbzmls5U8QtQp4E2sSS0DqViqn1X7fca_Mha3e-4oYD8GhG8dMgpQ7ojD9Fyo6P37fQo9v8HxowhjzqST2pwF1V5zSOxR15N57=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "11AM-4PM",
+        "Monday": "11AM-4PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "11AM-4PM",
+        "Tuesday": "11AM-4PM",
+        "Wednesday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 10
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "spartan-cpas",
+      "name": "Spartan CPAs",
+      "category": "Tax preparation service",
+      "phone": "+1 201-680-1918",
+      "site": "http://www.spartancpas.com/",
+      "address": "84 Clinton Ave Suite 4, Newark, NJ 07114",
+      "latitude": 40.725565599999996,
+      "longitude": -74.18078899999999,
+      "rating": 5,
+      "reviews": 76,
+      "logo": "https://lh4.googleusercontent.com/-U36yR9eg8EI/AAAAAAAAAAI/AAAAAAAAAAA/3WiaA7cIRns/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEtCT8tSY6Yb9xfwxNwPexy8A9USqiM-l0bR_1QWkByo0HTR18gFfUy-J3t7tGYiBV3tjRkRTIqahHKA-gBIPH103dqFH-qThF2aR-iXSuWsKP2dDiOSi22LMdxNvDRWVX58kFA=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "9AM-6PM",
+        "Monday": "9AM-6PM",
+        "Saturday": "10AM-4PM",
+        "Sunday": "Closed",
+        "Thursday": "9AM-6PM",
+        "Tuesday": "9AM-6PM",
+        "Wednesday": "9AM-6PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 75
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "bultynck-and-co-pllc",
+      "name": "Bultynck & Co., P.L.L.C.",
+      "category": "Accountant",
+      "phone": "+1 586-286-7300",
+      "site": "http://www.bultynck.com/",
+      "address": "15985 Canal Rd, Clinton Township, MI 48038",
+      "latitude": 42.608117,
+      "longitude": -82.96308719999999,
+      "rating": 4.9,
+      "reviews": 15,
+      "logo": "https://lh3.googleusercontent.com/-E7D7S6iPAoU/AAAAAAAAAAI/AAAAAAAAAAA/sAelVRIDKMk/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=2h-b23YSZ3-X-4xS2Hs5Ng&cb_client=search.gws-prod.gps&w=800&h=500&yaw=1.7855808&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 14
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "rietsch-souriall-and-associates",
+      "name": "Rietsch, Souriall & Associates",
+      "category": "Accountant",
+      "phone": "+1 586-228-2530",
+      "site": "https://www.rietschaccounting.com/clinton-township-mi-accounting",
+      "address": "39949 Garfield Rd Ste A, Clinton Township, MI 48038",
+      "latitude": 42.5908902,
+      "longitude": -82.9525503,
+      "rating": 4.8,
+      "reviews": 33,
+      "logo": "https://lh4.googleusercontent.com/-_9eYgTDeEag/AAAAAAAAAAI/AAAAAAAAAAA/nnF3vpFC_-A/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHjMN03TXdOqq1MAjiwCUeznW1_raOKzoUcSvBk5C-OogkT5nTSn7n_PF7xwF-Kd9dzRiYc7lO7EfaqtJNFjeQgTdmdis7ic1UqnQwFuEt5zqP3gMDLdhrESbQrzdzZ_7I0wUHj=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "9AM-1PM",
+        "Monday": "9AM-4PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-4PM",
+        "Tuesday": "9AM-4PM",
+        "Wednesday": "9AM-4PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 1,
+        "4": 1,
+        "5": 30
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    }
+  ]
+}

@@ -1,0 +1,43 @@
+{
+  "city": "Bethel",
+  "state": "Alaska",
+  "state_code": "AK",
+  "city_slug": "bethel",
+  "state_slug": "alaska",
+  "firm_count": 1,
+  "firms": [
+    {
+      "slug": "bethel-tax-services-llc",
+      "name": "Bethel Tax Services LLC",
+      "category": "Tax preparation service",
+      "phone": "+1 203-470-7866",
+      "site": "https://betheltax.com/",
+      "address": "14 Depot Pl #6, Bethel, CT 06801",
+      "latitude": 41.370222999999996,
+      "longitude": -73.41395399999999,
+      "rating": 5,
+      "reviews": 7,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=E2cgd6OlnBlyVSbHUU2nrg&cb_client=search.gws-prod.gps&w=800&h=500&yaw=10.363046&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 7
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    }
+  ]
+}

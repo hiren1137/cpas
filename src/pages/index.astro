@@ -1,0 +1,21 @@
+---
+// Homepage
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Hero from '../components/home/Hero.astro';
+import TopCitiesGrid from '../components/home/TopCitiesGrid.astro';
+import StatesGrid from '../components/home/StatesGrid.astro';
+import WhyChooseUs from '../components/home/WhyChooseUs.astro';
+import { homeSchemaOrg } from '../lib/seo';
+
+const title = 'Best CPA Near Me — Find Certified Public Accountants in USA';
+const description = 'Find the best Certified Public Accountants near you. Browse verified CPAs across all 50 US states with ratings, reviews, and contact information.';
+const canonical = 'https://bestcpanearme.com/';
+const schema = homeSchemaOrg();
+---
+
+<BaseLayout title={title} description={description} canonical={canonical} schema={schema}>
+  <Hero />
+  <TopCitiesGrid />
+  <StatesGrid />
+  <WhyChooseUs />
+</BaseLayout>

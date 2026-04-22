@@ -1,0 +1,241 @@
+{
+  "city": "Augusta",
+  "state": "Maine",
+  "state_code": "ME",
+  "city_slug": "augusta",
+  "state_slug": "maine",
+  "firm_count": 7,
+  "firms": [
+    {
+      "slug": "palmer-accounting-llc",
+      "name": "Palmer Accounting LLC",
+      "category": "Accountant",
+      "phone": "+1 207-504-3029",
+      "site": "http://palmeraccountingllc.com/%3Futm_source%3Dgoogle%26utm_medium%3Dwix_google_business_profile%26utm_campaign%3D14450073215573249546",
+      "address": "74 Winthrop St Suite 4B, Augusta, ME 04330",
+      "latitude": 44.315267999999996,
+      "longitude": -69.7804902,
+      "rating": 5,
+      "reviews": 2,
+      "logo": "https://lh5.googleusercontent.com/-tbfbKtsfa88/AAAAAAAAAAI/AAAAAAAAAAA/hwcQ3YIhP2U/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=qRP3ULHfvPawmo9vs4_cmQ&cb_client=search.gws-prod.gps&w=800&h=500&yaw=198.35777&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-4PM",
+        "Monday": "8AM-4PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-4PM",
+        "Tuesday": "8AM-4PM",
+        "Wednesday": "8AM-4PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "karen-johnson-cpa",
+      "name": "Karen Johnson CPA",
+      "category": "Accountant",
+      "phone": "+1 207-621-1220",
+      "site": "http://www.karenjohnsoncpa.net/contact.php",
+      "address": "227 Water St #101, Augusta, ME 04330",
+      "latitude": 44.3157183,
+      "longitude": -69.7737136,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "https://lh6.googleusercontent.com/-FvyQbvoG1dI/AAAAAAAAAAI/AAAAAAAAAAA/SQr8amu5njA/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=khuyFOGlHOmuWlQLiCqzMQ&cb_client=search.gws-prod.gps&w=800&h=500&yaw=166.4708&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "9AM-5PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "one-river-cpas",
+      "name": "One River CPAs",
+      "category": "Tax preparation service",
+      "phone": "+1 207-873-1603",
+      "site": "http://www.onerivercpas.com/",
+      "address": "46 First Park Dr, Oakland, ME 04963",
+      "latitude": 44.5476497,
+      "longitude": -69.6845642,
+      "rating": 4.3,
+      "reviews": 12,
+      "logo": "https://lh4.googleusercontent.com/-8rvF4hXwT5k/AAAAAAAAAAI/AAAAAAAAAAA/5_KVk0o5J9o/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=gSJbhKqK3C7iDVMYgIYxGQ&cb_client=search.gws-prod.gps&w=800&h=500&yaw=177.21768&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 2,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 10
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "wipfli",
+      "name": "Wipfli",
+      "category": "Accounting firm",
+      "phone": "+1 207-622-4766",
+      "site": "https://www.wipfli.com/about-wipfli/locations/maine/me-augusta%3Futm_source%3DGMB%26utm_medium%3Dorganic",
+      "address": "1 Market Square, Augusta, ME 04330",
+      "latitude": 44.3146066,
+      "longitude": -69.7750284,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "https://lh3.googleusercontent.com/-XgPM8Ek34yk/AAAAAAAAAAI/AAAAAAAAAAA/3Qed1N6MvJc/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHK-6BVqwPlidWyuBEU3eXG2dXtkbNTXzk7mlj_A7gWeLweCmuTozJdZBezNQ4d0fivXlYiTI1lBeRzIOD1Ajrnt5qkTs2lqCJjxSlskfWw8D-eNFkcMAagoI8yLtxYtPmaJ4Vd=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-6PM",
+        "Monday": "8AM-6PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-6PM",
+        "Tuesday": "8AM-6PM",
+        "Wednesday": "8AM-6PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "maine-tax-slayer",
+      "name": "Maine Tax Slayer",
+      "category": "Tax consultant",
+      "phone": "+1 207-203-4180",
+      "site": "https://www.mainetaxslayer.com/%3Futm_source%3Dgmb%26utm_medium%3Dorganic%26utm_campaign%3D2025",
+      "address": "11 Melville St, Augusta, ME 04330",
+      "latitude": 44.3123988,
+      "longitude": -69.781369,
+      "rating": 5,
+      "reviews": 2,
+      "logo": "https://lh5.googleusercontent.com/-mirRM03dUWQ/AAAAAAAAAAI/AAAAAAAAAAA/saJ_kdQNz1c/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=nABrT74-ayDPBAbe547qcw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=105.421455&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8:30AM-4:30PM",
+        "Monday": "8:30AM-4:30PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8:30AM-4:30PM",
+        "Tuesday": "8:30AM-4:30AM",
+        "Wednesday": "8:30AM-4:30PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "masciadri-accounting-and-income",
+      "name": "Masciadri Accounting & Income",
+      "category": "Tax preparation service",
+      "phone": "+1 207-623-1900",
+      "site": "",
+      "address": "241 Water St, Hallowell, ME 04347",
+      "latitude": 44.281259899999995,
+      "longitude": -69.7925341,
+      "rating": 5,
+      "reviews": 1,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=omHpfenttMYB52UU3aAwjA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=281.04102&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "gibson-leclair",
+      "name": "Gibson LeClair",
+      "category": "Accountant",
+      "phone": "+1 207-623-8401",
+      "site": "https://onerivercpas.com/",
+      "address": "150 Capitol St, Augusta, ME 04330",
+      "latitude": 44.3092008,
+      "longitude": -69.7906076,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=faewG71P6F3UL6FxcjF2FQ&cb_client=search.gws-prod.gps&w=800&h=500&yaw=307.61856&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    }
+  ]
+}

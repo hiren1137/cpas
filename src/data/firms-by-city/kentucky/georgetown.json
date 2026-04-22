@@ -1,0 +1,241 @@
+{
+  "city": "Georgetown",
+  "state": "Kentucky",
+  "state_code": "KY",
+  "city_slug": "georgetown",
+  "state_slug": "kentucky",
+  "firm_count": 7,
+  "firms": [
+    {
+      "slug": "katherine-m-johnson-cpa",
+      "name": "Katherine M. Johnson, CPA",
+      "category": "Accountant",
+      "phone": "+1 502-867-1827",
+      "site": "http://kmjohnsoncpa.com/%3Futm_campaign%3Dgmb",
+      "address": "240 Blossom Park Dr Suite 3, Georgetown, KY 40324",
+      "latitude": 38.2315104,
+      "longitude": -84.5336423,
+      "rating": 4.9,
+      "reviews": 236,
+      "logo": "https://lh3.googleusercontent.com/-S42hPSkBD1E/AAAAAAAAAAI/AAAAAAAAAAA/9nCVdp9xYz4/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEFGs_36vz1SrcNOKua9XMWei3V-R9t8EL603NOjmSmMvQ2LmoDltZMRXa_Xq2bCE0l_H4sgi2TDLrVJpoAx9qVCF6ufJwts5FvCFXOx61237axt6p2-LTCoHNgRDdAcoPi5g0EYrzB_4O9=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "Closed",
+        "Monday": "9AM-4PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-4PM",
+        "Tuesday": "9AM-4PM",
+        "Wednesday": "9AM-4PM"
+      },
+      "reviews_per_score": {
+        "1": 5,
+        "2": 0,
+        "3": 1,
+        "4": 4,
+        "5": 226
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "brent-r-king-cpa-pllc",
+      "name": "Brent R. King, CPA, PLLC",
+      "category": "Financial planner",
+      "phone": "+1 502-867-1040",
+      "site": "http://www.brentkingcpa.com/",
+      "address": "106 Boston Square Dr, Georgetown, KY 40324",
+      "latitude": 38.213764,
+      "longitude": -84.546081,
+      "rating": 5,
+      "reviews": 44,
+      "logo": "https://lh3.googleusercontent.com/-Iv3xw1_r3ic/AAAAAAAAAAI/AAAAAAAAAAA/PsPIVjMbh14/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFZb0S-nsdqhiFXWxpfQLgAiacEdFvg2QN8NnCKkXP62k_NSvAOCOkcK1uW3R1DirJpka9WDEdwq16f4cDXphLlCnqrKa4HuNwSks6NHldplhwY5hErtdUwTDAi54_36nri9DKMJA0uCSfD=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-4PM",
+        "Monday": "8AM-4PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-4PM",
+        "Tuesday": "8AM-4PM",
+        "Wednesday": "8AM-4PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 1,
+        "5": 43
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "chester-muir-psc",
+      "name": "Chester Muir, P.S.C.",
+      "category": "Tax preparation service",
+      "phone": "+1 502-863-9522",
+      "site": "http://www.muircpa.com/",
+      "address": "106 Boston Square Dr, Georgetown, KY 40324",
+      "latitude": 38.2130832,
+      "longitude": -84.5462714,
+      "rating": 4.7,
+      "reviews": 37,
+      "logo": "https://lh5.googleusercontent.com/-SfeMyrTBpaE/AAAAAAAAAAI/AAAAAAAAAAA/By0oatdul7s/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHS5Hpu_x9s7hPpGRWyYqJkVA80mF5aL9jNDasKpT4sBm4izO9IomuscwlcgsF8RTEn1Tuil77Afz1DTqewfLFovnGVLsStE4pyAYDlXMxurLcUiwGTvFihuffpqxBaBmESmKdZ4w=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "9AM-5PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 3,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 34
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "lynch-and-lynch-cpas",
+      "name": "Lynch and Lynch CPAs",
+      "category": "Accountant",
+      "phone": "+1 502-863-1893",
+      "site": "https://www.lynchandlynchcpas.com/",
+      "address": "110 Pocahontas Trail, Georgetown, KY 40324",
+      "latitude": 38.196466699999995,
+      "longitude": -84.5629191,
+      "rating": 5,
+      "reviews": 2,
+      "logo": "https://lh4.googleusercontent.com/-MoFJ182FdWk/AAAAAAAAAAI/AAAAAAAAAAA/mqlfnT71RDs/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "",
+      "working_hours": {
+        "Friday": "Closed",
+        "Monday": "8AM-4PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-4PM",
+        "Tuesday": "8AM-4PM",
+        "Wednesday": "8AM-4PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "donnie-fryman-cpa-psc",
+      "name": "Donnie Fryman, CPA, PSC",
+      "category": "Accountant",
+      "phone": "+1 502-863-9359",
+      "site": "http://donniefrymancpa.com/",
+      "address": "114 W Main St, Georgetown, KY 40324",
+      "latitude": 38.209793499999996,
+      "longitude": -84.5603403,
+      "rating": 5,
+      "reviews": 2,
+      "logo": "https://lh5.googleusercontent.com/-Y0lfOTmp4_k/AAAAAAAAAAI/AAAAAAAAAAA/QgoXZjEnasg/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=6B8hj6v7JOoMqYjlARTxjw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=194.54405&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-12PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "rhonda-e-seibert-cpa",
+      "name": "Rhonda E Seibert, CPA",
+      "category": "Certified public accountant",
+      "phone": "+1 502-699-0963",
+      "site": "",
+      "address": "307 S Broadway St, Georgetown, KY 40324",
+      "latitude": 38.2070898,
+      "longitude": -84.56034129999999,
+      "rating": 5,
+      "reviews": 2,
+      "logo": "https://lh5.googleusercontent.com/-IPwP5xS2wHY/AAAAAAAAAAI/AAAAAAAAAAA/0lgS7Iha-Oo/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ew9hLz1hmzw9QV6v-rg5Ug&cb_client=search.gws-prod.gps&w=800&h=500&yaw=278.62122&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "j-blair-cpa-pllc",
+      "name": "J Blair CPA, PLLC",
+      "category": "Certified public accountant",
+      "phone": "+1 502-316-4846",
+      "site": "",
+      "address": "307 S Broadway St, Georgetown, KY 40324",
+      "latitude": 38.2070844,
+      "longitude": -84.56033049999999,
+      "rating": 5,
+      "reviews": 1,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=ew9hLz1hmzw9QV6v-rg5Ug&cb_client=search.gws-prod.gps&w=800&h=500&yaw=277.5167&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "10AM-3PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "10AM-4:30PM",
+        "Tuesday": "10AM-4:30PM",
+        "Wednesday": "10AM-4:30PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    }
+  ]
+}

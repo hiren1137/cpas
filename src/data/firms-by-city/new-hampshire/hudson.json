@@ -1,0 +1,175 @@
+{
+  "city": "Hudson",
+  "state": "New Hampshire",
+  "state_code": "NH",
+  "city_slug": "hudson",
+  "state_slug": "new-hampshire",
+  "firm_count": 5,
+  "firms": [
+    {
+      "slug": "robert-younghusband-tax-preparation",
+      "name": "Robert Younghusband Tax Preparation",
+      "category": "Tax preparation service",
+      "phone": "+1 603-883-0629",
+      "site": "http://www.robertyounghusband.com/",
+      "address": "19 Derry St, Hudson, NH 03051",
+      "latitude": 42.7672023,
+      "longitude": -71.4398301,
+      "rating": 4.6,
+      "reviews": 9,
+      "logo": "https://lh3.googleusercontent.com/-9PQO4LYpVDU/AAAAAAAAAAI/AAAAAAAAAAA/4mnuubDA5BA/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_i4IyLHH9i6UV3f4JfujQg&cb_client=search.gws-prod.gps&w=800&h=500&yaw=54.756485&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 8
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "new-york-city-district-council",
+      "name": "New York City District Council",
+      "category": "Labor union",
+      "phone": "+1 212-366-7500",
+      "site": "http://www.nycdistrictcouncil.com/",
+      "address": "395 Hudson St #9, New York, NY 10014",
+      "latitude": 40.7293374,
+      "longitude": -74.0076267,
+      "rating": 4.4,
+      "reviews": 53,
+      "logo": "",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFDZXjkQc94g6r15QbBMBF9Eeq0QxwgDDsMf6TgN6GKEbgtHtE8sygDom16FLpFstEKYAfMHHYLkO7aZowhphf3i17ijvb5oz02Fa_TPGj8V_8tp70FzPZa0gUqxlK0dgWdvL6tBw=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "7AM-5PM",
+        "Monday": "7AM-5:30PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "7AM-5:30PM",
+        "Tuesday": "7AM-5:30PM",
+        "Wednesday": "7AM-5:30PM"
+      },
+      "reviews_per_score": {
+        "1": 5,
+        "2": 1,
+        "3": 2,
+        "4": 4,
+        "5": 41
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "better-accounting-services",
+      "name": "Better Accounting Services",
+      "category": "Accountant",
+      "phone": "+1 978-567-9000",
+      "site": "http://www.betteraccountingservices.net/",
+      "address": "3 Lincoln St, Hudson, MA 01749",
+      "latitude": 42.3923263,
+      "longitude": -71.5705072,
+      "rating": 4.3,
+      "reviews": 15,
+      "logo": "https://lh5.googleusercontent.com/-KTp9SCWPk8k/AAAAAAAAAAI/AAAAAAAAAAA/8gIVJz8rOks/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAHAVhDjP6nwCeqyUbSf2r0FhCS9utXBggTNtGY6Npo36AKV4fa6MTpyMkV6jFmgTC0ATvHofV27vLmA10Idg_Y9D_Opj4I_D5-zf20c_AxegxWL7631vKY3Q2IvoXdcZXsPtAf6mw=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "9AM-4PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "9AM-4PM",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 1,
+        "3": 1,
+        "4": 2,
+        "5": 10
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "handr-block",
+      "name": "H&R Block",
+      "category": "Tax preparation service",
+      "phone": "+1 603-882-9698",
+      "site": "https://www.hrblock.com/tax-office-near-me/new-hampshire/hudson/27980/%3Fotppartnerid%3D9308%26campaignid%3Dpw_mcm_9308_9762%26utm_medium%3Dlocal",
+      "address": "77 Derry Rd, Hudson, NH 03051",
+      "latitude": 42.7750659,
+      "longitude": -71.44315569999999,
+      "rating": 4.6,
+      "reviews": 70,
+      "logo": "https://lh5.googleusercontent.com/-VM7COjwH3dA/AAAAAAAAAAI/AAAAAAAAAAA/slX_52Jr52w/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEm4lAQBzLuF-eX-Zbr874pzGVPBWhZZviBusftl_Z-PsjFVmoyWvywARtGKDJG7XTPVvQfz12lL-5-sySfWznuRsGR6baFZIlI4-fUKzT5lLrVPjGOzfVg-tsbQKCN5TtWMMYH=w800-h500-k-no",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 5,
+        "2": 0,
+        "3": 3,
+        "4": 3,
+        "5": 59
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "mulrennan-michael",
+      "name": "Mulrennan Michael",
+      "category": "Accountant",
+      "phone": "+1 603-689-8703",
+      "site": "",
+      "address": "297 Derry Rd, Hudson, NH 03051",
+      "latitude": 42.8133864,
+      "longitude": -71.4209844,
+      "rating": 1,
+      "reviews": 1,
+      "logo": "https://lh5.googleusercontent.com/-BwSTpYsc3kw/AAAAAAAAAAI/AAAAAAAAAAA/uiDrPmIy_M0/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=Yz_wViWah-Vh4Jb2k9yKXg&cb_client=search.gws-prod.gps&w=800&h=500&yaw=345.80017&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "9AM-12PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-3PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-3PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    }
+  ]
+}

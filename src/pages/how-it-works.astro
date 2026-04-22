@@ -1,0 +1,35 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+const title = 'How It Works — Best CPA Near Me';
+const description = 'Learn how Best CPA Near Me helps you find and connect with verified Certified Public Accountants in your area in three simple steps.';
+const canonical = 'https://bestcpanearme.com/how-it-works/';
+
+const steps = [
+  { num: '1', title: 'Search Your Location', desc: 'Browse our directory by state and city to find CPAs near you. Filter by services, ratings, and availability.', emoji: '🔍' },
+  { num: '2', title: 'Compare CPAs', desc: 'Review detailed firm profiles including ratings, reviews, services offered, and contact information.', emoji: '📊' },
+  { num: '3', title: 'Connect & Consult', desc: 'Contact your chosen CPA directly via phone, website, or directions. Most offer free initial consultations.', emoji: '🤝' },
+];
+---
+
+<BaseLayout title={title} description={description} canonical={canonical}>
+  <div class="container-main py-12">
+    <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'How It Works' }]} />
+    <div class="max-w-3xl">
+      <h1 class="text-3xl md:text-4xl font-extrabold text-navy-900 mb-6">How It Works</h1>
+      <p class="text-lg text-gray-600 mb-10">Finding the right CPA has never been easier. Follow these three simple steps to connect with a verified accountant in your area.</p>
+      <div class="space-y-8">
+        {steps.map(step => (
+          <div class="card p-6 flex items-start gap-5">
+            <div class="flex-shrink-0 w-14 h-14 bg-navy-100 rounded-xl flex items-center justify-center text-2xl">{step.emoji}</div>
+            <div>
+              <h2 class="text-lg font-bold text-navy-900 mb-2">Step {step.num}: {step.title}</h2>
+              <p class="text-gray-600 leading-relaxed">{step.desc}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  </div>
+</BaseLayout>

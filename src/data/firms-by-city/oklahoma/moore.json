@@ -1,0 +1,109 @@
+{
+  "city": "Moore",
+  "state": "Oklahoma",
+  "state_code": "OK",
+  "city_slug": "moore",
+  "state_slug": "oklahoma",
+  "firm_count": 3,
+  "firms": [
+    {
+      "slug": "matthew-mann-cpa-pllc",
+      "name": "Matthew Mann CPA PLLC",
+      "category": "Certified public accountant",
+      "phone": "+1 405-703-2599",
+      "site": "https://www.cpamann.com/",
+      "address": "501 SE 4th St ste a, Moore, OK 73160",
+      "latitude": 35.3346833,
+      "longitude": -97.4785397,
+      "rating": 4.6,
+      "reviews": 23,
+      "logo": "https://lh5.googleusercontent.com/-alX5eKSKZdw/AAAAAAAAAAI/AAAAAAAAAAA/YYO98fuotuY/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=m3kzfW5sHD8L1xicNNLu-w&cb_client=search.gws-prod.gps&w=800&h=500&yaw=340.72794&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "9AM-12PM, 1-5PM",
+        "Monday": "9AM-12PM, 1-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-12PM, 1-5PM",
+        "Tuesday": "9AM-12PM, 1-5PM",
+        "Wednesday": "9AM-12PM, 1-5PM"
+      },
+      "reviews_per_score": {
+        "1": 2,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 20
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "michele-l-brenner-and-company-pc-cpa",
+      "name": "Michele L Brenner & Company, PC CPA",
+      "category": "Certified public accountant",
+      "phone": "+1 405-793-1927",
+      "site": "http://www.soonercpa.com/",
+      "address": "101 SE 4th St, Moore, OK 73160",
+      "latitude": 35.3346482,
+      "longitude": -97.48627809999999,
+      "rating": 3.8,
+      "reviews": 37,
+      "logo": "https://lh5.googleusercontent.com/-cm1kBGIxe5U/AAAAAAAAAAI/AAAAAAAAAAA/0VqTSZ7MnkI/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAFwU-dqdp_YlZ3v2WFbEbMH7PUBdIXpbzojwbcmIP1o7RvyC8kc3d-dl2Xbl386dWfAPxwrYsxMP6fVAJJbq-8PLhqXIr3jQlAwJUp170rLr0F0z2dmfdlt2oBBllFQz-BOzg=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "9AM-5PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 11,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 26
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "shawn-b-randall-cpa",
+      "name": "Shawn B Randall CPA",
+      "category": "Certified public accountant",
+      "phone": "+1 405-635-4566",
+      "site": "",
+      "address": "1317 N Lincoln Ave, Moore, OK 73160",
+      "latitude": 35.3497604,
+      "longitude": -97.4731925,
+      "rating": 4,
+      "reviews": 4,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=YgXoIzzR2gq9o1Ack_myCg&cb_client=search.gws-prod.gps&w=800&h=500&yaw=264.64316&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-6PM",
+        "Monday": "8AM-6PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-6PM",
+        "Tuesday": "8AM-6PM",
+        "Wednesday": "8AM-6PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    }
+  ]
+}

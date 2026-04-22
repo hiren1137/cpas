@@ -1,0 +1,29 @@
+---
+// State Hero — hero section for state pages
+export interface Props {
+  stateName: string;
+  stateCode: string;
+  cityCount: number;
+}
+const { stateName, stateCode, cityCount } = Astro.props;
+---
+
+<section class="bg-gradient-to-br from-navy-900 via-navy-800 to-navy-950 text-white py-16 md:py-20 relative overflow-hidden">
+  <div class="absolute inset-0 opacity-5">
+    <div class="absolute inset-0" style="background-image: radial-gradient(circle at 75% 25%, rgba(255,255,255,0.15) 1px, transparent 1px); background-size: 40px 40px;"></div>
+  </div>
+  <div class="container-main relative">
+    <div class="max-w-3xl">
+      <div class="inline-flex items-center gap-2 bg-white/10 rounded-full px-4 py-1.5 text-sm mb-6">
+        <span>🏛️</span>
+        <span>{stateCode} • {cityCount} Cities</span>
+      </div>
+      <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold mb-4">
+        Best CPAs in <span class="text-amber-400">{stateName}</span>
+      </h1>
+      <p class="text-gray-300 text-lg leading-relaxed max-w-2xl">
+        Find top-rated Certified Public Accountants across {stateName}. Browse verified CPAs in {cityCount} cities with client reviews, ratings, and contact information.
+      </p>
+    </div>
+  </div>
+</section>

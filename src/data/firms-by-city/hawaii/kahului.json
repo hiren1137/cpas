@@ -1,0 +1,208 @@
+{
+  "city": "Kahului",
+  "state": "Hawaii",
+  "state_code": "HI",
+  "city_slug": "kahului",
+  "state_slug": "hawaii",
+  "firm_count": 6,
+  "firms": [
+    {
+      "slug": "khalsa-cpa-services-llc",
+      "name": "Khalsa CPA Services LLC",
+      "category": "Tax preparation service",
+      "phone": "+1 808-871-8822",
+      "site": "http://www.khalsacpaservices.com/",
+      "address": "135 S Wakea Ave Suite 108, Kahului, HI 96732",
+      "latitude": 20.885382,
+      "longitude": -156.4772094,
+      "rating": 5,
+      "reviews": 10,
+      "logo": "https://lh6.googleusercontent.com/-SyUQwjw_070/AAAAAAAAAAI/AAAAAAAAAAA/oB73BLisnsA/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=BeFoIUFpiJty7B6L1zo3wA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=45.65716&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "Closed",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 10
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "aloha-accounting-and-tax-llc",
+      "name": "Aloha Accounting & Tax LLC",
+      "category": "Accountant",
+      "phone": "+1 808-875-9700",
+      "site": "https://www.alohaaccountingandtax.com/",
+      "address": "151 E Wakea Ave #203, Kahului, HI 96732",
+      "latitude": 20.8862755,
+      "longitude": -156.46216099999998,
+      "rating": 4.1,
+      "reviews": 18,
+      "logo": "https://lh4.googleusercontent.com/-xTIYVYJRD3Q/AAAAAAAAAAI/AAAAAAAAAAA/p1-Awr-nq1w/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=SUgCMN7JHGn28TjCUSJFqA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=328.9774&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "9AM-6PM",
+        "Monday": "9AM-6PM",
+        "Saturday": "9AM-6PM",
+        "Sunday": "Closed",
+        "Thursday": "9AM-6PM",
+        "Tuesday": "9AM-6PM",
+        "Wednesday": "9AM-6PM"
+      },
+      "reviews_per_score": {
+        "1": 4,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 14
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "levin-and-tabon-llp-cpas",
+      "name": "Levin & Tabon LLP, CPAs",
+      "category": "Certified public accountant",
+      "phone": "+1 808-270-1070",
+      "site": "https://maui.cpa/",
+      "address": "140 Hoohana St Suite 210, Kahului, HI 96732",
+      "latitude": 20.8882814,
+      "longitude": -156.4644908,
+      "rating": 3,
+      "reviews": 10,
+      "logo": "https://lh3.googleusercontent.com/-gD0oE2lEN0w/AAAAAAAAAAI/AAAAAAAAAAA/ZTPgdJX1oEc/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGCiw9fxB9eq0R6HKA_2TpCinWVw1GEZHk0iXdJCsEnGIpNy5D_-TLXcrUP9tattUPkaZZfQRJPQcaidbHKMNAWzrP-GrHDbFBWh7eXQslMf2PLkZsK6scodSkodUaJ-t8eefek=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "9AM-5PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 5,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 5
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "kelly-a-martin-cpa",
+      "name": "Kelly A Martin CPA",
+      "category": "Accountant",
+      "phone": "+1 808-495-0009",
+      "site": "",
+      "address": "355 Hukilike St, Kahului, HI 96732",
+      "latitude": 20.8846974,
+      "longitude": -156.459106,
+      "rating": 5,
+      "reviews": 1,
+      "logo": "",
+      "photo": "",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "ea-buck-accounting-and-tax-services",
+      "name": "E.A. Buck Accounting & Tax Services",
+      "category": "Certified public accountant",
+      "phone": "+1 808-395-5492",
+      "site": "",
+      "address": "33 Lono Ave #310, Kahului, HI 96732",
+      "latitude": 20.889706099999998,
+      "longitude": -156.4695262,
+      "rating": 3,
+      "reviews": 1,
+      "logo": "https://lh3.googleusercontent.com/-oOBtKr6xwDU/AAAAAAAAAAI/AAAAAAAAAAA/_m2lDJK9ams/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGII4M262GbzVThi8pUj-SD2ch5o1d8x8hHF-MHJycgN061fwXxnq8lo04itF0f4IiI2MVg6ykStbf-14SJTPKPDsyRjzMz3ax-bBr3Z3uBPP9n3pC0_XrCyOmM_Vy6StU7CmpH=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "9AM-5PM",
+        "Monday": "9AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-5PM",
+        "Tuesday": "9AM-5PM",
+        "Wednesday": "9AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "kawahara-and-hu-llp",
+      "name": "Kawahara & Hu LLP",
+      "category": "Tax consultant",
+      "phone": "+1 808-244-5531",
+      "site": "http://mauicpa.net/",
+      "address": "77 Ho'okele St 3rd Floor, Kahului, HI 96732",
+      "latitude": 20.875326899999997,
+      "longitude": -156.45730609999998,
+      "rating": 5,
+      "reviews": 2,
+      "logo": "https://lh3.googleusercontent.com/-8EoCP84-1Tc/AAAAAAAAAAI/AAAAAAAAAAA/Ynl9OIvc1dw/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=kUjS634uzY58AQzrB-tfRg&cb_client=search.gws-prod.gps&w=800&h=500&yaw=55.058628&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    }
+  ]
+}

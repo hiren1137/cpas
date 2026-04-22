@@ -1,0 +1,39 @@
+---
+// States Grid — 50 state cards for homepage
+import { getAllStates } from '../../lib/data';
+import { stateUrl } from '../../lib/urls';
+
+const states = getAllStates();
+---
+
+<section class="py-16 bg-gray-50">
+  <div class="container-main">
+    <div class="text-center mb-10">
+      <h2 class="section-heading">Find CPAs by State</h2>
+      <p class="text-gray-600 mt-3 max-w-2xl mx-auto">
+        Browse through all 50 states to find the best CPAs in your area
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+      {states.map(state => (
+        <a href={stateUrl(state.slug)} class="card p-4 group hover:border-navy-300 flex items-start gap-3">
+          <div class="flex-1 min-w-0">
+            <div class="flex items-center gap-2 mb-1">
+              <span class="font-semibold text-navy-900 group-hover:text-navy-600 transition-colors">
+                {state.name}
+              </span>
+              <span class="text-xs font-medium text-gray-400 bg-gray-100 px-1.5 py-0.5 rounded">
+                {state.code}
+              </span>
+            </div>
+            <p class="text-xs text-gray-500 truncate">
+              Top Cities: {state.cities.slice(0, 3).map(c => c.name).join(' • ')}
+            </p>
+          </div>
+          <span class="text-navy-400 group-hover:translate-x-1 transition-transform mt-1">→</span>
+        </a>
+      ))}
+    </div>
+  </div>
+</section>

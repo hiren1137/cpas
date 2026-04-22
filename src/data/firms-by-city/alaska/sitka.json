@@ -1,0 +1,175 @@
+{
+  "city": "Sitka",
+  "state": "Alaska",
+  "state_code": "AK",
+  "city_slug": "sitka",
+  "state_slug": "alaska",
+  "firm_count": 5,
+  "firms": [
+    {
+      "slug": "poulos-cpas-sitka-cpa-tax-preparation-and-planning-accounting-and-financial-statements-real-estate-consulting-wa",
+      "name": "Poulos CPAs / Sitka CPA - Tax Preparation & Planning, Accounting & Financial Statements, Real Estate Consulting (WA)",
+      "category": "Certified public accountant",
+      "phone": "+1 907-738-8262",
+      "site": "http://sitkacpas.com/",
+      "address": "Slip TF54, 617 Katlian St A2, Sitka, AK 99835",
+      "latitude": 57.0558367,
+      "longitude": -135.34888999999998,
+      "rating": 5,
+      "reviews": 5,
+      "logo": "https://lh4.googleusercontent.com/-Qi9BmvvZOjM/AAAAAAAAAAI/AAAAAAAAAAA/75_bpfARzMk/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAERIT7D8InNbAxHLKX1Dd7c-oalkjQw8Kp44BDhlOYk3vM2Hx9perXV0K_Y-3YdfEvfRSeXXIbwSZi-hTRSUeMt6_GMGZ65jwM0rITJSbGhnvjCHWZbM2KVLrh2-ocsgw1cBK5C=w800-h500-k-no",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 5
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "dapcevich-accounting-service",
+      "name": "Dapcevich Accounting Service",
+      "category": "Tax preparation service",
+      "phone": "+1 907-747-1040",
+      "site": "https://www.sitka.com/das/",
+      "address": "221 Lincoln St, Sitka, AK 99835",
+      "latitude": 57.0500042,
+      "longitude": -135.33557539999998,
+      "rating": 5,
+      "reviews": 1,
+      "logo": "https://lh5.googleusercontent.com/-VeWHMocdAT0/AAAAAAAAAAI/AAAAAAAAAAA/8EaGN5DjR1s/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEQFN0PwIVbuNduVzYuba4AoEKAEkm9eJXR9h_T0um9PcltPM_nAWwU8A56Qq7Xkr6LNF0j1-fBV_-ylAzhK2JGth2SfDcJve0Hk95-dnR_tVfczSs7tnNnexg--WEFCMq6tB2e=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "9AM-6PM",
+        "Monday": "9AM-6PM",
+        "Saturday": "9AM-3PM",
+        "Sunday": "Closed",
+        "Thursday": "9AM-6PM",
+        "Tuesday": "9AM-6PM",
+        "Wednesday": "9AM-6PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "christine-e-harrington-cpa-llc",
+      "name": "Christine E Harrington CPA Llc",
+      "category": "Accountant",
+      "phone": "+1 907-747-5500",
+      "site": "",
+      "address": "329 Harbor Dr # 210, Sitka, AK 99835",
+      "latitude": 57.050371,
+      "longitude": -135.3329215,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "https://lh5.googleusercontent.com/-UIxEA1DRmcw/AAAAAAAAAAI/AAAAAAAAAAA/OnloEG9zQs8/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=LDRXxEDH5nzljS6XLzWDEw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=233.43375&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "sound-tax",
+      "name": "Sound Tax",
+      "category": "Tax preparation service",
+      "phone": "",
+      "site": "https://www.soundtax.net/",
+      "address": "717 Katlian Ave, Sitka, AK 99835",
+      "latitude": 57.0576407,
+      "longitude": -135.3471008,
+      "rating": 4.5,
+      "reviews": 4,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=l4nqZokM9L6weyKCahUdQQ&cb_client=search.gws-prod.gps&w=800&h=500&yaw=313.7599&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "10AM-2PM",
+        "Monday": "10AM-2PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "10AM-2PM",
+        "Tuesday": "10AM-2PM",
+        "Wednesday": "10AM-2PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 1,
+        "4": 0,
+        "5": 3
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "huff-joann-w-cpa-llc",
+      "name": "Huff JoAnn W CPA LLC",
+      "category": "Accountant",
+      "phone": "+1 907-747-5500",
+      "site": "",
+      "address": "329 Harbor Dr Suite 210, Sitka, AK 99835",
+      "latitude": 57.0502518,
+      "longitude": -135.3334636,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "https://lh3.googleusercontent.com/-UOxqj46UIC0/AAAAAAAAAAI/AAAAAAAAAAA/u6ensmY7NHI/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=cyjr80wiWfviznZ86nmZNw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=329.71695&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    }
+  ]
+}

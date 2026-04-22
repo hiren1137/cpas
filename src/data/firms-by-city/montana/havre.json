@@ -1,0 +1,208 @@
+{
+  "city": "Havre",
+  "state": "Montana",
+  "state_code": "MT",
+  "city_slug": "havre",
+  "state_slug": "montana",
+  "firm_count": 6,
+  "firms": [
+    {
+      "slug": "brandt-clyde-f-cpa",
+      "name": "Brandt Clyde F CPA",
+      "category": "Accountant",
+      "phone": "+1 406-265-8269",
+      "site": "",
+      "address": "518 1st St, Havre, MT 59501",
+      "latitude": 48.5529333,
+      "longitude": -109.6743334,
+      "rating": 4.5,
+      "reviews": 8,
+      "logo": "",
+      "photo": "",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 7
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "wipfli",
+      "name": "Wipfli",
+      "category": "Accounting firm",
+      "phone": "+1 406-265-3201",
+      "site": "https://www.wipfli.com/about-wipfli/locations/montana/mt-havre%3Futm_source%3DGMB%26utm_medium%3Dorganic",
+      "address": "300 2nd Ave, Havre, MT 59501",
+      "latitude": 48.551510199999996,
+      "longitude": -109.68039309999999,
+      "rating": 5,
+      "reviews": 2,
+      "logo": "https://lh3.googleusercontent.com/-nVtZJik9iu4/AAAAAAAAAAI/AAAAAAAAAAA/vPRM508KSuA/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEFWWMQh8KYqgJvNPXugP5EONyzTooFnf7v4mJrW3_7EY8Hz874Q8rOnc4SBMmycZFEv6TAgt92-ZAlm2VZAS1sX_jcwv7YX2J372Aj2c0rYY9ssp8jiAl_jlZKTrwyIp7c6u0Z=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-6PM",
+        "Monday": "8AM-6PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-6PM",
+        "Tuesday": "8AM-6PM",
+        "Wednesday": "8AM-6PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "scharfe-kato-and-co-pc",
+      "name": "Scharfe Kato & Co PC",
+      "category": "Tax preparation service",
+      "phone": "+1 406-265-1254",
+      "site": "http://www.scharfekato.com/",
+      "address": "215 2nd St, Havre, MT 59501",
+      "latitude": 48.5527504,
+      "longitude": -109.67898989999999,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=3p8uH_iSMkF2-0CBEJx8-A&cb_client=search.gws-prod.gps&w=800&h=500&yaw=347.14127&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-5PM",
+        "Monday": "8AM-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-5PM",
+        "Tuesday": "8AM-5PM",
+        "Wednesday": "8AM-5PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "koepke-t-wayne-cpa",
+      "name": "Koepke T Wayne CPA",
+      "category": "Accountant",
+      "phone": "+1 406-265-1461",
+      "site": "",
+      "address": "317 2nd St, Havre, MT 59501",
+      "latitude": 48.552701899999995,
+      "longitude": -109.677517,
+      "rating": 3.7,
+      "reviews": 3,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=UG_oOB_SzT4PjwqwRwxUgw&cb_client=search.gws-prod.gps&w=800&h=500&yaw=0.8544514&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "8AM-4PM",
+        "Monday": "8AM-4PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-4PM",
+        "Tuesday": "8AM-4PM",
+        "Wednesday": "8AM-4PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "agriculture-accounting-solutions",
+      "name": "Agriculture Accounting Solutions",
+      "category": "Accountant",
+      "phone": "+1 406-344-2663",
+      "site": "http://www.myagcpa.com/",
+      "address": "145 4th Ave Suite 1, Havre, MT 59501",
+      "latitude": 48.552679,
+      "longitude": -109.676475,
+      "rating": 0,
+      "reviews": 0,
+      "logo": "https://lh4.googleusercontent.com/-wyH27f1zhBU/AAAAAAAAAAI/AAAAAAAAAAA/8N0KMXEnbXE/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=_OPWi3uRKu9tVnaQ-z5_zA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=59.88803&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Friday": "Closed",
+        "Monday": "9AM-4PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "9AM-4PM",
+        "Tuesday": "9AM-4PM",
+        "Wednesday": "9AM-4PM"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "anderson-zurmuehlen",
+      "name": "Anderson ZurMuehlen",
+      "category": "Accounting firm",
+      "phone": "+1 406-265-6724",
+      "site": "https://www.pinionglobal.com/%3Futm_source%3DGMB%26utm_medium%3Dorganic%26utm_campaign%3DGMB%26utm_content%3DHavre",
+      "address": "330 4th St, Havre, MT 59501",
+      "latitude": 48.5500368,
+      "longitude": -109.67781559999999,
+      "rating": 1,
+      "reviews": 1,
+      "logo": "https://lh6.googleusercontent.com/-M_lQhq0JW7A/AAAAAAAAAAI/AAAAAAAAAAA/WZJ3WimtoH0/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEjzasll0Ge9m6x5F6oNzy4JhZklUDq80EsqcTJfjy6lb_rg7QkoAQFB4BfyjhaPRpjg8Bt_aGfXbeenQoYnv_3gnjUjiD_sUz-j-kTr-9S_ZzgNC1GwCZwoXoI98c67S6gsDsH=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-12PM, 1-5PM",
+        "Monday": "8AM-12PM, 1-5PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-12PM, 1-5PM",
+        "Tuesday": "8AM-12PM, 1-5PM",
+        "Wednesday": "8AM-12PM, 1-5PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    }
+  ]
+}

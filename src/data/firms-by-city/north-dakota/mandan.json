@@ -1,0 +1,175 @@
+{
+  "city": "Mandan",
+  "state": "North Dakota",
+  "state_code": "ND",
+  "city_slug": "mandan",
+  "state_slug": "north-dakota",
+  "firm_count": 5,
+  "firms": [
+    {
+      "slug": "geiger-mark-cpa",
+      "name": "Geiger Mark CPA",
+      "category": "Tax preparation service",
+      "phone": "+1 701-663-8304",
+      "site": "",
+      "address": "718 W Main St, Mandan, ND 58554",
+      "latitude": 46.8253169,
+      "longitude": -100.8997876,
+      "rating": 5,
+      "reviews": 2,
+      "logo": "",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XgUdkRboCFRVdolRj-uVXQ&cb_client=search.gws-prod.gps&w=800&h=500&yaw=355.4109&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 2
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": false,
+      "is_claimed": false
+    },
+    {
+      "slug": "goodhart-and-associates-pc",
+      "name": "Goodhart & Associates PC",
+      "category": "Certified public accountant",
+      "phone": "+1 701-663-4500",
+      "site": "http://www.goodhartcpa.com/",
+      "address": "107 12th Ave NE, Mandan, ND 58554",
+      "latitude": 46.8294478,
+      "longitude": -100.87374229999999,
+      "rating": 4,
+      "reviews": 4,
+      "logo": "https://lh3.googleusercontent.com/-0aNr28ziZq0/AAAAAAAAAAI/AAAAAAAAAAA/YFcHKFV0fQs/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAGwnTziHshl0FyjZl3sZxPTA4ULTemUViDcCroZo6U1eG18ducRCkKW779EXYWAzJmYjVgmE49lMf8KD8YcvWt-Rosytn4uXdOgnTCJ4KOulfEvVB15E0SJnFTR01kvbcsZFW8=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-1PM",
+        "Monday": "8AM-4:30PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-4:30PM",
+        "Tuesday": "8AM-4:30PM",
+        "Wednesday": "8AM-4:30PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 3
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "glg-accounting-and-tax-inc",
+      "name": "GLG Accounting & Tax Inc",
+      "category": "Tax preparation",
+      "phone": "+1 701-663-8304",
+      "site": "",
+      "address": "718 W Main St, Mandan, ND 58554",
+      "latitude": 46.825330799999996,
+      "longitude": -100.8996842,
+      "rating": 1,
+      "reviews": 1,
+      "logo": "https://lh6.googleusercontent.com/-qNtaH0HL5Aw/AAAAAAAAAAI/AAAAAAAAAAA/oLGXOCh8Fi4/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=XgUdkRboCFRVdolRj-uVXQ&cb_client=search.gws-prod.gps&w=800&h=500&yaw=11.076274&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "haga-kommer-cpas",
+      "name": "Haga Kommer, CPAs",
+      "category": "Accountant",
+      "phone": "+1 701-663-9345",
+      "site": "http://www.hagakommer.com/",
+      "address": "204 E Main St, Mandan, ND 58554",
+      "latitude": 46.826910399999996,
+      "longitude": -100.8878199,
+      "rating": 2.7,
+      "reviews": 3,
+      "logo": "https://lh5.googleusercontent.com/-LpGFpO2uv4U/AAAAAAAAAAI/AAAAAAAAAAA/s6clhahtTNk/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://lh3.googleusercontent.com/gps-cs-s/APNQkAEeUBXS4nO7t6x9p7DBGoR2NUZ7bdhmp4KN-kgGBj3WDimOYnWNdDknRNNzkyll5QU1o2nrLqWaC8zZQEb5nHYPkcFQY3iA9KX78szlyFwq-nkvPj8SL__KWFga-JnLGqwk7X14=w800-h500-k-no",
+      "working_hours": {
+        "Friday": "8AM-1PM",
+        "Monday": "8AM-4:30PM",
+        "Saturday": "Closed",
+        "Sunday": "Closed",
+        "Thursday": "8AM-4:30PM",
+        "Tuesday": "8AM-4:30PM",
+        "Wednesday": "8AM-4:30PM"
+      },
+      "reviews_per_score": {
+        "1": 1,
+        "2": 1,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    },
+    {
+      "slug": "klein-g-j",
+      "name": "Klein G J",
+      "category": "Business to business service",
+      "phone": "+1 701-663-9451",
+      "site": "https://kleingj.localsearch.com/",
+      "address": "804 6th Ave NE, Mandan, ND 58554",
+      "latitude": 46.8357667,
+      "longitude": -100.8833051,
+      "rating": 5,
+      "reviews": 1,
+      "logo": "https://lh4.googleusercontent.com/-E3f2aagh1rI/AAAAAAAAAAI/AAAAAAAAAAA/-iPQdMT7ENE/s44-p-k-no-ns-nd/photo.jpg",
+      "photo": "https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=P2ucPEhAL4aex8uZTlTHFA&cb_client=search.gws-prod.gps&w=800&h=500&yaw=78.438&pitch=0&thumbfov=100",
+      "working_hours": {
+        "Monday": "Closed",
+        "Tuesday": "Closed",
+        "Wednesday": "Closed",
+        "Thursday": "Closed",
+        "Friday": "Closed",
+        "Saturday": "Closed",
+        "Sunday": "Closed"
+      },
+      "reviews_per_score": {
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 1
+      },
+      "business_status": "OPERATIONAL",
+      "is_verified": true,
+      "is_claimed": true
+    }
+  ]
+}

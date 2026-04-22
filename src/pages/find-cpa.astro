@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import StatesGrid from '../components/home/StatesGrid.astro';
+
+const title = 'Find a CPA — Search Certified Public Accountants Near You';
+const description = 'Search our comprehensive directory to find verified Certified Public Accountants near you. Browse by state and city across all 50 US states.';
+const canonical = 'https://bestcpanearme.com/find-cpa/';
+---
+
+<BaseLayout title={title} description={description} canonical={canonical}>
+  <section class="bg-gradient-to-br from-navy-900 to-navy-950 text-white py-12">
+    <div class="container-main">
+      <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'Find a CPA' }]} />
+      <h1 class="text-3xl md:text-4xl font-extrabold mb-4">Find a CPA Near You</h1>
+      <p class="text-gray-300 text-lg max-w-2xl">Browse our directory by state and city to find the best Certified Public Accountants in your area.</p>
+    </div>
+  </section>
+  <StatesGrid />
+</BaseLayout>
